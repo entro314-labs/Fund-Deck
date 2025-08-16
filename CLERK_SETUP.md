@@ -1,101 +1,182 @@
-# Clerk Authentication Setup Guide
+# Clerk Authentication Setup
 
-## ✅ **Implementation Complete**
+<div align="center">
 
-All authentication features have been implemented using the latest Clerk App Router integration:
+<svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" fill="#6366F1"/>
+<path d="M9 12l2 2 4-4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
-### ✅ **Features Added:**
-1. **Complete Admin Dashboard** - All 12 pages now editable in `/admin`
-2. **Modern Clerk Authentication** - Using `clerkMiddleware()` and latest SDK
-3. **Protected Routes** - All pages require authentication via middleware
-4. **Admin Access Control** - Special protection for admin routes
-5. **Authentication UI** - Sign-in/out buttons and user profiles
+**Complete authentication setup guide for FundDeck**
 
-## 🔧 **Setup Instructions**
+Modern, secure authentication using Clerk with role-based access control.
 
-### 1. Environment Variables (Required)
+</div>
 
-**READY-TO-USE KEYS** - These are the exact keys for your project:
+---
+
+## ✅ Implementation Status
+
+FundDeck comes with a complete, production-ready authentication system:
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" fill="#10B981"/>
+</svg>
+
+**Authentication**  
+Modern Clerk integration
+
+</td>
+<td align="center" width="25%">
+
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" fill="#10B981"/>
+</svg>
+
+**Protected Routes**  
+Middleware-based security
+
+</td>
+<td align="center" width="25%">
+
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" fill="#10B981"/>
+</svg>
+
+**Admin Control**  
+Role-based access
+
+</td>
+<td align="center" width="25%">
+
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" fill="#10B981"/>
+</svg>
+
+**Admin Dashboard**  
+Full content management
+
+</td>
+</tr>
+</table>
+
+### Implemented Features
+
+- ✅ **Modern Clerk Integration** - Latest App Router SDK with `clerkMiddleware()`
+- ✅ **Protected Routes** - All pages require authentication
+- ✅ **Admin Access Control** - Email-based admin authorization
+- ✅ **Custom Authentication UI** - Branded sign-in/sign-up pages
+- ✅ **Complete Admin Dashboard** - All 12 pages editable
+
+## 🛠️ Quick Setup
+
+### Step 1: Get Your Clerk Keys
+
+1. **Create a Clerk Account**
+   - Visit [clerk.com](https://clerk.com) and sign up
+   - Create a new application for your project
+
+2. **Copy Your API Keys**
+   ```bash
+   # From your Clerk dashboard, copy these values to .env.local
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_your_publishable_key_here
+   CLERK_SECRET_KEY=sk_test_your_secret_key_here
+   
+   # Optional: Customize redirect URLs
+   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+   NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+   NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+   ```
+
+### Step 2: Configure Admin Access
+
+Set admin email addresses in your `.env.local`:
 
 ```bash
-# .env.local
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_Y3VycmVudC1nbG93d29ybS03Mi5jbGVyay5hY2NvdW50cy5kZXYk
-CLERK_SECRET_KEY=sk_test_UeSTBWQlWd6CVyilWL3bkqN5UjP0giTElst81arhRX
+# Comma-separated list of admin email addresses
+ADMIN_EMAILS=founder@yourcompany.com,admin@yourcompany.com,investor@yourcompany.com
 ```
 
-**⚠️ Copy these exact values** to your `.env.local` file in the project root.
+### Step 3: Start Development
 
-### 2. No Additional Setup Needed
+```bash
+# Install dependencies (if not already done)
+pnpm install
 
-The implementation is already complete and follows the latest Clerk App Router best practices:
+# Start the development server
+pnpm dev
 
-- ✅ **`clerkMiddleware()`** - Modern middleware implementation
-- ✅ **`<ClerkProvider>`** - Properly wrapped in `app/layout.tsx`
-- ✅ **Protected routes** - Automatic authentication enforcement
-- ✅ **Sign-in/up pages** - Custom themed at `/sign-in` and `/sign-up`
-
-### 3. Configure Admin Access (Production)
-
-To restrict admin access in production, edit `/src/components/admin-guard.tsx`:
-
-```typescript
-// Add authorized admin email addresses
-const ADMIN_EMAILS = [
-  "your-email@company.com",
-  "investor@myroomie.com", 
-  "admin@myroomie.com"
-]
+# Visit your application
+open http://localhost:3000
 ```
 
-## 🎯 **Current Behavior**
+That's it! Authentication is fully configured and ready to use.
 
-### **Development Mode:**
-- ✅ Any authenticated user can access all pages
-- ✅ Any authenticated user can access admin panel
-- ✅ Perfect for development and testing
+## 🔐 Security Architecture
 
-### **Production Mode:**
-- ✅ Only authenticated users can access platform
-- ✅ Only specific emails in `ADMIN_EMAILS` can access admin
-- ✅ Secure for production deployment
+### Environment-Based Access Control
 
-## 🏗️ **Modern Architecture Overview**
+**Development Mode:**
+- Any authenticated user can access all pages
+- Any authenticated user can access the admin panel
+- Perfect for development and testing
 
-### **Latest Clerk App Router Integration:**
-1. **`clerkMiddleware()`** (`middleware.ts`) - Modern route protection
-2. **`<ClerkProvider>`** (`app/layout.tsx`) - App-wide authentication context
-3. **`<SignedIn>`/`<SignedOut>`** - Conditional rendering components
-4. **Admin Guard** (`components/admin-guard.tsx`) - Role-based access control
-5. **Custom Auth Pages** - Themed sign-in/up at `/sign-in` and `/sign-up`
+**Production Mode:**
+- Only authenticated users can access the platform
+- Only emails listed in `ADMIN_EMAILS` can access admin features
+- Secure and production-ready
 
-### **Admin Dashboard Features:**
-- ✅ **12 Editable Pages:** Dashboard, Financial Model, Strategic Plan, Executive Summary, Market Analysis, Product Overview, One-Pager, Risk Assessment, Growth Strategy, Milestones, Exit Strategy, Investor Package
-- ✅ **Page Meta Editor:** Title, subtitle, badges, dates
-- ✅ **Key Metrics Editor:** Interactive metric cards
-- ✅ **JSON Editor:** Advanced raw data editing
-- ✅ **Auto-save:** Real-time data persistence
+### Access Control Levels
 
-## 🚀 **Getting Started**
+<table>
+<tr>
+<td align="center" width="33%">
 
-1. **Copy the provided keys** to `.env.local` (see step 1 above)
-2. **Start the development server:** `pnpm dev`
-3. **Visit:** `http://localhost:3000` 
-4. **Sign up/in** to access the platform
-5. **Visit admin:** `http://localhost:3000/admin`
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" fill="#6366F1"/>
+</svg>
 
-## 🔐 **Security Features**
+**Public**  
+Sign-in/up pages only
 
-- ✅ **Modern `clerkMiddleware()`** - Latest Clerk App Router integration
-- ✅ **All routes protected** by middleware automatically
-- ✅ **Admin routes extra protected** with role-based access control
-- ✅ **Environment-aware** (dev vs production behavior)
-- ✅ **Email-based admin authorization**
-- ✅ **Custom themed authentication pages**
+</td>
+<td align="center" width="33%">
 
-## 🔧 **Implementation Details**
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" fill="#10B981"/>
+</svg>
 
-### **Middleware (`middleware.ts`):**
+**Authenticated**  
+All platform pages
+
+</td>
+<td align="center" width="33%">
+
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" fill="#EF4444"/>
+</svg>
+
+**Admin**  
+Content management
+
+</td>
+</tr>
+</table>
+
+## 🏗️ Technical Implementation
+
+### Modern Clerk Integration
+
+FundDeck uses the latest Clerk App Router features for seamless authentication:
+
+#### Middleware Protection
 ```typescript
+// middleware.ts
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
 const isPublicRoute = createRouteMatcher([
@@ -110,24 +191,163 @@ export default clerkMiddleware((auth, request) => {
 });
 ```
 
-### **App Layout (`app/layout.tsx`):**
+#### App-Wide Provider
 ```typescript
+// app/layout.tsx
 import { ClerkProvider } from '@clerk/nextjs'
 
 export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
-      {/* Your app content */}
+      <html lang="en">
+        <body>{children}</body>
+      </html>
     </ClerkProvider>
-  )
+  );
 }
 ```
 
-## 📝 **What's Ready**
+#### Admin Guard Component
+```typescript
+// components/admin-guard.tsx
+import { useUser } from '@clerk/nextjs';
+import { getAdminEmails } from '@/lib/company-config';
 
-✅ **Everything is configured and working**  
-✅ **Just add the environment variables and start coding**  
-✅ **Production-ready authentication system**  
-✅ **All 12 pages editable in admin panel**  
+export default function AdminGuard({ children }) {
+  const { user } = useUser();
+  const adminEmails = getAdminEmails();
+  
+  const isAdmin = user?.primaryEmailAddress?.emailAddress
+    ? adminEmails.includes(user.primaryEmailAddress.emailAddress)
+    : false;
 
-The modern Clerk integration is complete and follows all current best practices! 🎉
+  if (!isAdmin) {
+    return <div>Access denied. Admin privileges required.</div>;
+  }
+
+  return children;
+}
+```
+
+## 🎨 Custom Authentication UI
+
+### Branded Sign-in/Sign-up Pages
+
+Located at `/sign-in` and `/sign-up`, these pages feature:
+
+- Custom styling that matches your brand
+- Responsive design for all devices
+- Social login providers (if configured)
+- Email/password authentication
+- Forgot password functionality
+
+### User Profile Integration
+
+- User avatars and names in navigation
+- Sign-out functionality
+- Profile management (handled by Clerk)
+
+## 📊 Admin Dashboard Features
+
+### Content Management
+
+- **12 Editable Pages**: All investor presentation pages
+- **Page Meta Editor**: Titles, subtitles, badges, and dates
+- **Key Metrics Editor**: Interactive financial and business metrics
+- **JSON Editor**: Advanced raw data editing for power users
+
+### Data Management
+
+- **Real-time Updates**: Changes save automatically
+- **Data Validation**: Schema validation for all content
+- **Export Features**: PDF and data export capabilities
+- **Version Control**: Track changes and modifications
+
+## 🚀 Production Deployment
+
+### Environment Variables Checklist
+
+```bash
+# Required for production
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_live_your_production_key
+CLERK_SECRET_KEY=sk_live_your_production_secret
+
+# Admin access control
+ADMIN_EMAILS=founder@company.com,admin@company.com
+
+# Optional customization
+NEXT_PUBLIC_COMPANY_NAME=YourCompanyName
+NEXT_PUBLIC_COMPANY_DOMAIN=yourcompany.com
+```
+
+### Security Best Practices
+
+- ✅ **Secure API Keys**: Use production keys for live environments
+- ✅ **Admin Email Verification**: Restrict admin access to authorized emails
+- ✅ **HTTPS Required**: Clerk requires HTTPS in production
+- ✅ **Domain Verification**: Configure allowed domains in Clerk dashboard
+
+## 🔧 Customization Options
+
+### Authentication Methods
+
+Configure additional sign-in methods in your Clerk dashboard:
+
+- **Social Providers**: Google, GitHub, LinkedIn, etc.
+- **Enterprise SSO**: SAML, OIDC for enterprise customers
+- **Phone Authentication**: SMS-based verification
+- **Passwordless**: Magic links and one-time codes
+
+### UI Customization
+
+Customize the authentication experience:
+
+```typescript
+// app/layout.tsx
+<ClerkProvider
+  appearance={{
+    baseTheme: dark,
+    variables: {
+      colorPrimary: '#6366F1',
+      colorTextOnPrimaryBackground: '#FFFFFF'
+    }
+  }}
+>
+  {children}
+</ClerkProvider>
+```
+
+## 📞 Support and Troubleshooting
+
+### Common Issues
+
+**Environment variables not loading:**
+1. Ensure `.env.local` is in the project root
+2. Restart the development server
+3. Check for typos in variable names
+
+**Admin access denied:**
+1. Verify email address matches `ADMIN_EMAILS`
+2. Check Clerk user profile for correct email
+3. Ensure environment variables are loaded
+
+**Authentication redirects:**
+1. Verify redirect URLs in Clerk dashboard
+2. Check middleware configuration
+3. Ensure proper route protection
+
+### Getting Help
+
+- **Clerk Documentation**: [docs.clerk.com](https://docs.clerk.com)
+- **FundDeck Issues**: [GitHub Issues](https://github.com/yourusername/fund-deck/issues)
+- **Configuration Guide**: [Configuration Documentation](./docs/configuration.md)
+
+---
+
+<div align="center">
+
+**Ready to secure your platform?**
+
+[Configuration Guide](./docs/configuration.md) • [Getting Started](./docs/getting-started.md) • [API Reference](./docs/api-reference.md)
+
+</div>
