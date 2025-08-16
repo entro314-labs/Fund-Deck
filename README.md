@@ -71,6 +71,12 @@ Export-ready pitch decks with customizable templates
 </tr>
 </table>
 
+## Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/fund-deck&env=NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY,NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,CLERK_SECRET_KEY,NEXT_PUBLIC_COMPANY_NAME&envDescription=Required%20environment%20variables%20for%20FundDeck&envLink=https://github.com/yourusername/fund-deck%23configuration&demo-title=FundDeck%20Demo&demo-description=Professional%20investor%20presentation%20platform%20for%20startups)
+
+**One-click deployment to get started instantly!** The deploy button will guide you through setting up the required environment variables.
+
 ## Quick Start
 
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

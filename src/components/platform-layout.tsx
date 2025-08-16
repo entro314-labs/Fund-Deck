@@ -8,7 +8,7 @@ import { Button } from './ui/button'
 import { Badge } from './ui/badge'
 import { UserButton, useUser, SignedIn } from '@clerk/nextjs'
 import { DEMO_MODE, getDemoMessage } from '../lib/demo-config'
-import { HelpCircle, Shield } from 'lucide-react'
+import { HelpCircle, Shield, Info } from 'lucide-react'
 import {
   Menu,
   X,
@@ -29,6 +29,14 @@ import {
 import { useTheme } from 'next-themes'
 import { useSidebarCollapsed, useAppStore } from '../stores/app-store'
 import { COMPANY_CONFIG } from '../lib/company-config'
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from './ui/dialog'
 
 interface NavigationItem {
   name: string
@@ -339,6 +347,41 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
           </Button>
           <h1 className="font-serif text-xl font-bold text-gradient-sunset">{COMPANY_CONFIG.name}</h1>
           <div className="flex items-center space-x-2">
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button variant="ghost" size="sm">
+                  <Info className="w-4 h-4" />
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-md">
+                <DialogHeader>
+                  <DialogTitle className="flex items-center space-x-2">
+                    <Info className="w-5 h-5 text-primary" />
+                    <span>A message from the dev</span>
+                  </DialogTitle>
+                </DialogHeader>
+                <div className="space-y-4 text-sm text-muted-foreground">
+                  <p>
+                    Hey there! 👋 This is FundDeck – a professional investor presentation platform I built 
+                    to help startups create compelling pitch decks and business documentation.
+                  </p>
+                  <p>
+                    What you're seeing is a fully functional template that you can customize for your own startup. 
+                    All the content is editable through the admin panel, the design is modern and professional, 
+                    and it's built with the latest tech stack.
+                  </p>
+                  <p>
+                    The platform includes everything you need: financial models, market analysis, pitch presentations, 
+                    risk assessments, and more. It's designed to impress investors while being practical for founders.
+                  </p>
+                  <div className="pt-2 border-t">
+                    <p className="text-xs">
+                      Built with Next.js, TypeScript, Tailwind CSS, Clerk Auth, and lots of coffee ☕
+                    </p>
+                  </div>
+                </div>
+              </DialogContent>
+            </Dialog>
             <Button variant="ghost" size="sm" onClick={toggleTheme}>
               {!mounted ? (
                 <Sun className="w-4 h-4" />
