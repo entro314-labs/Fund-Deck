@@ -34,6 +34,7 @@ import {
   Trash2,
 } from 'lucide-react'
 import { useDataQuery, useDataMutation } from '../../hooks/use-data-query'
+import { COMPANY_CONFIG } from '../../lib/company-config'
 import { ErrorBoundary, QueryErrorBoundary } from '../../components/error-boundary'
 import { useUIStore } from '../../stores/ui-store'
 import {
@@ -684,7 +685,7 @@ function AdminPageContent() {
             <CardHeader>
               <CardTitle>Platform Overview</CardTitle>
               <CardDescription>
-                Manage content across all pages of the MyRoomie investor platform
+                {COMPANY_CONFIG.adminDescription}
               </CardDescription>
             </CardHeader>
             <CardContent>

@@ -2,6 +2,7 @@ import { type NextRequest, NextResponse } from 'next/server'
 import { auth, clerkClient } from '@clerk/nextjs/server'
 import fs from 'fs'
 import path from 'path'
+import { getAdminEmails } from '../../../../lib/company-config'
 
 // Dynamic data directory resolution for different environments
 const getDataDirectory = () => {
@@ -24,12 +25,8 @@ const getDataDirectory = () => {
   return path.join(cwd, 'src', 'data')
 }
 
-// List of admin email addresses - currently unused in dev mode
-const ADMIN_EMAILS = [
-  'admin@company.com',
-  'contact@company.com',
-  // Add more admin emails here as needed
-]
+// List of admin email addresses from environment variable
+const ADMIN_EMAILS = getAdminEmails()
 
 const ALLOW_ALL_USERS_IN_DEV = process.env.NODE_ENV === 'development'
 

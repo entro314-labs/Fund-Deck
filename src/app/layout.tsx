@@ -7,6 +7,7 @@ import { ThemeProvider } from '../components/theme-provider'
 import PlatformLayout from '../components/platform-layout'
 import GoogleOneTapAuth from '../components/google-one-tap'
 import QueryClientProviderWrapper from '../components/query-client-provider'
+import { COMPANY_CONFIG } from '../lib/company-config'
 
 const DEMO_MODE = process.env.NEXT_PUBLIC_DEMO_MODE === 'true'
 const CLERK_KEY = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || 
@@ -25,8 +26,8 @@ const lexend = Lexend({
 })
 
 export const metadata: Metadata = {
-  title: 'MyRoomie - Premium Investor Pitch Deck',
-  description: "Europe's Integrated Living Platform - Investment Presentation",
+  title: COMPANY_CONFIG.platformTitle,
+  description: COMPANY_CONFIG.platformDescription,
   generator: 'v0.app',
 }
 

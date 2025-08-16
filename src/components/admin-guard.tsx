@@ -4,18 +4,14 @@ import { useAuth, useUser } from '@clerk/nextjs'
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
 import { DEMO_MODE } from '../lib/demo-config'
+import { getAdminEmails } from '../lib/company-config'
 
 interface AdminGuardProps {
   children: React.ReactNode
 }
 
-// List of admin email addresses (you can expand this list)
-const ADMIN_EMAILS = [
-  // Add admin email addresses here
-  'admin@company.com',
-  'contact@company.com',
-  // "investor@company.com",
-]
+// List of admin email addresses from environment variable
+const ADMIN_EMAILS = getAdminEmails()
 
 // For development, allow any authenticated user to access admin
 const ALLOW_ALL_USERS_IN_DEV = process.env.NODE_ENV === 'development'

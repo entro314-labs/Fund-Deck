@@ -1,7 +1,7 @@
 import { google } from 'googleapis'
 
 // Extract Sheet ID from environment variable
-const SPREADSHEET_ID = process.env.GOOGLE_SHEETS_SPREADSHEET_ID || '1rHJUPhxUzFE4g7uOfNNrzRuT0u_doFvNtEIbsZ85EBc'
+const SPREADSHEET_ID = process.env.GOOGLE_SHEETS_SPREADSHEET_ID || ''
 
 // Define sheet ranges for different data
 const SHEET_RANGES = {
