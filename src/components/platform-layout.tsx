@@ -8,6 +8,7 @@ import { Button } from './ui/button'
 import { Badge } from './ui/badge'
 import { UserButton, useUser, SignedIn } from '@clerk/nextjs'
 import { DEMO_MODE, getDemoMessage } from '../lib/demo-config'
+import { useDemoSafeAuth } from '../hooks/use-demo-safe-auth'
 import { HelpCircle, Shield } from 'lucide-react'
 import {
   Menu,
@@ -141,7 +142,7 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
   const pathname = usePathname()
   const { theme, setTheme } = useTheme()
   const isMobile = useIsMobile()
-  const { user } = useUser()
+  const { user } = useDemoSafeAuth()
   const [mounted, setMounted] = useState(false)
 
   // Prevent hydration mismatch for theme-dependent components

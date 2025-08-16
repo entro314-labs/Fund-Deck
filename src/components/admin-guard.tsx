@@ -4,6 +4,7 @@ import { useAuth, useUser } from '@clerk/nextjs'
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
 import { DEMO_MODE } from '../lib/demo-config'
+import { useDemoSafeAuth } from '../hooks/use-demo-safe-auth'
 
 interface AdminGuardProps {
   children: React.ReactNode
@@ -21,8 +22,7 @@ const ADMIN_EMAILS = [
 const ALLOW_ALL_USERS_IN_DEV = process.env.NODE_ENV === 'development'
 
 export default function AdminGuard({ children }: AdminGuardProps) {
-  const { isLoaded, userId } = useAuth()
-  const { user } = useUser()
+  const { isLoaded, userId, user } = useDemoSafeAuth()
   const router = useRouter()
 
   useEffect(() => {
