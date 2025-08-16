@@ -46,7 +46,6 @@ coverage/
 !.env.local.example
 
 # vercel deployment
-.vercel
 
 # cache directories
 .cache/
