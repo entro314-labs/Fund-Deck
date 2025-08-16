@@ -1,51 +1,51 @@
 {
   "meta": {
     "title": "Executive Summary",
-    "subtitle": "Strategic overview of [Company Name]'s [Target Region]an expansion opportunity for time-constrained executives",
+    "subtitle": "Strategic overview of MyRoomie's European expansion opportunity for time-constrained executives",
     "badge": "Quick Read",
     "date": "5 min read",
     "exportButtonText": "Export PDF"
   },
   "executiveOverview": {
     "title": "The Opportunity",
-    "mainStatement": "[Company Name] is positioned to become [Target Region]'s leading Service-as-a-Platform platform, addressing the 500B€+ target housing market through an integrated AI-powered ecosystem combining consumer matching, quality property operations, and enterprise services.",
-    "supportingText": "With 9.6M housing units shortage across [Target Region] and 300K+ annual HEALTHCARE relocations, [Company Name]'s three-pillar platform creates network effects and sustainable competitive advantages. The company targets 162.8M€ revenue by 2029 across 11 [Target Region]an markets, achieving profitability by Q3 2024 with exceptional unit economics."
+    "mainStatement": "MyRoomie is positioned to become Europe's leading Living-as-a-Service platform, addressing the 500B€+ European housing market through an integrated AI-powered ecosystem combining consumer matching, quality property operations, and enterprise services.",
+    "supportingText": "With 9.6M housing units shortage across Europe and 300K+ annual BPO relocations, MyRoomie's three-pillar platform creates network effects and sustainable competitive advantages. The company targets 162.8M€ revenue by 2031 across 11 European markets, achieving profitability by Q3 2028 with exceptional unit economics."
   },
   "keyHighlights": [
     {
       "id": "market-opportunity",
       "title": "Market Opportunity",
-      "value": 4,
+      "value": 3.2,
       "prefix": "",
       "suffix": "B€",
-      "subtitle": "[Target Region]an room rental TAM",
+      "subtitle": "European room rental TAM",
       "icon": "Globe",
       "color": "text-success"
     },
     {
       "id": "revenue-target",
       "title": "Revenue Target",
-      "value": 150,
+      "value": 162.8,
       "prefix": "",
       "suffix": "M€",
-      "subtitle": "By 2029 (87% CAGR)",
+      "subtitle": "By 2031 (87% CAGR)",
       "icon": "TrendingUp",
       "color": "text-primary"
     },
     {
       "id": "funding-required",
       "title": "Funding Required",
-      "value": 24,
+      "value": 25,
       "prefix": "",
       "suffix": "M€",
-      "subtitle": "5 rounds through 2028",
+      "subtitle": "5 rounds through 2030",
       "icon": "Euro",
       "color": "text-accent"
     },
     {
       "id": "break-even",
       "title": "Break-Even",
-      "value": "Q3 2024",
+      "value": "Q3 2028",
       "subtitle": "Path to profitability",
       "icon": "Target",
       "color": "text-success"
@@ -55,65 +55,65 @@
     "title": "Three-Pillar Business Model",
     "pillars": [
       {
-        "id": "[Company Name]-connect",
-        "title": "[Company Name] Connect",
+        "id": "myroomie-connect",
+        "title": "MyRoomie Connect",
         "subtitle": "AI-Powered B2C Platform",
-        "revenue": "62.8M€ by 2029",
+        "revenue": "62.8M€ by 2031",
         "share": "39%",
         "icon": "Users",
         "description": "Advanced flatmate matching with premium subscriptions and value-added services"
       },
       {
-        "id": "[Company Name]-spaces",
-        "title": "[Company Name] Spaces",
+        "id": "myroomie-spaces",
+        "title": "MyRoomie Spaces",
         "subtitle": "Quality Property Operations",
-        "revenue": "35.6M€ by 2029",
+        "revenue": "35.6M€ by 2031",
         "share": "22%",
         "icon": "Building2",
-        "description": "[Company Name] Homes branded properties with hybrid ownership/management model"
+        "description": "MyRoomie Homes branded properties with hybrid ownership/management model"
       },
       {
-        "id": "[Company Name]-enterprise",
-        "title": "[Company Name] Enterprise",
+        "id": "myroomie-enterprise",
+        "title": "MyRoomie Enterprise",
         "subtitle": "B2B Corporate Services",
-        "revenue": "64.4M€ by 2029",
+        "revenue": "64.4M€ by 2031",
         "share": "39%",
         "icon": "Target",
-        "description": "Corporate relocations and university partnerships serving 300K+ HEALTHCARE employees"
+        "description": "Corporate relocations and university partnerships serving 300K+ BPO employees"
       }
     ]
   },
   "investmentTimeline": {
     "title": "Investment Timeline & Key Milestones",
-    "description": "Strategic funding and growth trajectory through 2029",
+    "description": "Strategic funding and growth trajectory through 2031",
     "milestones": [
       {
         "id": "seed-extension",
-        "period": "Q4 2021",
+        "period": "Q4 2025",
         "milestone": "2M€ Seed Extension",
         "description": "Poland market preparation and Greece scaling"
       },
       {
         "id": "poland-launch",
-        "period": "Q1 2022",
+        "period": "Q1 2026",
         "milestone": "Poland Launch",
-        "description": "Market entry with EDUCATION partnerships and 33K users"
+        "description": "Market entry with BPO partnerships and 33K users"
       },
       {
         "id": "series-b",
-        "period": "Q1 2023",
+        "period": "Q1 2027",
         "milestone": "8M€ Series B",
         "description": "Phase 2 expansion into Austria, Czech Republic, Romania"
       },
       {
         "id": "profitability",
-        "period": "Q3 2024",
+        "period": "Q3 2028",
         "milestone": "Profitability",
         "description": "EBITDA positive with 18% margins across 8 markets"
       },
       {
         "id": "market-leadership",
-        "period": "2029",
+        "period": "2031",
         "milestone": "Market Leadership",
         "description": "162.8M€ revenue, 28% EBITDA margins, 11-market operations"
       }
@@ -121,7 +121,7 @@
   },
   "competitiveAdvantages": {
     "title": "Competitive Advantages",
-    "description": "Key differentiators in the [Target Region]an market",
+    "description": "Key differentiators in the European market",
     "advantages": [
       {
         "id": "ai-matching",
@@ -132,7 +132,7 @@
       {
         "id": "quality-supply",
         "title": "Quality-Controlled Supply",
-        "description": "[Company Name] Homes standards vs. unverified listings",
+        "description": "MyRoomie Homes standards vs. unverified listings",
         "icon": "Building2"
       },
       {
@@ -156,7 +156,7 @@
       {
         "id": "revenue-growth",
         "title": "Revenue Growth",
-        "description": "87% CAGR from 50K€ to 162.8M€ (2023-2029)",
+        "description": "87% CAGR from 50K€ to 162.8M€ (2025-2031)",
         "icon": "CheckCircle"
       },
       {
@@ -168,7 +168,7 @@
       {
         "id": "profitability-path",
         "title": "Profitability Path",
-        "description": "EBITDA positive Q3 2024, 28% margins by 2029",
+        "description": "EBITDA positive Q3 2028, 28% margins by 2031",
         "icon": "CheckCircle"
       },
       {
@@ -181,16 +181,16 @@
   },
   "investmentThesis": {
     "title": "Investment Thesis",
-    "description": "Why [Company Name] represents a compelling [Target Region]an growth opportunity",
+    "description": "Why MyRoomie represents a compelling European growth opportunity",
     "categories": [
       {
         "id": "market-timing",
         "title": "Market Timing",
         "points": [
-          "[Target Region]an housing crisis creating unprecedented demand",
+          "European housing crisis creating unprecedented demand",
           "Digital transformation accelerating in traditional sectors",
-          "CONSULTING sector growth driving corporate relocation needs",
-          "First-mover advantage in integrated Technology-as-a-Service"
+          "BPO sector growth driving corporate relocation needs",
+          "First-mover advantage in integrated Living-as-a-Service"
         ]
       },
       {
@@ -199,7 +199,7 @@
         "points": [
           "Proven model in Greece with successful pivot execution",
           "Strong unit economics and improving efficiency metrics",
-          "Systematic market entry playbook for [Target Region]an expansion",
+          "Systematic market entry playbook for European expansion",
           "Clear path to profitability with sustainable growth model"
         ]
       }

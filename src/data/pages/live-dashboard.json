@@ -18,7 +18,7 @@
         "subtitle": "This month",
         "icon": "Euro",
         "color": "text-success",
-        "target": 47,
+        "target": 45.2,
         "targetSuffix": "K"
       },
       {
@@ -29,7 +29,7 @@
         "subtitle": "Monthly active",
         "icon": "Users",
         "color": "text-primary",
-        "target": 12250,
+        "target": 12500,
         "targetSuffix": ""
       },
       {
@@ -52,7 +52,7 @@
         "subtitle": "Operating costs",
         "icon": "TrendingDown",
         "color": "text-warning",
-        "target": 155,
+        "target": 125,
         "targetSuffix": "K€"
       }
     ],
@@ -80,7 +80,7 @@
       "code": "DE",
       "flag": "🇩🇪",
       "status": "live",
-      "launchDate": "2023-01-15",
+      "launchDate": "2025-01-15",
       "metrics": [
         {
           "id": "de-revenue",
@@ -91,7 +91,7 @@
           "subtitle": "vs 18K€ target",
           "icon": "Euro",
           "color": "text-success",
-          "target": 19
+          "target": 18
         },
         {
           "id": "de-users",
@@ -101,7 +101,7 @@
           "subtitle": "vs 5.000 target",
           "icon": "Users",
           "color": "text-primary",
-          "target": 6100
+          "target": 5000
         },
         {
           "id": "de-conversion",
@@ -111,7 +111,7 @@
           "subtitle": "Free to paid",
           "icon": "TrendingUp",
           "color": "text-accent",
-          "target": 3
+          "target": 3.2
         },
         {
           "id": "de-partnerships",
@@ -121,7 +121,7 @@
           "subtitle": "Universities",
           "icon": "Handshake",
           "color": "text-info",
-          "target": 17
+          "target": 15
         }
       ]
     },
@@ -131,7 +131,7 @@
       "code": "NL",
       "flag": "🇳🇱",
       "status": "launching",
-      "launchDate": "2023-03-01",
+      "launchDate": "2025-03-01",
       "metrics": [
         {
           "id": "nl-revenue",
@@ -152,7 +152,7 @@
           "subtitle": "Pre-registrations",
           "icon": "Clock",
           "color": "text-warning",
-          "target": 2800
+          "target": 2500
         },
         {
           "id": "nl-partnerships",
@@ -162,7 +162,7 @@
           "subtitle": "Universities",
           "icon": "Handshake",
           "color": "text-info",
-          "target": 9
+          "target": 10
         },
         {
           "id": "nl-progress",
@@ -172,7 +172,7 @@
           "subtitle": "Completion",
           "icon": "Target",
           "color": "text-primary",
-          "target": 90
+          "target": 100
         }
       ]
     },
@@ -182,7 +182,7 @@
       "code": "FR",
       "flag": "🇫🇷",
       "status": "planned",
-      "launchDate": "2023-06-01",
+      "launchDate": "2025-06-01",
       "metrics": [
         {
           "id": "fr-market-research",
@@ -192,7 +192,7 @@
           "subtitle": "Completion",
           "icon": "Search",
           "color": "text-muted",
-          "target": 121
+          "target": 100
         },
         {
           "id": "fr-legal",
@@ -202,7 +202,7 @@
           "subtitle": "Completion",
           "icon": "Scale",
           "color": "text-muted",
-          "target": 105
+          "target": 100
         },
         {
           "id": "fr-team",
@@ -212,7 +212,7 @@
           "subtitle": "Hiring progress",
           "icon": "Users",
           "color": "text-muted",
-          "target": 6
+          "target": 5
         },
         {
           "id": "fr-timeline",
@@ -222,14 +222,14 @@
           "subtitle": "Timeline adherence",
           "icon": "Calendar",
           "color": "text-muted",
-          "target": 109
+          "target": 100
         }
       ]
     }
   ],
   "dataSource": {
     "type": "google-sheets",
-    "refreshInterval": 351000,
+    "refreshInterval": 300000,
     "lastSync": null,
     "sheets": {
       "overview": {
@@ -249,9 +249,6 @@
   },
   "accessControl": {
     "requiredRole": "investor",
-    "allowedEmails": [
-      "[Founder Name]@[Company Name]app.com",
-      "admin@company.com"
-    ]
+    "allowedEmails": ["dominikos@myroomieapp.com", "idominikos@outlook.com"]
   }
 }

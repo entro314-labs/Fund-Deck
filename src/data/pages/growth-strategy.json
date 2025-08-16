@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Growth Strategy & Execution",
-    "subtitle": "Comprehensive growth execution plan for [Company Name]'s [Target Region]an market expansion",
+    "subtitle": "Comprehensive growth execution plan for MyRoomie's European market expansion",
     "badge": "Growth Plan",
     "date": "2025-2031",
     "exportButtonText": "Growth Plan"
@@ -10,7 +10,7 @@
     {
       "id": "user-growth-rate",
       "title": "User Growth Rate",
-      "value": 14,
+      "value": 15,
       "suffix": "%",
       "subtitle": "Monthly growth target",
       "icon": "TrendingUp",
@@ -19,7 +19,7 @@
     {
       "id": "market-penetration",
       "title": "Market Penetration",
-      "value": 14,
+      "value": 12,
       "suffix": "%",
       "subtitle": "Average across 11 markets",
       "icon": "Target",
@@ -28,9 +28,9 @@
     {
       "id": "revenue-growth",
       "title": "Revenue Growth",
-      "value": 104,
+      "value": 87,
       "suffix": "%",
-      "subtitle": "CAGR 2023-2029",
+      "subtitle": "CAGR 2025-2031",
       "icon": "Euro",
       "color": "text-accent"
     },
@@ -38,7 +38,7 @@
       "id": "customer-ltv-cac",
       "title": "Customer LTV:CAC",
       "value": "32.3:1",
-      "subtitle": "By 2029 across segments",
+      "subtitle": "By 2031 across segments",
       "icon": "Users",
       "color": "text-success"
     }
@@ -47,103 +47,26 @@
     "title": "Growth Funnel Progression",
     "description": "User acquisition funnel evolution (thousands)",
     "data": [
-      {
-        "year": "2023",
-        "awareness": 88,
-        "consideration": 38,
-        "trial": 15,
-        "adoption": 8
-      },
-      {
-        "year": "2024",
-        "awareness": 245,
-        "consideration": 76,
-        "trial": 47,
-        "adoption": 31
-      },
-      {
-        "year": "2025",
-        "awareness": 642,
-        "consideration": 209,
-        "trial": 147,
-        "adoption": 121
-      },
-      {
-        "year": "2026",
-        "awareness": 1092,
-        "consideration": 478,
-        "trial": 336,
-        "adoption": 251
-      },
-      {
-        "year": "2027",
-        "awareness": 1780,
-        "consideration": 1008,
-        "trial": 568,
-        "adoption": 365
-      },
-      {
-        "year": "2028",
-        "awareness": 2772,
-        "consideration": 960,
-        "trial": 653,
-        "adoption": 568
-      },
-      {
-        "year": "2029",
-        "awareness": 3885,
-        "consideration": 1650,
-        "trial": 1102,
-        "adoption": 598
-      }
+      { "year": "2025", "awareness": 100, "consideration": 30, "trial": 15, "adoption": 8 },
+      { "year": "2026", "awareness": 250, "consideration": 90, "trial": 50, "adoption": 33 },
+      { "year": "2027", "awareness": 600, "consideration": 240, "trial": 140, "adoption": 95 },
+      { "year": "2028", "awareness": 1200, "consideration": 520, "trial": 320, "adoption": 235 },
+      { "year": "2029", "awareness": 2000, "consideration": 900, "trial": 580, "adoption": 420 },
+      { "year": "2030", "awareness": 2800, "consideration": 1200, "trial": 750, "adoption": 580 },
+      { "year": "2031", "awareness": 3500, "consideration": 1500, "trial": 950, "adoption": 720 }
     ]
   },
   "marketPenetration": {
     "title": "Market Penetration by Country",
     "description": "Users (thousands) and market penetration percentage",
     "data": [
-      {
-        "market": "Greece",
-        "users": 46,
-        "penetration": 22,
-        "phase": "Foundation"
-      },
-      {
-        "market": "Poland",
-        "users": 198,
-        "penetration": 10,
-        "phase": "Phase 1"
-      },
-      {
-        "market": "Austria",
-        "users": 95,
-        "penetration": 26,
-        "phase": "Phase 2"
-      },
-      {
-        "market": "Czech Rep.",
-        "users": 117,
-        "penetration": 15,
-        "phase": "Phase 2"
-      },
-      {
-        "market": "Romania",
-        "users": 140,
-        "penetration": 8,
-        "phase": "Phase 2"
-      },
-      {
-        "market": "Ireland",
-        "users": 66,
-        "penetration": 32,
-        "phase": "Phase 3"
-      },
-      {
-        "market": "Portugal",
-        "users": 85,
-        "penetration": 18,
-        "phase": "Phase 3"
-      }
+      { "market": "Greece", "users": 45, "penetration": 18, "phase": "Foundation" },
+      { "market": "Poland", "users": 180, "penetration": 12, "phase": "Phase 1" },
+      { "market": "Austria", "users": 85, "penetration": 22, "phase": "Phase 2" },
+      { "market": "Czech Rep.", "users": 95, "penetration": 15, "phase": "Phase 2" },
+      { "market": "Romania", "users": 120, "penetration": 8, "phase": "Phase 2" },
+      { "market": "Ireland", "users": 65, "penetration": 28, "phase": "Phase 3" },
+      { "market": "Portugal", "users": 75, "penetration": 16, "phase": "Phase 3" }
     ]
   },
   "growthStrategies": [
@@ -156,33 +79,21 @@
           "id": "university-partnerships",
           "name": "University Partnerships",
           "description": "Student housing partnerships across 50+ universities",
-          "metrics": [
-            "25% of new users",
-            "35€ CAC",
-            "85% retention"
-          ],
+          "metrics": ["25% of new users", "35€ CAC", "85% retention"],
           "investment": "2.5M€"
         },
         {
           "id": "bpo-corporate-partnerships",
-          "name": "HEALTHCARE Corporate Partnerships",
-          "description": "Direct integration with major HEALTHCARE companies",
-          "metrics": [
-            "40% of enterprise revenue",
-            "5K€ ACV",
-            "95% retention"
-          ],
+          "name": "BPO Corporate Partnerships",
+          "description": "Direct integration with major BPO companies",
+          "metrics": ["40% of enterprise revenue", "5K€ ACV", "95% retention"],
           "investment": "1.8M€"
         },
         {
           "id": "digital-marketing",
           "name": "Digital Marketing",
           "description": "SEO, content marketing, and social media campaigns",
-          "metrics": [
-            "35% of new users",
-            "45€ CAC",
-            "75% retention"
-          ],
+          "metrics": ["35% of new users", "45€ CAC", "75% retention"],
           "investment": "3.2M€"
         }
       ]
@@ -196,33 +107,21 @@
           "id": "ai-recommendations",
           "name": "AI-Powered Recommendations",
           "description": "Advanced matching algorithms and personalization",
-          "metrics": [
-            "95% satisfaction",
-            "40% engagement increase",
-            "60% faster matching"
-          ],
+          "metrics": ["95% satisfaction", "40% engagement increase", "60% faster matching"],
           "investment": "2.8M€"
         },
         {
           "id": "mobile-first-experience",
           "name": "Mobile-First Experience",
           "description": "Native apps with superior UX and performance",
-          "metrics": [
-            "85% mobile usage",
-            "4.8 app rating",
-            "30% time savings"
-          ],
+          "metrics": ["85% mobile usage", "4.8 app rating", "30% time savings"],
           "investment": "1.5M€"
         },
         {
           "id": "community-features",
           "name": "Community Features",
           "description": "Social features and community building tools",
-          "metrics": [
-            "70% monthly engagement",
-            "25% referral rate",
-            "50% retention boost"
-          ],
+          "metrics": ["70% monthly engagement", "25% referral rate", "50% retention boost"],
           "investment": "900K€"
         }
       ]
@@ -236,33 +135,21 @@
           "id": "localization-strategy",
           "name": "Localization Strategy",
           "description": "Local language, payment, and cultural adaptation",
-          "metrics": [
-            "18-month break-even",
-            "Local partnerships",
-            "95% localization"
-          ],
+          "metrics": ["18-month break-even", "Local partnerships", "95% localization"],
           "investment": "4.2M€"
         },
         {
-          "id": "[Company Name]-homes-network",
-          "name": "[Company Name] Homes Network",
+          "id": "myroomie-homes-network",
+          "name": "MyRoomie Homes Network",
           "description": "Quality property network across all markets",
-          "metrics": [
-            "11.200 properties",
-            "95% occupancy",
-            "35.6M€ revenue"
-          ],
+          "metrics": ["11.200 properties", "95% occupancy", "35.6M€ revenue"],
           "investment": "8.5M€"
         },
         {
           "id": "strategic-partnerships",
           "name": "Strategic Partnerships",
           "description": "Local real estate and service provider partnerships",
-          "metrics": [
-            "50+ partners",
-            "20% cost reduction",
-            "Market credibility"
-          ],
+          "metrics": ["50+ partners", "20% cost reduction", "Market credibility"],
           "investment": "1.2M€"
         }
       ]
@@ -289,7 +176,7 @@
         "timeline": "Months 3-4",
         "tasks": [
           "Soft launch with limited user base",
-          "CONSULTING partnership activation",
+          "BPO partnership activation",
           "University partnership development",
           "Local marketing campaign initiation"
         ]
@@ -300,7 +187,7 @@
         "timeline": "Months 5-6",
         "tasks": [
           "Full market launch and user acquisition",
-          "[Company Name] Homes property rollout",
+          "MyRoomie Homes property rollout",
           "Enterprise client onboarding",
           "Performance optimization and scaling"
         ]
@@ -345,7 +232,7 @@
         "title": "Market Expansion (14.2M€)",
         "investments": [
           "Local market entry and setup costs",
-          "[Company Name] Homes property network",
+          "MyRoomie Homes property network",
           "Localization and cultural adaptation",
           "Strategic partnerships and joint ventures"
         ]

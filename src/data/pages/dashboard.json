@@ -1,17 +1,17 @@
 {
   "meta": {
-    "title": "[Company Name] Investor Platform",
-    "subtitle": "Business documentation for [Company Name]'s [Target Region]an expansion strategy",
+    "title": "MyRoomie Investor Platform",
+    "subtitle": "Business documentation for MyRoomie's European expansion strategy",
     "badge": "August 2025"
   },
   "quickStats": [
     {
       "id": "total-revenue-target",
       "title": "Total Revenue Target",
-      "value": 190,
+      "value": 162.8,
       "prefix": "",
       "suffix": "M€",
-      "subtitle": "by 2029",
+      "subtitle": "by 2031",
       "icon": "Euro",
       "color": "text-success"
     },
@@ -26,16 +26,16 @@
     {
       "id": "target-markets",
       "title": "Target Markets",
-      "value": 14,
+      "value": 11,
       "suffix": " Countries",
-      "subtitle": "[Target Region]an expansion",
+      "subtitle": "European expansion",
       "icon": "BarChart3",
       "color": "text-accent"
     },
     {
       "id": "break-even",
       "title": "Break-even",
-      "value": "Q3 2024",
+      "value": "Q3 2028",
       "subtitle": "Path to profitability",
       "icon": "Target",
       "color": "text-success"
@@ -67,12 +67,12 @@
         {
           "id": "strategic-master-plan",
           "title": "Business Plan",
-          "description": "Business strategy and planning for 2023-2029",
+          "description": "Business strategy and planning for 2025-2031",
           "href": "/strategic-plan",
           "icon": "TrendingUp",
           "badge": "Main",
           "audience": "Board, strategic investors, senior management",
-          "lastUpdated": "August 2023"
+          "lastUpdated": "August 2025"
         },
         {
           "id": "financial-model-economics",
@@ -82,7 +82,7 @@
           "icon": "Euro",
           "badge": "Main",
           "audience": "Financial analysts, investors, CFO",
-          "lastUpdated": "August 2023"
+          "lastUpdated": "August 2025"
         },
         {
           "id": "investor-presentation-package",
@@ -92,7 +92,7 @@
           "icon": "Users",
           "badge": "Main",
           "audience": "Investors, pitch presentations, funding discussions",
-          "lastUpdated": "August 2023"
+          "lastUpdated": "August 2025"
         },
         {
           "id": "market-competitive-analysis",
@@ -102,7 +102,7 @@
           "icon": "BarChart3",
           "badge": "Main",
           "audience": "Strategy teams, market research",
-          "lastUpdated": "August 2023"
+          "lastUpdated": "August 2025"
         }
       ]
     },
@@ -118,7 +118,7 @@
           "href": "/executive-summary",
           "icon": "FileText",
           "audience": "Time-constrained executives",
-          "lastUpdated": "August 2023"
+          "lastUpdated": "August 2025"
         },
         {
           "id": "one-pager",
@@ -127,7 +127,7 @@
           "href": "/one-pager",
           "icon": "Target",
           "audience": "Networking, conferences",
-          "lastUpdated": "August 2023"
+          "lastUpdated": "August 2025"
         },
         {
           "id": "product-overview",
@@ -136,7 +136,7 @@
           "href": "/product-overview",
           "icon": "Rocket",
           "audience": "Technical teams, developers",
-          "lastUpdated": "August 2023"
+          "lastUpdated": "August 2025"
         }
       ]
     },
@@ -152,7 +152,7 @@
           "href": "/risk-assessment",
           "icon": "Shield",
           "audience": "Risk management, board oversight",
-          "lastUpdated": "August 2023"
+          "lastUpdated": "August 2025"
         },
         {
           "id": "milestones-timeline",
@@ -161,7 +161,7 @@
           "href": "/milestones",
           "icon": "Calendar",
           "audience": "Operations teams, project management",
-          "lastUpdated": "August 2023"
+          "lastUpdated": "August 2025"
         },
         {
           "id": "growth-strategy",
@@ -170,7 +170,7 @@
           "href": "/growth-strategy",
           "icon": "TrendingUp",
           "audience": "Growth teams, marketing leadership",
-          "lastUpdated": "August 2023"
+          "lastUpdated": "August 2025"
         },
         {
           "id": "exit-strategy-analysis",
@@ -179,7 +179,7 @@
           "href": "/exit-strategy",
           "icon": "LogOut",
           "audience": "Board, strategic planning",
-          "lastUpdated": "August 2023"
+          "lastUpdated": "August 2025"
         }
       ]
     }

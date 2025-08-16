@@ -7,8 +7,6 @@ import { useIsMobile } from '../hooks/use-mobile'
 import { Button } from './ui/button'
 import { Badge } from './ui/badge'
 import { UserButton, useUser, SignedIn } from '@clerk/nextjs'
-import { DEMO_MODE, getDemoMessage } from '../lib/demo-config'
-import { useDemoSafeAuth } from '../hooks/use-demo-safe-auth'
 import { HelpCircle, Shield } from 'lucide-react'
 import {
   Menu,
@@ -29,6 +27,7 @@ import {
 } from 'lucide-react'
 import { useTheme } from 'next-themes'
 import { useSidebarCollapsed, useAppStore } from '../stores/app-store'
+import { COMPANY_CONFIG } from '../lib/company-config'
 
 interface NavigationItem {
   name: string
@@ -142,7 +141,7 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
   const pathname = usePathname()
   const { theme, setTheme } = useTheme()
   const isMobile = useIsMobile()
-  const { user } = useDemoSafeAuth()
+  const { user } = useUser()
   const [mounted, setMounted] = useState(false)
 
   // Prevent hydration mismatch for theme-dependent components
@@ -179,7 +178,7 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
           {/* Header */}
           <div className="flex h-16 items-center justify-between px-6 border-b border-border">
             <div className="flex items-center space-x-3">
-              <h1 className="font-serif text-2xl font-bold text-gradient-sunset">MyRoomie</h1>
+              <h1 className="font-serif text-2xl font-bold text-gradient-sunset">{COMPANY_CONFIG.name}</h1>
               <Badge variant="secondary" className="bg-primary/10 text-primary text-xs">
                 Investor Platform
               </Badge>
@@ -266,56 +265,44 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
                   )}
                 </Button>
               </div>
-              {!DEMO_MODE && (
-                <SignedIn>
-                  <div className="flex items-center justify-between pt-2 border-t border-border">
-                    <div className="flex items-center space-x-2">
-                      <UserButton
-                        appearance={{
-                          elements: {
-                            avatarBox: 'w-6 h-6 rounded-full border-2 border-primary/20',
-                            userButtonPopover: 'bg-card border border-border shadow-lg',
-                            userButtonPopoverCard: 'bg-card',
-                          },
-                        }}
-                      >
-                        <UserButton.MenuItems>
-                          <UserButton.Link
-                            label="Admin Panel"
-                            labelIcon={<Shield className="w-4 h-4" />}
-                            href="/admin"
-                          />
-                          <UserButton.Action
-                            label="Help & Support"
-                            labelIcon={<HelpCircle className="w-4 h-4" />}
-                            onClick={() => window.open('mailto:support@company.com', '_blank')}
-                          />
-                        </UserButton.MenuItems>
-                      </UserButton>
-                      {user && (
-                        <div className="text-xs">
-                          <div className="font-medium text-foreground">
-                            {user.firstName} {user.lastName}
-                          </div>
-                          <div className="text-muted-foreground">
-                            {user.emailAddresses[0]?.emailAddress}
-                          </div>
+              <SignedIn>
+                <div className="flex items-center justify-between pt-2 border-t border-border">
+                  <div className="flex items-center space-x-2">
+                    <UserButton
+                      appearance={{
+                        elements: {
+                          avatarBox: 'w-6 h-6 rounded-full border-2 border-primary/20',
+                          userButtonPopover: 'bg-card border border-border shadow-lg',
+                          userButtonPopoverCard: 'bg-card',
+                        },
+                      }}
+                    >
+                      <UserButton.MenuItems>
+                        <UserButton.Link
+                          label="Admin Panel"
+                          labelIcon={<Shield className="w-4 h-4" />}
+                          href="/admin"
+                        />
+                        <UserButton.Action
+                          label="Help & Support"
+                          labelIcon={<HelpCircle className="w-4 h-4" />}
+                          onClick={() => window.open(`mailto:${COMPANY_CONFIG.supportEmail}`, '_blank')}
+                        />
+                      </UserButton.MenuItems>
+                    </UserButton>
+                    {user && (
+                      <div className="text-xs">
+                        <div className="font-medium text-foreground">
+                          {user.firstName} {user.lastName}
                         </div>
-                      )}
-                    </div>
-                  </div>
-                </SignedIn>
-              )}
-              {DEMO_MODE && (
-                <div className="pt-2 border-t border-border">
-                  <div className="text-xs text-center">
-                    <div className="font-medium text-primary mb-1">🚀 Demo Mode</div>
-                    <div className="text-muted-foreground text-[10px] leading-3">
-                      Fork on GitHub to create your own investor deck
-                    </div>
+                        <div className="text-muted-foreground">
+                          {user.emailAddresses[0]?.emailAddress}
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </div>
-              )}
+              </SignedIn>
             </div>
           </div>
         </div>
@@ -328,7 +315,7 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
           <Button variant="ghost" size="sm" onClick={() => toggleSidebar()}>
             <Menu className="w-5 h-5" />
           </Button>
-          <h1 className="font-serif text-xl font-bold text-gradient-sunset">MyRoomie</h1>
+          <h1 className="font-serif text-xl font-bold text-gradient-sunset">{COMPANY_CONFIG.name}</h1>
           <div className="flex items-center space-x-2">
             <Button variant="ghost" size="sm" onClick={toggleTheme}>
               {!mounted ? (
@@ -339,43 +326,31 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
                 <Moon className="w-4 h-4" />
               )}
             </Button>
-            {!DEMO_MODE && (
-              <SignedIn>
-                <UserButton
-                  appearance={{
-                    elements: {
-                      avatarBox:
-                        'w-8 h-8 rounded-full border-2 border-primary/20 hover:border-primary/40 transition-colors',
-                      userButtonPopover: 'bg-card border border-border shadow-lg',
-                      userButtonPopoverCard: 'bg-card',
-                    },
-                  }}
-                >
-                  <UserButton.MenuItems>
-                    <UserButton.Link
-                      label="Admin Panel"
-                      labelIcon={<Shield className="w-4 h-4" />}
-                      href="/admin"
-                    />
-                    <UserButton.Action
-                      label="Help & Support"
-                      labelIcon={<HelpCircle className="w-4 h-4" />}
-                      onClick={() => window.open('mailto:support@company.com', '_blank')}
-                    />
-                  </UserButton.MenuItems>
-                </UserButton>
-              </SignedIn>
-            )}
-            {DEMO_MODE && (
-              <Button 
-                variant="outline" 
-                size="sm"
-                onClick={() => window.open('https://github.com/your-username/fund-deck', '_blank')}
-                className="text-xs"
+            <SignedIn>
+              <UserButton
+                appearance={{
+                  elements: {
+                    avatarBox:
+                      'w-8 h-8 rounded-full border-2 border-primary/20 hover:border-primary/40 transition-colors',
+                    userButtonPopover: 'bg-card border border-border shadow-lg',
+                    userButtonPopoverCard: 'bg-card',
+                  },
+                }}
               >
-                Fork on GitHub
-              </Button>
-            )}
+                <UserButton.MenuItems>
+                  <UserButton.Link
+                    label="Admin Panel"
+                    labelIcon={<Shield className="w-4 h-4" />}
+                    href="/admin"
+                  />
+                  <UserButton.Action
+                    label="Help & Support"
+                    labelIcon={<HelpCircle className="w-4 h-4" />}
+                    onClick={() => window.open('mailto:support@myroomie.com', '_blank')}
+                  />
+                </UserButton.MenuItems>
+              </UserButton>
+            </SignedIn>
           </div>
         </div>
 

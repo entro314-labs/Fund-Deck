@@ -11,34 +11,34 @@
       "id": "current-round",
       "title": "Current Round",
       "value": "2M€ Seed Extension",
-      "subtitle": "Q4 2021",
+      "subtitle": "Q4 2025",
       "icon": "Euro",
       "color": "text-primary"
     },
     {
       "id": "total-funding-strategy",
       "title": "Total Funding Strategy",
-      "value": 21,
+      "value": 25,
       "prefix": "",
       "suffix": "M€",
-      "subtitle": "5 rounds through 2028",
+      "subtitle": "5 rounds through 2030",
       "icon": "TrendingUp",
       "color": "text-success"
     },
     {
       "id": "target-valuation",
       "title": "Target Valuation",
-      "value": 625,
+      "value": 500,
       "prefix": "",
       "suffix": "M+",
-      "subtitle": "Exit by 2030",
+      "subtitle": "Exit by 2032",
       "icon": "Target",
       "color": "text-accent"
     },
     {
       "id": "break-even",
       "title": "Break-Even",
-      "value": "Q3 2024",
+      "value": "Q3 2028",
       "subtitle": "18-month runway post-funding",
       "icon": "Calendar",
       "color": "text-success"
@@ -55,7 +55,7 @@
         "href": "/investor-package/presentation",
         "icon": "Presentation",
         "badge": "Interactive",
-        "slides": 19,
+        "slides": 15,
         "duration": "45 min presentation"
       },
       {
@@ -88,7 +88,7 @@
         "id": "seed-extension",
         "round": "Seed Extension",
         "amount": "2M€",
-        "timing": "Q4 2021",
+        "timing": "Q4 2025",
         "valuation": "10M€",
         "purpose": "Poland market preparation and Greece scaling",
         "status": "Active"
@@ -97,7 +97,7 @@
         "id": "series-a",
         "round": "Series A",
         "amount": "6M€",
-        "timing": "Q1 2022",
+        "timing": "Q1 2026",
         "valuation": "25M€",
         "purpose": "Poland launch and operational scaling",
         "status": "Planned"
@@ -106,7 +106,7 @@
         "id": "series-b",
         "round": "Series B",
         "amount": "8M€",
-        "timing": "Q1 2023",
+        "timing": "Q1 2027",
         "valuation": "50M€",
         "purpose": "Phase 2 expansion (Austria, Czech, Romania)",
         "status": "Planned"
@@ -115,7 +115,7 @@
         "id": "series-c",
         "round": "Series C",
         "amount": "7M€",
-        "timing": "Q1 2024",
+        "timing": "Q1 2028",
         "valuation": "100M€",
         "purpose": "Phase 3 expansion and profitability path",
         "status": "Future"
@@ -128,7 +128,7 @@
       {
         "id": "market-competitive-analysis",
         "title": "Market & Competitive Analysis",
-        "description": "target housing market analysis and competitive positioning",
+        "description": "European housing market analysis and competitive positioning",
         "href": "/market-analysis",
         "icon": "TrendingUp",
         "type": "Market Intelligence"
@@ -161,22 +161,22 @@
   },
   "investmentHighlights": {
     "title": "Investment Highlights",
-    "description": "Key reasons to invest in [Company Name]'s [Target Region]an expansion",
+    "description": "Key reasons to invest in MyRoomie's European expansion",
     "sections": [
       {
         "title": "Market Opportunity",
         "points": [
-          "50B€+ target housing market with digital transformation",
+          "50B€+ European housing market with digital transformation",
           "9.6M housing unit shortage creating unprecedented demand",
-          "300K+ TECHNOLOGY employees requiring relocation services annually",
-          "First-mover advantage in integrated Network-as-a-Service"
+          "300K+ BPO employees requiring relocation services annually",
+          "First-mover advantage in integrated Living-as-a-Service"
         ]
       },
       {
         "title": "Competitive Advantages",
         "points": [
           "AI-powered matching with 95% satisfaction rates",
-          "Quality-controlled supply through [Company Name] Homes",
+          "Quality-controlled supply through MyRoomie Homes",
           "Integrated B2B/B2C platform with network effects",
           "Exceptional unit economics improving with scale"
         ]

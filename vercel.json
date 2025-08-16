@@ -1,9 +1,6 @@
 {
   "version": 2,
   "framework": "nextjs",
-  "env": {
-    "NEXT_PUBLIC_DEMO_MODE": "true"
-  },
   "functions": {
     "src/app/api/data/[...path]/route.ts": {
       "includeFiles": "src/data/**"

@@ -1,11 +1,5 @@
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server'
 
-const DEMO_MODE = process.env.NEXT_PUBLIC_DEMO_MODE === 'true'
-
-// In demo mode, only admin routes are protected
-const isAdminRoute = createRouteMatcher(['/admin(.*)'])
-
-// In normal mode, all routes are protected
 const isProtectedRoute = createRouteMatcher([
   '/',
   '/dashboard(.*)',
@@ -25,16 +19,8 @@ const isProtectedRoute = createRouteMatcher([
 ])
 
 export default clerkMiddleware(async (auth, req) => {
-  if (DEMO_MODE) {
-    // In demo mode, only protect admin routes
-    if (isAdminRoute(req)) {
-      await auth.protect()
-    }
-  } else {
-    // In normal mode, protect all routes
-    if (isProtectedRoute(req)) {
-      await auth.protect()
-    }
+  if (isProtectedRoute(req)) {
+    await auth.protect()
   }
 })
 

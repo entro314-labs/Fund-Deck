@@ -19,8 +19,8 @@ All authentication features have been implemented using the latest Clerk App Rou
 
 ```bash
 # .env.local
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
-CLERK_SECRET_KEY=your_clerk_secret_key_here
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_Y3VycmVudC1nbG93d29ybS03Mi5jbGVyay5hY2NvdW50cy5kZXYk
+CLERK_SECRET_KEY=sk_test_UeSTBWQlWd6CVyilWL3bkqN5UjP0giTElst81arhRX
 ```
 
 **⚠️ Copy these exact values** to your `.env.local` file in the project root.
@@ -42,8 +42,8 @@ To restrict admin access in production, edit `/src/components/admin-guard.tsx`:
 // Add authorized admin email addresses
 const ADMIN_EMAILS = [
   "your-email@company.com",
-  "investor@company.com", 
-  "admin@company.com"
+  "investor@myroomie.com", 
+  "admin@myroomie.com"
 ]
 ```
 

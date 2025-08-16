@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Business Plan",
-    "subtitle": "Comprehensive business strategy and planning for [Company Name]'s [Target Region]an expansion",
+    "subtitle": "Comprehensive business strategy and planning for MyRoomie's European expansion",
     "badge": "Core Document",
     "date": "2025-2031",
     "exportButtonText": "Export"
@@ -11,87 +11,52 @@
       "id": "market-leadership",
       "title": "Market Leadership",
       "value": "11 Countries",
-      "subtitle": "[Target Region]an expansion by 2029",
+      "subtitle": "European expansion by 2031",
       "icon": "Globe",
       "color": "text-success"
     },
     {
       "id": "revenue-target",
       "title": "Revenue Target",
-      "value": 205,
+      "value": 162.8,
       "prefix": "",
       "suffix": "M€",
-      "subtitle": "ARR by 2029",
+      "subtitle": "ARR by 2031",
       "icon": "TrendingUp",
       "color": "text-primary"
     },
     {
       "id": "user-base",
       "title": "User Base",
-      "value": 619,
+      "value": 720,
       "suffix": "K+",
-      "subtitle": "Active users by 2029",
+      "subtitle": "Active users by 2031",
       "icon": "Users",
       "color": "text-accent"
     },
     {
       "id": "break-even",
       "title": "Break-Even",
-      "value": "Q3 2024",
+      "value": "Q3 2028",
       "subtitle": "Path to profitability",
       "icon": "Target",
       "color": "text-success"
     }
   ],
   "marketExpansion": {
-    "title": "[Target Region]an Market Expansion Timeline",
-    "description": "Revenue and user growth across 11 [Target Region]an markets",
+    "title": "European Market Expansion Timeline",
+    "description": "Revenue and user growth across 11 European markets",
     "chart": {
       "id": "market-expansion-chart",
       "type": "composed",
       "data": [
-        {
-          "year": "2023",
-          "markets": 1,
-          "users": 13,
-          "revenue": 47
-        },
-        {
-          "year": "2024",
-          "markets": 2,
-          "users": 39,
-          "revenue": 1805
-        },
-        {
-          "year": "2025",
-          "markets": 6,
-          "users": 110,
-          "revenue": 11600
-        },
-        {
-          "year": "2026",
-          "markets": 9,
-          "users": 291,
-          "revenue": 44750
-        },
-        {
-          "year": "2027",
-          "markets": 9,
-          "users": 512,
-          "revenue": 72912
-        },
-        {
-          "year": "2028",
-          "markets": 12,
-          "users": 534,
-          "revenue": 131236
-        },
-        {
-          "year": "2029",
-          "markets": 11,
-          "users": 914,
-          "revenue": 153032
-        }
+        { "year": "2025", "markets": 1, "users": 15.8, "revenue": 50 },
+        { "year": "2026", "markets": 2, "users": 33, "revenue": 2124 },
+        { "year": "2027", "markets": 5, "users": 95, "revenue": 11600 },
+        { "year": "2028", "markets": 8, "users": 235, "revenue": 35800 },
+        { "year": "2029", "markets": 10, "users": 420, "revenue": 78400 },
+        { "year": "2030", "markets": 11, "users": 580, "revenue": 120400 },
+        { "year": "2031", "markets": 11, "users": 720, "revenue": 162800 }
       ],
       "series": [
         {
@@ -126,23 +91,15 @@
         "title": "AI-Powered Matching Platform",
         "description": "Advanced algorithms for optimal flatmate compatibility",
         "icon": "Zap",
-        "metrics": [
-          "95% match satisfaction",
-          "60% faster matching",
-          "40% retention improvement"
-        ],
+        "metrics": ["95% match satisfaction", "60% faster matching", "40% retention improvement"],
         "status": "In Development"
       },
       {
         "id": "quality-supply",
         "title": "Quality-Controlled Supply",
-        "description": "[Company Name] Homes branded property standards",
+        "description": "MyRoomie Homes branded property standards",
         "icon": "Building2",
-        "metrics": [
-          "11.200 properties by 2029",
-          "95% occupancy target",
-          "35.6M€ revenue stream"
-        ],
+        "metrics": ["11.200 properties by 2031", "95% occupancy target", "35.6M€ revenue stream"],
         "status": "Scaling"
       },
       {
@@ -150,97 +107,62 @@
         "title": "Enterprise Integration",
         "description": "B2B services for corporate relocations",
         "icon": "Users",
-        "metrics": [
-          "65 enterprise clients",
-          "86.500 annual placements",
-          "64.4M€ revenue by 2029"
-        ],
+        "metrics": ["65 enterprise clients", "86.500 annual placements", "64.4M€ revenue by 2031"],
         "status": "Active"
       }
     ]
   },
   "expansionPhases": {
     "title": "Market Expansion Strategy",
-    "description": "Four-phase approach to [Target Region]an market domination",
+    "description": "Four-phase approach to European market domination",
     "phases": [
       {
         "id": "phase-1",
         "phase": "Phase 1",
-        "period": "2023-2024",
-        "markets": [
-          "Greece",
-          "Poland"
-        ],
+        "period": "2025-2026",
+        "markets": ["Greece", "Poland"],
         "investment": "9M€",
         "focus": "Foundation & Validation",
-        "milestones": [
-          "Poland market entry",
-          "20K+ active users",
-          "2M€ ARR"
-        ]
+        "milestones": ["Poland market entry", "20K+ active users", "2M€ ARR"]
       },
       {
         "id": "phase-2",
         "phase": "Phase 2",
-        "period": "2025",
-        "markets": [
-          "Austria",
-          "Czech Republic",
-          "Romania"
-        ],
+        "period": "2027",
+        "markets": ["Austria", "Czech Republic", "Romania"],
         "investment": "8M€",
-        "focus": "Western [Target Region] Entry",
-        "milestones": [
-          "5 market operations",
-          "95K+ users",
-          "11.6M€ ARR"
-        ]
+        "focus": "Western Europe Entry",
+        "milestones": ["5 market operations", "95K+ users", "11.6M€ ARR"]
       },
       {
         "id": "phase-3",
         "phase": "Phase 3",
-        "period": "2026",
-        "markets": [
-          "Ireland",
-          "Portugal",
-          "Slovakia"
-        ],
+        "period": "2028",
+        "markets": ["Ireland", "Portugal", "Slovakia"],
         "investment": "6M€",
         "focus": "Market Consolidation",
-        "milestones": [
-          "8 market operations",
-          "235K+ users",
-          "35.8M€ ARR"
-        ]
+        "milestones": ["8 market operations", "235K+ users", "35.8M€ ARR"]
       },
       {
         "id": "phase-4",
         "phase": "Phase 4",
-        "period": "2027-2029",
-        "markets": [
-          "Estonia",
-          "Slovenia",
-          "Malta"
-        ],
+        "period": "2029-2031",
+        "markets": ["Estonia", "Slovenia", "Malta"],
         "investment": "2M€",
         "focus": "Optimization & Profitability",
-        "milestones": [
-          "11 market completion",
-          "720K+ users",
-          "162.8M€ ARR"
-        ]
+        "milestones": ["11 market completion", "720K+ users", "162.8M€ ARR"]
       }
     ]
   },
   "strategicObjectives": {
     "foundationGrowth": {
-      "title": "2023-2025: Foundation & Growth",
+      "title": "2025-2027: Foundation & Growth",
       "description": "Establishing market presence and validation",
       "objectives": [
         {
           "id": "poland-entry",
           "title": "Poland Market Entry",
-          "description": "Q1 2022 launch with MANUFACTURING partnerships",
+          "description": "Q1 2026 launch with BPO partnerships",
           "icon": "CheckCircle"
         },
         {
@@ -252,7 +174,7 @@
         {
           "id": "property-scale",
           "title": "Property Operations Scale",
-          "description": "3.200 properties under management by 2025",
+          "description": "3.200 properties under management by 2027",
           "icon": "CheckCircle"
         },
         {
@@ -264,19 +186,19 @@
       ]
     },
     "scaleProfitability": {
-      "title": "2026-2029: Scale & Profitability",
+      "title": "2028-2031: Scale & Profitability",
       "description": "Market leadership and sustainable growth",
       "objectives": [
         {
           "id": "profitability",
           "title": "Profitability Achievement",
-          "description": "EBITDA positive Q3 2024, 28% margins by 2029",
+          "description": "EBITDA positive Q3 2028, 28% margins by 2031",
           "icon": "Target"
         },
         {
           "id": "market-leadership",
           "title": "Market Leadership",
-          "description": "Top 3 position in all 11 [Target Region]an markets",
+          "description": "Top 3 position in all 11 European markets",
           "icon": "Target"
         },
         {
@@ -312,7 +234,7 @@
         "id": "operational-excellence",
         "title": "Operational Excellence",
         "factors": [
-          "Standardized [Company Name] Homes quality across markets",
+          "Standardized MyRoomie Homes quality across markets",
           "Efficient market entry playbook and local partnerships",
           "Strong unit economics maintenance during scale",
           "Exceptional customer service and community building"

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "[Company Name] Investor Pitch Deck",
+    "title": "MyRoomie Investor Pitch Deck",
     "subtitle": "Investment Pitch Presentation",
     "badge": "Investment Pitch Presentation",
     "date": "Q4 2025",
@@ -9,59 +9,37 @@
   "slides": [
     {
       "id": 1,
-      "title": "[Company Name]: [Target Region]'s Integrated Living Platform",
-      "content": "Transforming Housing Through AI & Property Operations\n\nCurrent Funding Round: 2M€ Seed Extension | Q4 2021\nTotal Funding Strategy: 25M€ across 5 rounds through 2028\nTarget Exit: 500M€+ valuation by 2030",
+      "title": "MyRoomie: Europe's Integrated Living Platform",
+      "content": "Transforming Housing Through AI & Property Operations\n\nCurrent Funding Round: 2M€ Seed Extension | Q4 2025\nTotal Funding Strategy: 25M€ across 5 rounds through 2030\nTarget Exit: 500M€+ valuation by 2032",
       "layout": "title"
     },
     {
       "id": 2,
-      "title": "The [Target Region]an Housing Crisis",
-      "content": "27% of EU renters spend >40% of income on housing\n\n• 9.6M housing unit shortage across [Target Region] creating unprecedented demand\n• 48% house price increase over 15 years with stagnating wages\n• 38% of young professionals cannot afford independent living arrangements\n• Fragmented market with poor matching solutions and no quality standards\n\nThe Problem: Traditional platforms are pure marketplaces with no control over supply quality or user experience.",
+      "title": "The European Housing Crisis",
+      "content": "27% of EU renters spend >40% of income on housing\n\n• 9.6M housing unit shortage across Europe creating unprecedented demand\n• 48% house price increase over 15 years with stagnating wages\n• 38% of young professionals cannot afford independent living arrangements\n• Fragmented market with poor matching solutions and no quality standards\n\nThe Problem: Traditional platforms are pure marketplaces with no control over supply quality or user experience.",
       "layout": "chart",
       "chartType": "bar",
       "chartData": [
-        {
-          "metric": "EU Renters >40% Income on Housing",
-          "percentage": 25
-        },
-        {
-          "metric": "House Price Increase (15 years)",
-          "percentage": 42
-        },
-        {
-          "metric": "Young Professionals Can't Afford Housing",
-          "percentage": 40
-        },
-        {
-          "metric": "Housing Unit Shortage (Millions)",
-          "percentage": 12
-        }
+        { "metric": "EU Renters >40% Income on Housing", "percentage": 27 },
+        { "metric": "House Price Increase (15 years)", "percentage": 48 },
+        { "metric": "Young Professionals Can't Afford Housing", "percentage": 38 },
+        { "metric": "Housing Unit Shortage (Millions)", "percentage": 9.6 }
       ]
     },
     {
       "id": 3,
       "title": "Our Revolutionary Solution",
-      "content": "The only platform controlling both supply AND demand\n\nThree Integrated Revenue Streams:\n1. [Company Name] Connect - AI-powered flatmate matching with 75% success rate\n2. [Company Name] Spaces - Branded property operations (\"[Company Name] Homes\")\n3. [Company Name] Enterprise - Corporate housing services for CONSULTING companies\n\nCreating network effects impossible for pure marketplace competitors\n\nStrategic Advantage: Each pillar strengthens the others - Enterprise provides stability, Spaces ensures quality supply, Connect drives user acquisition.",
+      "content": "The only platform controlling both supply AND demand\n\nThree Integrated Revenue Streams:\n1. MyRoomie Connect - AI-powered flatmate matching with 75% success rate\n2. MyRoomie Spaces - Branded property operations (\"MyRoomie Homes\")\n3. MyRoomie Enterprise - Corporate housing services for BPO companies\n\nCreating network effects impossible for pure marketplace competitors\n\nStrategic Advantage: Each pillar strengthens the others - Enterprise provides stability, Spaces ensures quality supply, Connect drives user acquisition.",
       "layout": "content"
     },
     {
       "id": 4,
-      "title": "Proven Traction & Strategic Pivot (August 2023)",
-      "content": "Current Foundation:\n• 15.775 active users maintained through strategic pivot transition\n• 50K€ 2023 revenue (pivot year with platform reconstruction)\n• 420K€ pre-pivot validation demonstrates strong product-market fit\n• 246 properties under management with 11 real estate partnerships\n• Major LOGISTICS partnership validated for 5.000-8.000 annual relocations",
+      "title": "Proven Traction & Strategic Pivot (August 2025)",
+      "content": "Current Foundation:\n• 15.775 active users maintained through strategic pivot transition\n• 50K€ 2025 revenue (pivot year with platform reconstruction)\n• 420K€ pre-pivot validation demonstrates strong product-market fit\n• 246 properties under management with 11 real estate partnerships\n• Major BPO partnership validated for 5.000-8.000 annual relocations",
       "layout": "metrics",
       "data": [
-        {
-          "label": "Active Users",
-          "value": "15.775",
-          "icon": "Users",
-          "color": "text-blue-600"
-        },
-        {
-          "label": "2023 Revenue",
-          "value": "50K€",
-          "icon": "Euro",
-          "color": "text-green-600"
-        },
+        { "label": "Active Users", "value": "15.775", "icon": "Users", "color": "text-blue-600" },
+        { "label": "2025 Revenue", "value": "50K€", "icon": "Euro", "color": "text-green-600" },
         {
           "label": "Properties Managed",
           "value": "246",
@@ -69,7 +47,7 @@
           "color": "text-purple-600"
         },
         {
-          "label": "CONSULTING Relocations",
+          "label": "BPO Relocations",
           "value": "5K-8K",
           "icon": "Rocket",
           "color": "text-orange-600"
@@ -79,83 +57,43 @@
     {
       "id": 5,
       "title": "Market Size & Revenue Projections",
-      "content": "Total Addressable Market: 42B€ [Target Region]an rental market\n\nRevenue Projections:\n2024: 2.1M€ | 2025: 8.5M€ | 2026: 22M€ | 2027: 45M€ | 2028: 85M€\n\nPath to 500M€+ valuation by 2030 through aggressive [Target Region]an expansion",
+      "content": "Total Addressable Market: 42B€ European rental market\n\nRevenue Projections:\n2026: 2.1M€ | 2027: 8.5M€ | 2028: 22M€ | 2029: 45M€ | 2030: 85M€\n\nPath to 500M€+ valuation by 2032 through aggressive European expansion",
       "layout": "chart",
       "chartType": "line",
       "chartData": [
-        {
-          "year": "2023",
-          "revenue": 0
-        },
-        {
-          "year": "2024",
-          "revenue": 2
-        },
-        {
-          "year": "2025",
-          "revenue": 9
-        },
-        {
-          "year": "2026",
-          "revenue": 28
-        },
-        {
-          "year": "2027",
-          "revenue": 59
-        },
-        {
-          "year": "2028",
-          "revenue": 90
-        },
-        {
-          "year": "2029",
-          "revenue": 144
-        },
-        {
-          "year": "2030",
-          "revenue": 280
-        }
+        { "year": "2025", "revenue": 0.05 },
+        { "year": "2026", "revenue": 2.1 },
+        { "year": "2027", "revenue": 8.5 },
+        { "year": "2028", "revenue": 22 },
+        { "year": "2029", "revenue": 45 },
+        { "year": "2030", "revenue": 85 },
+        { "year": "2031", "revenue": 150 },
+        { "year": "2032", "revenue": 250 }
       ]
     },
     {
       "id": 6,
       "title": "Funding Strategy & Use of Funds",
-      "content": "Current Round: 2M€ Seed Extension (Q4 2021)\n\nTotal 5-Round Strategy through 2028: 25M€\n\nUse of Funds:\n• Product Development & AI Enhancement: 40%\n• Market Expansion (Germany, Netherlands): 30%\n• Team Growth (20 → 45 employees): 20%\n• Marketing & Customer Acquisition: 10%",
+      "content": "Current Round: 2M€ Seed Extension (Q4 2025)\n\nTotal 5-Round Strategy through 2030: 25M€\n\nUse of Funds:\n• Product Development & AI Enhancement: 40%\n• Market Expansion (Germany, Netherlands): 30%\n• Team Growth (20 → 45 employees): 20%\n• Marketing & Customer Acquisition: 10%",
       "layout": "chart",
       "chartType": "pie",
       "chartData": [
-        {
-          "name": "Product & AI",
-          "value": 49,
-          "color": "#fa906e"
-        },
-        {
-          "name": "Market Expansion",
-          "value": 38,
-          "color": "#a6d18c"
-        },
-        {
-          "name": "Team Growth",
-          "value": 21,
-          "color": "#f4bc5f"
-        },
-        {
-          "name": "Marketing",
-          "value": 12,
-          "color": "#6ecad8"
-        }
+        { "name": "Product & AI", "value": 40, "color": "#fa906e" },
+        { "name": "Market Expansion", "value": 30, "color": "#a6d18c" },
+        { "name": "Team Growth", "value": 20, "color": "#f4bc5f" },
+        { "name": "Marketing", "value": 10, "color": "#6ecad8" }
       ]
     },
     {
       "id": 7,
       "title": "Competitive Advantage",
-      "content": "Unique positioning as the only integrated platform:\n\n• Traditional competitors: Pure marketplaces with no supply control\n• [Company Name] advantage: Vertical integration creates defensible moats\n• AI-powered matching with 75% success rate vs. 15-25% industry average\n• Branded property operations ensure quality and user experience\n• Enterprise partnerships provide stable revenue foundation",
+      "content": "Unique positioning as the only integrated platform:\n\n• Traditional competitors: Pure marketplaces with no supply control\n• MyRoomie advantage: Vertical integration creates defensible moats\n• AI-powered matching with 75% success rate vs. 15-25% industry average\n• Branded property operations ensure quality and user experience\n• Enterprise partnerships provide stable revenue foundation",
       "layout": "content"
     },
     {
       "id": 8,
       "title": "The Ask & Vision",
-      "content": "Investment Ask: 2M€ Seed Extension\n\nTarget Exit: 500M€+ valuation by 2030\n\n2023-2028 Milestones:\n• Achieve market leadership in Czech Republic\n• Expand to Germany and Netherlands\n• Scale to 250.000+ active users\n• Build [Target Region]'s premier integrated living platform\n\nJoin us in transforming [Target Region]an housing through technology and integrated operations.",
+      "content": "Investment Ask: 2M€ Seed Extension\n\nTarget Exit: 500M€+ valuation by 2032\n\n2025-2030 Milestones:\n• Achieve market leadership in Czech Republic\n• Expand to Germany and Netherlands\n• Scale to 250.000+ active users\n• Build Europe's premier integrated living platform\n\nJoin us in transforming European housing through technology and integrated operations.",
       "layout": "content"
     }
   ]

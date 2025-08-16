@@ -54,24 +54,6 @@ FundDeck provides a structured way to create, manage, and present all the essent
 
 ## Getting Started
 
-🚀 **[View Live Demo](https://your-demo-url.vercel.app)** - See FundDeck in action with our public demo!
-
-### Demo Mode vs Production
-
-**Demo Mode** (enabled by default for public showcasing):
-- All pages publicly accessible 
-- Admin features disabled but visible
-- Perfect for exploring the template
-- No authentication required
-
-**Production Mode** (for your own investor deck):
-- Full authentication with Clerk
-- Admin panel with data management
-- Secure investor access controls
-- Google Sheets integration
-
-See [DEMO_MODE.md](./DEMO_MODE.md) for complete configuration details.
-
 ### Prerequisites
 
 - Node.js 22.x or later

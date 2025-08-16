@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Risk Assessment & Mitigation",
-    "subtitle": "Comprehensive risk analysis and management strategies for [Company Name]'s [Target Region]an expansion",
+    "subtitle": "Comprehensive risk analysis and management strategies for MyRoomie's European expansion",
     "badge": "Risk Management",
     "date": "August 2025",
     "exportButtonText": "Risk Register"
@@ -26,7 +26,7 @@
     {
       "id": "mitigation-rate",
       "title": "Mitigation Rate",
-      "value": 107,
+      "value": 92,
       "suffix": "%",
       "subtitle": "Risks with active mitigation",
       "icon": "CheckCircle",
@@ -93,7 +93,7 @@
           "risk": "Quality Control",
           "probability": "Medium",
           "impact": "Medium",
-          "mitigation": "[Company Name] Homes standards, automated systems, regular audits",
+          "mitigation": "MyRoomie Homes standards, automated systems, regular audits",
           "status": "Active"
         },
         {

@@ -110,3 +110,6 @@ myroomie-data/pages/presentation.json
 myroomie-data/pages/product-overview.json
 myroomie-data/pages/risk-assessment.json
 myroomie-data/pages/strategic-plan.json
+analyze-sheets.js
+CLERK_SETUP.md
+DEBUG_CLERK.md

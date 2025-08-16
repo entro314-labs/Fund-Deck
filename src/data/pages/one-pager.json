@@ -1,27 +1,27 @@
 {
   "meta": {
-    "title": "[Company Name] One-Pager",
-    "subtitle": "Essential [Company Name] overview for conferences, networking, and initial introductions",
+    "title": "MyRoomie One-Pager",
+    "subtitle": "Essential MyRoomie overview for conferences, networking, and initial introductions",
     "badge": "Ultra-Concise",
     "date": "Networking Ready",
     "exportButtonText": "Download"
   },
   "companyOverview": {
-    "name": "[Company Name]",
-    "tagline": "[Target Region]'s Integrated Living Platform",
+    "name": "MyRoomie",
+    "tagline": "Europe's Integrated Living Platform",
     "description": "Transforming Housing Through AI & Property Operations"
   },
   "keyMetrics": [
     {
       "id": "revenue-target",
       "value": "162.8M€",
-      "label": "Revenue Target 2029",
+      "label": "Revenue Target 2031",
       "color": "text-success"
     },
     {
-      "id": "[Target Region]an-markets",
+      "id": "european-markets",
       "value": "11",
-      "label": "[Target Region]an Markets",
+      "label": "European Markets",
       "color": "text-primary"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "id": "break-even",
-      "value": "Q3 2024",
+      "value": "Q3 2028",
       "label": "Break-Even",
       "color": "text-success"
     }
@@ -43,7 +43,7 @@
     "problems": [
       {
         "id": "housing-shortage",
-        "point": "9.6M housing shortage across [Target Region]"
+        "point": "9.6M housing shortage across Europe"
       },
       {
         "id": "income-burden",
@@ -51,7 +51,7 @@
       },
       {
         "id": "bpo-relocations",
-        "point": "300K+ MANUFACTURING employees need relocation annually"
+        "point": "300K+ BPO employees need relocation annually"
       },
       {
         "id": "fragmented-market",
@@ -60,7 +60,7 @@
     ],
     "solution": {
       "title": "Our Solution",
-      "description": "AI-powered platform combining consumer matching, quality property operations, and enterprise services into [Target Region]'s first integrated Solution-as-a-Service ecosystem."
+      "description": "AI-powered platform combining consumer matching, quality property operations, and enterprise services into Europe's first integrated Living-as-a-Service ecosystem."
     }
   },
   "businessModel": {
@@ -69,24 +69,24 @@
     "pillars": [
       {
         "id": "connect",
-        "name": "[Company Name] Connect (39%)",
+        "name": "MyRoomie Connect (39%)",
         "percentage": "39%",
         "description": "AI-powered B2C matching platform"
       },
       {
         "id": "spaces",
-        "name": "[Company Name] Spaces (22%)",
+        "name": "MyRoomie Spaces (22%)",
         "percentage": "22%",
         "description": "Quality property operations"
       },
       {
         "id": "enterprise",
-        "name": "[Company Name] Enterprise (39%)",
+        "name": "MyRoomie Enterprise (39%)",
         "percentage": "39%",
         "description": "B2B corporate services"
       }
     ],
-    "unitEconomics": "LTV:CAC 32.3:1 by 2029, 81% gross margins"
+    "unitEconomics": "LTV:CAC 32.3:1 by 2031, 81% gross margins"
   },
   "traction": {
     "title": "Traction",
@@ -99,12 +99,12 @@
       },
       {
         "id": "bpo-partnerships",
-        "point": "LOGISTICS partnerships validated",
+        "point": "BPO partnerships validated",
         "completed": true
       },
       {
         "id": "poland-launch",
-        "point": "Poland launch ready Q1 2022",
+        "point": "Poland launch ready Q1 2026",
         "completed": true
       },
       {
@@ -115,17 +115,17 @@
     ],
     "currentRound": {
       "amount": "2M€ Seed Extension",
-      "timing": "Q4 2021",
+      "timing": "Q4 2025",
       "valuation": "10M€ valuation",
       "purpose": "Poland preparation & Greece scaling"
     }
   },
   "callToAction": {
-    "title": "Ready to Transform [Target Region]an Housing?",
-    "description": "Join [Company Name]'s journey to build [Target Region]'s leading Service-as-a-Platform platform",
+    "title": "Ready to Transform European Housing?",
+    "description": "Join MyRoomie's journey to build Europe's leading Living-as-a-Service platform",
     "contact": {
-      "email": "investors@company.com",
-      "phone": "+XX XXX XXX XXXX"
+      "email": "investors@myroomie.eu",
+      "phone": "+30 XXX XXX XXXX"
     }
   },
   "quickStats": [
@@ -138,7 +138,7 @@
     {
       "id": "users-2031",
       "value": "720K+",
-      "label": "Users by 2029",
+      "label": "Users by 2031",
       "color": "text-primary"
     },
     {

@@ -10,10 +10,10 @@
     {
       "id": "target-valuation",
       "title": "Target Valuation",
-      "value": 520,
+      "value": 500,
       "prefix": "",
       "suffix": "M€+",
-      "subtitle": "2030 exit target",
+      "subtitle": "2032 exit target",
       "icon": "TrendingUp",
       "color": "text-success"
     },
@@ -37,7 +37,7 @@
       "id": "timeline",
       "title": "Timeline",
       "value": "7-10 Years",
-      "subtitle": "From 2023 seed extension",
+      "subtitle": "From 2025 seed extension",
       "icon": "LogOut",
       "color": "text-success"
     }
@@ -47,73 +47,44 @@
       "id": "strategic-acquisition",
       "scenario": "Strategic Acquisition",
       "probability": "60%",
-      "timeline": "2030-2031",
+      "timeline": "2032-2033",
       "valuation": "500M€ - 750M€",
       "acquirer": "PropTech Leader",
-      "rationale": "Platform integration and [Target Region]an market expansion",
+      "rationale": "Platform integration and European market expansion",
       "examples": [
         "Rentberry acquisition model",
         "SpareRoom strategic value",
         "Spotahome exit pattern"
       ],
       "revenue_multiple": "3.1x - 4.6x",
-      "pros": [
-        "Immediate liquidity",
-        "Strategic synergies",
-        "Market validation"
-      ],
-      "cons": [
-        "Lower valuation potential",
-        "Integration challenges"
-      ]
+      "pros": ["Immediate liquidity", "Strategic synergies", "Market validation"],
+      "cons": ["Lower valuation potential", "Integration challenges"]
     },
     {
       "id": "private-equity-buyout",
       "scenario": "Private Equity Buyout",
       "probability": "25%",
-      "timeline": "2031-2032",
+      "timeline": "2033-2034",
       "valuation": "600M€ - 900M€",
       "acquirer": "Growth PE Fund",
       "rationale": "Cash flow generation and expansion potential",
-      "examples": [
-        "Real estate PE consolidation",
-        "[Target Region]an PropTech investments"
-      ],
+      "examples": ["Real estate PE consolidation", "European PropTech investments"],
       "revenue_multiple": "3.7x - 5.5x",
-      "pros": [
-        "Higher valuations",
-        "Growth capital",
-        "Operational expertise"
-      ],
-      "cons": [
-        "Longer hold period",
-        "Performance pressure"
-      ]
+      "pros": ["Higher valuations", "Growth capital", "Operational expertise"],
+      "cons": ["Longer hold period", "Performance pressure"]
     },
     {
       "id": "ipo-public-listing",
       "scenario": "IPO (Public Listing)",
       "probability": "15%",
-      "timeline": "2032-2033",
+      "timeline": "2034-2035",
       "valuation": "800M€ - 1.2B€",
       "acquirer": "Public Markets",
       "rationale": "Market leadership and growth trajectory",
-      "examples": [
-        "Rightmove IPO success",
-        "[Target Region]an tech IPOs",
-        "PropTech public companies"
-      ],
+      "examples": ["Rightmove IPO success", "European tech IPOs", "PropTech public companies"],
       "revenue_multiple": "4.9x - 7.4x",
-      "pros": [
-        "Maximum valuation",
-        "Liquidity options",
-        "Growth capital access"
-      ],
-      "cons": [
-        "Market volatility",
-        "Regulatory complexity",
-        "Performance scrutiny"
-      ]
+      "pros": ["Maximum valuation", "Liquidity options", "Growth capital access"],
+      "cons": ["Market volatility", "Regulatory complexity", "Performance scrutiny"]
     }
   ],
   "valuationDrivers": {
@@ -134,7 +105,7 @@
         "current": "Regional leader",
         "target2031": "11-market dominance",
         "impact": "High",
-        "description": "Established market leadership across [Target Region]an expansion markets"
+        "description": "Established market leadership across European expansion markets"
       },
       {
         "id": "profitability",
@@ -169,7 +140,7 @@
       {
         "id": "financial-readiness",
         "category": "Financial Readiness",
-        "timeline": "2028-2029",
+        "timeline": "2030-2031",
         "items": [
           {
             "id": "audited-financial-statements",
@@ -200,7 +171,7 @@
       {
         "id": "operational-excellence",
         "category": "Operational Excellence",
-        "timeline": "2029-2030",
+        "timeline": "2031-2032",
         "items": [
           {
             "id": "market-operations-standardization",
@@ -231,7 +202,7 @@
       {
         "id": "strategic-positioning",
         "category": "Strategic Positioning",
-        "timeline": "2030-2031",
+        "timeline": "2032-2033",
         "items": [
           {
             "id": "market-leadership-establishment",
@@ -280,7 +251,7 @@
         "points": [
           "Monitor PropTech market valuations and exit activity",
           "Align exit timing with favorable market conditions",
-          "Consider [Target Region]an regulatory environment stability",
+          "Consider European regulatory environment stability",
           "Evaluate strategic buyer appetite and competition",
           "Assess public market receptiveness to PropTech IPOs"
         ]

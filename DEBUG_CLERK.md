@@ -10,8 +10,8 @@ The site is accessible without authentication because of missing environment var
 
 ```bash
 # Copy these EXACT values to .env.local
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
-CLERK_SECRET_KEY=your_clerk_secret_key_here
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_Y3VycmVudC1nbG93d29ybS03Mi5jbGVyay5hY2NvdW50cy5kZXYk
+CLERK_SECRET_KEY=sk_test_UeSTBWQlWd6CVyilWL3bkqN5UjP0giTElst81arhRX
 
 # Optional URLs (already configured in components)
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
