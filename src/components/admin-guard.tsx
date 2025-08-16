@@ -4,7 +4,6 @@ import { useAuth, useUser } from '@clerk/nextjs'
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
 import { DEMO_MODE } from '../lib/demo-config'
-import { useDemoSafeAuth } from '../hooks/use-demo-safe-auth'
 
 interface AdminGuardProps {
   children: React.ReactNode
@@ -22,35 +21,17 @@ const ADMIN_EMAILS = [
 const ALLOW_ALL_USERS_IN_DEV = process.env.NODE_ENV === 'development'
 
 export default function AdminGuard({ children }: AdminGuardProps) {
-  const { isLoaded, userId, user } = useDemoSafeAuth()
+  // In demo mode, hooks will work but return no auth data
+  const { isLoaded, userId } = useAuth()
+  const { user } = useUser()
+  
+  // Override auth data in demo mode
+  const effectiveIsLoaded = DEMO_MODE ? true : isLoaded
+  const effectiveUserId = DEMO_MODE ? null : userId
+  const effectiveUser = DEMO_MODE ? null : user
   const router = useRouter()
 
-  useEffect(() => {
-    // In demo mode, admin section is completely blocked
-    if (DEMO_MODE) {
-      router.push('/')
-      return
-    }
-
-    if (!isLoaded) return
-
-    // If not authenticated, redirect to sign in
-    if (!userId) {
-      router.push('/sign-in')
-      return
-    }
-
-    // If in production and user is not in admin list, redirect to home
-    if (!ALLOW_ALL_USERS_IN_DEV && user?.emailAddresses[0]?.emailAddress) {
-      const userEmail = user.emailAddresses[0].emailAddress
-      if (!ADMIN_EMAILS.includes(userEmail)) {
-        router.push('/')
-        return
-      }
-    }
-  }, [isLoaded, userId, user, router])
-
-  // In demo mode, show access denied message
+  // In demo mode, always deny admin access during SSR and client-side
   if (DEMO_MODE) {
     return (
       <div className="min-h-screen bg-gradient-warm flex items-center justify-center p-4">
@@ -69,7 +50,7 @@ export default function AdminGuard({ children }: AdminGuardProps) {
                 Return to Dashboard
               </button>
               <a
-                href="https://github.com/your-username/fund-deck"
+                href="https://github.com/entro314-labs/Fund-Deck"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-sm text-muted-foreground hover:text-foreground"
@@ -83,8 +64,27 @@ export default function AdminGuard({ children }: AdminGuardProps) {
     )
   }
 
+  useEffect(() => {
+    if (!effectiveIsLoaded) return
+
+    // If not authenticated, redirect to sign in
+    if (!effectiveUserId) {
+      router.push('/sign-in')
+      return
+    }
+
+    // If in production and user is not in admin list, redirect to home
+    if (!ALLOW_ALL_USERS_IN_DEV && effectiveUser?.emailAddresses[0]?.emailAddress) {
+      const userEmail = effectiveUser.emailAddresses[0].emailAddress
+      if (!ADMIN_EMAILS.includes(userEmail)) {
+        router.push('/')
+        return
+      }
+    }
+  }, [effectiveIsLoaded, effectiveUserId, effectiveUser, router])
+
   // Show loading while checking auth
-  if (!(isLoaded && userId)) {
+  if (!(effectiveIsLoaded && effectiveUserId)) {
     return (
       <div className="min-h-screen bg-gradient-warm flex items-center justify-center">
         <div className="text-center">
@@ -96,8 +96,8 @@ export default function AdminGuard({ children }: AdminGuardProps) {
   }
 
   // Show unauthorized message if user doesn't have admin access
-  if (!ALLOW_ALL_USERS_IN_DEV && user?.emailAddresses[0]?.emailAddress) {
-    const userEmail = user.emailAddresses[0].emailAddress
+  if (!ALLOW_ALL_USERS_IN_DEV && effectiveUser?.emailAddresses[0]?.emailAddress) {
+    const userEmail = effectiveUser.emailAddresses[0].emailAddress
     if (!ADMIN_EMAILS.includes(userEmail)) {
       return (
         <div className="min-h-screen bg-gradient-warm flex items-center justify-center p-4">

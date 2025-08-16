@@ -1,11 +1,13 @@
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server'
+import { NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
 
 const DEMO_MODE = process.env.NEXT_PUBLIC_DEMO_MODE === 'true'
 
-// In demo mode, only admin routes are protected
+// Admin routes are always protected
 const isAdminRoute = createRouteMatcher(['/admin(.*)'])
 
-// In normal mode, all routes are protected
+// All routes that normally require auth
 const isProtectedRoute = createRouteMatcher([
   '/',
   '/dashboard(.*)',
@@ -24,19 +26,29 @@ const isProtectedRoute = createRouteMatcher([
   '/investor-package(.*)',
 ])
 
-export default clerkMiddleware(async (auth, req) => {
-  if (DEMO_MODE) {
-    // In demo mode, only protect admin routes
-    if (isAdminRoute(req)) {
-      await auth.protect()
-    }
-  } else {
-    // In normal mode, protect all routes
-    if (isProtectedRoute(req)) {
-      await auth.protect()
-    }
+// Demo mode middleware function
+function demoMiddleware(req: NextRequest) {
+  // In demo mode, admin routes redirect to admin page which shows demo message
+  if (isAdminRoute(req)) {
+    const url = req.nextUrl.clone()
+    url.pathname = '/admin'
+    return NextResponse.rewrite(url)
+  }
+  
+  // All other routes are accessible
+  return NextResponse.next()
+}
+
+// Production mode middleware function
+const productionMiddleware = clerkMiddleware(async (auth, req) => {
+  // In normal mode, protect all specified routes
+  if (isProtectedRoute(req)) {
+    await auth.protect()
   }
 })
+
+// Export the appropriate middleware based on mode
+export default DEMO_MODE ? demoMiddleware : productionMiddleware
 
 export const config = {
   matcher: [

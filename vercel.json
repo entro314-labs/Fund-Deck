@@ -2,7 +2,9 @@
   "version": 2,
   "framework": "nextjs",
   "env": {
-    "NEXT_PUBLIC_DEMO_MODE": "true"
+    "NEXT_PUBLIC_DEMO_MODE": "true",
+    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_Y2xlcmsuZGVtby5tb2RlLmJ1aWxkLnBsYWNlaG9sZGVyJA",
+    "CLERK_SECRET_KEY": "sk_test_Y2xlcmsuZGVtby5tb2RlLmJ1aWxkLnBsYWNlaG9sZGVyJA"
   },
   "functions": {
     "src/app/api/data/[...path]/route.ts": {

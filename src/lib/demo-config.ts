@@ -21,7 +21,7 @@ export const getDemoMessage = () => {
     return {
       title: "🚀 Demo Mode",
       description: "This is a public demo of the Fund Deck template. Fork the repository to create your own investor deck with full authentication.",
-      repoUrl: "https://github.com/your-username/fund-deck"
+      repoUrl: "https://github.com/entro314-labs/Fund-Deck"
     };
   }
   return null;

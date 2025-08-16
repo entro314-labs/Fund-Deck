@@ -54,23 +54,25 @@ FundDeck provides a structured way to create, manage, and present all the essent
 
 ## Getting Started
 
-🚀 **[View Live Demo](https://your-demo-url.vercel.app)** - See FundDeck in action with our public demo!
+🚀 **[View Live Demo](https://fund-deck.vercel.app)** - See Fund Deck in action with our public demo!
 
 ### Demo Mode vs Production
 
 **Demo Mode** (enabled by default for public showcasing):
-- All pages publicly accessible 
-- Admin features disabled but visible
-- Perfect for exploring the template
-- No authentication required
+- ✅ All pages publicly accessible 
+- ✅ Admin features protected with "Fork on GitHub" message
+- ✅ Perfect for exploring the template
+- ✅ No authentication or Clerk keys required
+- ✅ Builds and deploys without configuration
 
 **Production Mode** (for your own investor deck):
-- Full authentication with Clerk
-- Admin panel with data management
-- Secure investor access controls
-- Google Sheets integration
+- 🔒 Full authentication with Clerk
+- 🔒 Admin panel with data management
+- 🔒 Secure investor access controls  
+- 🔒 Google Sheets integration
+- 🔒 Requires Clerk publishable and secret keys
 
-See [DEMO_MODE.md](./DEMO_MODE.md) for complete configuration details.
+See [DEMO_MODE.md](./DEMO_MODE.md) for complete configuration details and implementation guide.
 
 ### Prerequisites
 
@@ -81,8 +83,8 @@ See [DEMO_MODE.md](./DEMO_MODE.md) for complete configuration details.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/funddeck.git
-cd funddeck
+git clone https://github.com/entro314-labs/Fund-Deck.git
+cd Fund-Deck
 ```
 
 2. Install dependencies:
@@ -93,7 +95,8 @@ pnpm install
 3. Set up environment variables:
 ```bash
 cp .env.example .env.local
-# Edit .env.local with your configuration
+# For demo mode (default): no changes needed
+# For production: edit .env.local with your Clerk keys
 ```
 
 4. Start the development server:
@@ -105,17 +108,31 @@ Visit `http://localhost:3000` to see the application running.
 
 ### Environment Setup
 
-Key environment variables you'll need:
-
+**For Demo Mode (default):**
 ```env
-# Authentication (Clerk)
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+# Demo mode - no authentication required
+NEXT_PUBLIC_DEMO_MODE=true
+```
+
+**For Production Mode:**
+```env
+# Disable demo mode and enable authentication  
+NEXT_PUBLIC_DEMO_MODE=false
+
+# Clerk Authentication (required)
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
 
 # Optional: Google Sheets integration
-GOOGLE_SHEETS_API_KEY=
-GOOGLE_SHEETS_SHEET_ID=
+GOOGLE_SHEETS_API_KEY=your_google_api_key
+GOOGLE_SHEETS_SPREADSHEET_ID=your_spreadsheet_id
 ```
+
+**Quick Production Setup:**
+1. [Create a Clerk account](https://clerk.com) and get your API keys
+2. Set `NEXT_PUBLIC_DEMO_MODE=false` in `.env.local`  
+3. Add your Clerk keys to `.env.local`
+4. Configure admin emails in `src/components/admin-guard.tsx`
 
 ## Project Structure
 

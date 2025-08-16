@@ -8,7 +8,6 @@ import { Button } from './ui/button'
 import { Badge } from './ui/badge'
 import { UserButton, useUser, SignedIn } from '@clerk/nextjs'
 import { DEMO_MODE, getDemoMessage } from '../lib/demo-config'
-import { useDemoSafeAuth } from '../hooks/use-demo-safe-auth'
 import { HelpCircle, Shield } from 'lucide-react'
 import {
   Menu,
@@ -142,7 +141,9 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
   const pathname = usePathname()
   const { theme, setTheme } = useTheme()
   const isMobile = useIsMobile()
-  const { user } = useDemoSafeAuth()
+  // In demo mode, useUser will work but always return null since no real auth
+  const { user } = useUser()
+  const effectiveUser = DEMO_MODE ? null : user
   const [mounted, setMounted] = useState(false)
 
   // Prevent hydration mismatch for theme-dependent components
@@ -292,13 +293,13 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
                           />
                         </UserButton.MenuItems>
                       </UserButton>
-                      {user && (
+                      {effectiveUser && (
                         <div className="text-xs">
                           <div className="font-medium text-foreground">
-                            {user.firstName} {user.lastName}
+                            {effectiveUser.firstName} {effectiveUser.lastName}
                           </div>
                           <div className="text-muted-foreground">
-                            {user.emailAddresses[0]?.emailAddress}
+                            {effectiveUser.emailAddresses[0]?.emailAddress}
                           </div>
                         </div>
                       )}
@@ -311,7 +312,14 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
                   <div className="text-xs text-center">
                     <div className="font-medium text-primary mb-1">🚀 Demo Mode</div>
                     <div className="text-muted-foreground text-[10px] leading-3">
-                      Fork on GitHub to create your own investor deck
+                      <a 
+                        href="https://github.com/entro314-labs/Fund-Deck" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="hover:text-foreground underline"
+                      >
+                        Fork on GitHub to create your own investor deck
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -370,7 +378,7 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
               <Button 
                 variant="outline" 
                 size="sm"
-                onClick={() => window.open('https://github.com/your-username/fund-deck', '_blank')}
+                onClick={() => window.open('https://github.com/entro314-labs/Fund-Deck', '_blank')}
                 className="text-xs"
               >
                 Fork on GitHub

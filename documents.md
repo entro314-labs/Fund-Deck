@@ -1,0 +1,1 @@
+This acts as a placeholder for vscode filenesting of all md documents within a folder.
