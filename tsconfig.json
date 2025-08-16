@@ -1,0 +1,137 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "esnext",
+    "lib": ["DOM", "DOM.Iterable", "ES2022", "WebWorker"],
+    "jsx": "preserve",
+    "allowJs": true,
+    "useDefineForClassFields": true,
+
+    /* Modules */
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+
+    /* JavaScript Support */
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    //"verbatimModuleSyntax": true,
+
+    /* Type Checking */
+    "strict": true,
+    //"exactOptionalPropertyTypes": true,
+    //"noFallthroughCasesInSwitch": true,
+    //"noImplicitOverride": true,
+    //"noImplicitReturns": true,
+    //"noPropertyAccessFromIndexSignature": true,
+    //"noUncheckedIndexedAccess": true,
+    //"noUnusedLocals": false,
+    //"noUnusedParameters": false,
+    //"useUnknownInCatchVariables": true,
+    //"allowUnreachableCode": false,
+    //"allowUnusedLabels": false,
+    //"forceConsistentCasingInFileNames": true,
+
+    /* Emit */
+    "noEmit": true,
+    "declaration": false,
+    "sourceMap": true,
+    "removeComments": true,
+
+    /* Interop Constraints */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Completeness */
+    "skipDefaultLibCheck": true,
+
+    /* Performance & Caching */
+    "incremental": true,
+    "assumeChangesOnlyAffectDirectDependencies": true,
+
+    /* Path Mapping */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/lib/*": ["./src/lib/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/types/*": ["./src/types/*"],
+      "@/styles/*": ["./src/styles/*"],
+      "@/app/*": ["./src/app/*"],
+      "@/public/*": ["./public/*"],
+      "~/*": ["./public/*"]
+    },
+
+    /* Type Definitions */
+    "types": ["node", "@types/react", "@types/react-dom"],
+
+    /* Next.js Plugin */
+    "plugins": [
+      {
+        "name": "next",
+        "options": {
+          "typescript": {
+            "memoryLimit": 4096
+          }
+        }
+      }
+    ]
+  },
+
+  /* Enhanced Include Patterns */
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.mts",
+    "**/*.cts",
+    ".next/types/**/*.ts",
+    "playwright.config.ts",
+    "vitest.config.ts",
+    "vitest.browser.config.ts",
+    "tailwind.config.ts",
+    "postcss.config.js",
+    "src/**/*",
+    "app/**/*",
+    "pages/**/*",
+    "components/**/*",
+    "lib/**/*",
+    "utils/**/*",
+    "hooks/**/*",
+    "types/**/*",
+    "middleware.ts",
+    "instrumentation.ts",
+    "global.d.ts"
+  ],
+
+  /* Enhanced Exclude Patterns */
+  "exclude": [
+    "node_modules",
+    "floating-ai-search",
+    ".next",
+    "out",
+    "build",
+    "dist",
+    "coverage",
+    "public/sw.js",
+    "public/swe-worker-*.js",
+    "public/workbox-*.js",
+    "supabase/functions",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/*.stories.ts",
+    "**/*.stories.tsx",
+    ".vercel",
+    ".env*",
+    "*.config.js",
+    "docker/**/*",
+    "scripts/**/*"
+  ],
+  "ts-node": {
+    "esm": true
+  }
+}

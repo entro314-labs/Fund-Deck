@@ -1,0 +1,637 @@
+{
+  "meta": {
+    "title": "Financial Model & Economics",
+    "subtitle": "Comprehensive financial projections, unit economics, and funding requirements for 2025-2031",
+    "badge": "Core Document",
+    "date": "August 2025",
+    "exportButtonText": "Export"
+  },
+  "keyMetrics": [
+    {
+      "id": "total-revenue-2031",
+      "title": "Total Revenue (2029)",
+      "value": 164,
+      "prefix": "",
+      "suffix": "M€",
+      "subtitle": "87% CAGR post-pivot",
+      "icon": "TrendingUp",
+      "color": "text-success"
+    },
+    {
+      "id": "ebitda-margin-2031",
+      "title": "EBITDA Margin (2029)",
+      "value": 28,
+      "suffix": "%",
+      "subtitle": "Path to profitability Q3 2024",
+      "icon": "Target",
+      "color": "text-primary"
+    },
+    {
+      "id": "total-funding-required",
+      "title": "Total Funding Required",
+      "value": 21,
+      "prefix": "",
+      "suffix": "M€",
+      "subtitle": "5 rounds through 2028",
+      "icon": "Euro",
+      "color": "text-accent"
+    },
+    {
+      "id": "blended-ltv-cac",
+      "title": "Blended LTV:CAC (2029)",
+      "value": "32.3:1",
+      "subtitle": "Exceptional unit economics",
+      "icon": "Users",
+      "color": "text-success"
+    }
+  ],
+  "charts": {
+    "revenueGrowth": {
+      "id": "revenue-growth-chart",
+      "title": "Revenue Growth Trajectory",
+      "description": "Three-pillar revenue stream evolution (000€s)",
+      "type": "area",
+      "data": [
+        {
+          "year": "2025",
+          "Connect": 30,
+          "Spaces": 15,
+          "Enterprise": 5,
+          "Total": 50
+        },
+        {
+          "year": "2026",
+          "Connect": 936,
+          "Spaces": 468,
+          "Enterprise": 720,
+          "Total": 2124
+        },
+        {
+          "year": "2027",
+          "Connect": 4100,
+          "Spaces": 2300,
+          "Enterprise": 5200,
+          "Total": 11600
+        },
+        {
+          "year": "2028",
+          "Connect": 12800,
+          "Spaces": 7400,
+          "Enterprise": 15600,
+          "Total": 35800
+        },
+        {
+          "year": "2029",
+          "Connect": 28400,
+          "Spaces": 16800,
+          "Enterprise": 33200,
+          "Total": 78400
+        },
+        {
+          "year": "2030",
+          "Connect": 45200,
+          "Spaces": 26400,
+          "Enterprise": 48800,
+          "Total": 120400
+        },
+        {
+          "year": "2031",
+          "Connect": 62800,
+          "Spaces": 35600,
+          "Enterprise": 64400,
+          "Total": 162800
+        }
+      ],
+      "dataKeys": [
+        "year",
+        "Connect",
+        "Spaces",
+        "Enterprise",
+        "Total"
+      ],
+      "series": [
+        {
+          "key": "Connect",
+          "name": "[Company Name] Connect",
+          "color": "#FA906E"
+        },
+        {
+          "key": "Spaces",
+          "name": "[Company Name] Spaces",
+          "color": "#F5BC5E"
+        },
+        {
+          "key": "Enterprise",
+          "name": "[Company Name] Enterprise",
+          "color": "#a6d18c"
+        }
+      ]
+    },
+    "revenueDistribution": {
+      "id": "revenue-distribution-chart",
+      "title": "Revenue Distribution 2031",
+      "description": "162.8M€ total revenue breakdown",
+      "type": "pie",
+      "data": [
+        {
+          "name": "[Company Name] Connect",
+          "value": 62800,
+          "color": "#FA906E"
+        },
+        {
+          "name": "[Company Name] Spaces",
+          "value": 35600,
+          "color": "#F5BC5E"
+        },
+        {
+          "name": "[Company Name] Enterprise",
+          "value": 64400,
+          "color": "#a6d18c"
+        }
+      ]
+    },
+    "profitability": {
+      "id": "profitability-chart",
+      "title": "Path to Profitability",
+      "description": "EBITDA progression and margin improvement over time",
+      "type": "composed",
+      "data": [
+        {
+          "year": "2023",
+          "EBITDA": -1300,
+          "margin": -2625,
+          "status": "Investment"
+        },
+        {
+          "year": "2024",
+          "EBITDA": -1202,
+          "margin": -77,
+          "status": "Growth"
+        },
+        {
+          "year": "2025",
+          "EBITDA": -218,
+          "margin": -2,
+          "status": "Near Break-even"
+        },
+        {
+          "year": "2026",
+          "EBITDA": 6966,
+          "margin": 21,
+          "status": "Profitable"
+        },
+        {
+          "year": "2027",
+          "EBITDA": 24324,
+          "margin": 31,
+          "status": "Scaling"
+        },
+        {
+          "year": "2028",
+          "EBITDA": 39756,
+          "margin": 31,
+          "status": "Mature"
+        },
+        {
+          "year": "2029",
+          "EBITDA": 55498,
+          "margin": 35,
+          "status": "Optimized"
+        }
+      ],
+      "series": [
+        {
+          "key": "EBITDA",
+          "name": "EBITDA (000€s)",
+          "type": "bar",
+          "color": "#FA906E",
+          "yAxisId": "left"
+        },
+        {
+          "key": "margin",
+          "name": "EBITDA Margin %",
+          "type": "line",
+          "color": "#F5BC5E",
+          "yAxisId": "right"
+        }
+      ]
+    }
+  },
+  "unitEconomics": {
+    "title": "Unit Economics by Business Segment",
+    "description": "Customer acquisition costs, lifetime value, and margin analysis",
+    "headers": [
+      "Business Segment",
+      "CAC (€)",
+      "LTV (€)",
+      "LTV:CAC",
+      "Gross Margin"
+    ],
+    "data": [
+      {
+        "segment": "Connect B2C",
+        "CAC": 32,
+        "LTV": 210,
+        "ratio": "7.0:1",
+        "margin": 85
+      },
+      {
+        "segment": "Spaces Properties",
+        "CAC": 1170,
+        "LTV": 7496,
+        "ratio": "8.1:1",
+        "margin": 91
+      },
+      {
+        "segment": "Enterprise B2B",
+        "CAC": 4400,
+        "LTV": 960960,
+        "ratio": "172:1",
+        "margin": 72
+      }
+    ]
+  },
+  "fundingTimeline": {
+    "title": "Funding Timeline & Strategy",
+    "description": "25M€ total funding across 5 rounds through 2028",
+    "rounds": [
+      {
+        "round": "Seed Extension",
+        "period": "Q4 2021",
+        "amount": "2M€",
+        "valuation": "10M€",
+        "use": "Poland prep + Greece scale"
+      },
+      {
+        "round": "Series A",
+        "period": "Q1 2022",
+        "amount": "6M€",
+        "valuation": "25M€",
+        "use": "Poland launch + operations"
+      },
+      {
+        "round": "Series B",
+        "period": "Q1 2023",
+        "amount": "8M€",
+        "valuation": "50M€",
+        "use": "Phase 2 expansion (3 markets)"
+      },
+      {
+        "round": "Series C",
+        "period": "Q1 2024",
+        "amount": "7M€",
+        "valuation": "100M€",
+        "use": "Phase 3 expansion (3 markets)"
+      },
+      {
+        "round": "Series D",
+        "period": "2028",
+        "amount": "2M€",
+        "valuation": "150M€",
+        "use": "Working capital optimization"
+      }
+    ]
+  },
+  "cashFlowAnalysis": {
+    "title": "Cash Flow & Runway Analysis",
+    "description": "Monthly cash burn, balance, and runway projection through 2029",
+    "data": [
+      {
+        "month": "2023 Q1",
+        "cashBalance": 378,
+        "monthlyBurn": 82,
+        "monthlyRevenue": 15,
+        "runwayMonths": 5,
+        "status": "Critical"
+      },
+      {
+        "month": "2023 Q2",
+        "cashBalance": 2684,
+        "monthlyBurn": 108,
+        "monthlyRevenue": 19,
+        "runwayMonths": 21,
+        "status": "Seed Extension"
+      },
+      {
+        "month": "2023 Q3",
+        "cashBalance": 1697,
+        "monthlyBurn": 125,
+        "monthlyRevenue": 20,
+        "runwayMonths": 19,
+        "status": "Growth"
+      },
+      {
+        "month": "2023 Q4",
+        "cashBalance": 1478,
+        "monthlyBurn": 116,
+        "monthlyRevenue": 23,
+        "runwayMonths": 18,
+        "status": "Growth"
+      },
+      {
+        "month": "2024 Q1",
+        "cashBalance": 6264,
+        "monthlyBurn": 120,
+        "monthlyRevenue": 90,
+        "runwayMonths": 54,
+        "status": "Series A"
+      },
+      {
+        "month": "2024 Q2",
+        "cashBalance": 6713,
+        "monthlyBurn": 134,
+        "monthlyRevenue": 136,
+        "runwayMonths": 43,
+        "status": "Scaling"
+      },
+      {
+        "month": "2024 Q3",
+        "cashBalance": 6998,
+        "monthlyBurn": 163,
+        "monthlyRevenue": 232,
+        "runwayMonths": 51,
+        "status": "Scaling"
+      },
+      {
+        "month": "2024 Q4",
+        "cashBalance": 5083,
+        "monthlyBurn": 182,
+        "monthlyRevenue": 297,
+        "runwayMonths": 30,
+        "status": "Scaling"
+      },
+      {
+        "month": "2025 Q1",
+        "cashBalance": 16368,
+        "monthlyBurn": 196,
+        "monthlyRevenue": 328,
+        "runwayMonths": 95,
+        "status": "Series B"
+      },
+      {
+        "month": "2025 Q2",
+        "cashBalance": 10624,
+        "monthlyBurn": 218,
+        "monthlyRevenue": 725,
+        "runwayMonths": 60,
+        "status": "Expansion"
+      },
+      {
+        "month": "2025 Q3",
+        "cashBalance": 12968,
+        "monthlyBurn": 202,
+        "monthlyRevenue": 827,
+        "runwayMonths": 65,
+        "status": "Expansion"
+      },
+      {
+        "month": "2025 Q4",
+        "cashBalance": 10784,
+        "monthlyBurn": 284,
+        "monthlyRevenue": 1403,
+        "runwayMonths": 62,
+        "status": "Expansion"
+      },
+      {
+        "month": "2026 Q1",
+        "cashBalance": 18928,
+        "monthlyBurn": 238,
+        "monthlyRevenue": 1999,
+        "runwayMonths": 71,
+        "status": "Series C"
+      },
+      {
+        "month": "2026 Q2",
+        "cashBalance": 16335,
+        "monthlyBurn": 298,
+        "monthlyRevenue": 2377,
+        "runwayMonths": 56,
+        "status": "Break-even"
+      },
+      {
+        "month": "2026 Q3",
+        "cashBalance": 18382,
+        "monthlyBurn": 310,
+        "monthlyRevenue": 3182,
+        "runwayMonths": 59,
+        "status": "Profitable"
+      },
+      {
+        "month": "2026 Q4",
+        "cashBalance": 17820,
+        "monthlyBurn": 228,
+        "monthlyRevenue": 4424,
+        "runwayMonths": 60,
+        "status": "Cash Generation"
+      },
+      {
+        "month": "2027 Q1",
+        "cashBalance": 25425,
+        "monthlyBurn": 294,
+        "monthlyRevenue": 5408,
+        "runwayMonths": 67,
+        "status": "Cash Generation"
+      },
+      {
+        "month": "2027 Q2",
+        "cashBalance": 30654,
+        "monthlyBurn": 339,
+        "monthlyRevenue": 6713,
+        "runwayMonths": 90,
+        "status": "Strong Growth"
+      },
+      {
+        "month": "2027 Q3",
+        "cashBalance": 38192,
+        "monthlyBurn": 290,
+        "monthlyRevenue": 10250,
+        "runwayMonths": 113,
+        "status": "Strong Growth"
+      },
+      {
+        "month": "2027 Q4",
+        "cashBalance": 31132,
+        "monthlyBurn": 302,
+        "monthlyRevenue": 8589,
+        "runwayMonths": 98,
+        "status": "Strong Growth"
+      },
+      {
+        "month": "2028 Q1",
+        "cashBalance": 51788,
+        "monthlyBurn": 325,
+        "monthlyRevenue": 13216,
+        "runwayMonths": 134,
+        "status": "Scaling"
+      },
+      {
+        "month": "2028 Q2",
+        "cashBalance": 62750,
+        "monthlyBurn": 348,
+        "monthlyRevenue": 11951,
+        "runwayMonths": 163,
+        "status": "Scaling"
+      },
+      {
+        "month": "2028 Q3",
+        "cashBalance": 74295,
+        "monthlyBurn": 321,
+        "monthlyRevenue": 11502,
+        "runwayMonths": 200,
+        "status": "Scaling"
+      },
+      {
+        "month": "2028 Q4",
+        "cashBalance": 70512,
+        "monthlyBurn": 412,
+        "monthlyRevenue": 19188,
+        "runwayMonths": 229,
+        "status": "Scaling"
+      },
+      {
+        "month": "2029 Q1",
+        "cashBalance": 62560,
+        "monthlyBurn": 350,
+        "monthlyRevenue": 18306,
+        "runwayMonths": 227,
+        "status": "Mature"
+      },
+      {
+        "month": "2029 Q2",
+        "cashBalance": 106505,
+        "monthlyBurn": 326,
+        "monthlyRevenue": 16380,
+        "runwayMonths": 301,
+        "status": "Mature"
+      }
+    ]
+  },
+  "unitEconomicsEvolution": {
+    "title": "Unit Economics Evolution by Segment",
+    "description": "CAC, LTV, and LTV:CAC ratio progression over time across business segments",
+    "data": [
+      {
+        "year": "2023",
+        "cac_b2c": 136,
+        "ltv_b2c": 216,
+        "ratio_b2c": 1,
+        "cac_spaces": 1175,
+        "ltv_spaces": 3168,
+        "ratio_spaces": 3,
+        "cac_enterprise": 9775,
+        "ltv_enterprise": 42750,
+        "ratio_enterprise": 6,
+        "blended_ratio": 4,
+        "payback_months": 27
+      },
+      {
+        "year": "2024",
+        "cac_b2c": 119,
+        "ltv_b2c": 241,
+        "ratio_b2c": 2,
+        "cac_spaces": 1364,
+        "ltv_spaces": 5232,
+        "ratio_spaces": 4,
+        "cac_enterprise": 7272,
+        "ltv_enterprise": 82280,
+        "ratio_enterprise": 8,
+        "blended_ratio": 5,
+        "payback_months": 19
+      },
+      {
+        "year": "2025",
+        "cac_b2c": 133,
+        "ltv_b2c": 294,
+        "ratio_b2c": 3,
+        "cac_spaces": 960,
+        "ltv_spaces": 5952,
+        "ratio_spaces": 8,
+        "cac_enterprise": 7475,
+        "ltv_enterprise": 131250,
+        "ratio_enterprise": 19,
+        "blended_ratio": 10,
+        "payback_months": 23
+      },
+      {
+        "year": "2026",
+        "cac_b2c": 85,
+        "ltv_b2c": 424,
+        "ratio_b2c": 4,
+        "cac_spaces": 884,
+        "ltv_spaces": 7098,
+        "ratio_spaces": 8,
+        "cac_enterprise": 5335,
+        "ltv_enterprise": 276450,
+        "ratio_enterprise": 55,
+        "blended_ratio": 18,
+        "payback_months": 18
+      },
+      {
+        "year": "2027",
+        "cac_b2c": 79,
+        "ltv_b2c": 541,
+        "ratio_b2c": 9,
+        "cac_spaces": 735,
+        "ltv_spaces": 10396,
+        "ratio_spaces": 13,
+        "cac_enterprise": 5184,
+        "ltv_enterprise": 489850,
+        "ratio_enterprise": 117,
+        "blended_ratio": 35,
+        "payback_months": 14
+      },
+      {
+        "year": "2028",
+        "cac_b2c": 67,
+        "ltv_b2c": 682,
+        "ratio_b2c": 8,
+        "cac_spaces": 884,
+        "ltv_spaces": 11556,
+        "ratio_spaces": 15,
+        "cac_enterprise": 3696,
+        "ltv_enterprise": 705550,
+        "ratio_enterprise": 209,
+        "blended_ratio": 40,
+        "payback_months": 9
+      },
+      {
+        "year": "2029",
+        "cac_b2c": 48,
+        "ltv_b2c": 728,
+        "ratio_b2c": 15,
+        "cac_spaces": 750,
+        "ltv_spaces": 12200,
+        "ratio_spaces": 23,
+        "cac_enterprise": 4256,
+        "ltv_enterprise": 849420,
+        "ratio_enterprise": 228,
+        "blended_ratio": 53,
+        "payback_months": 6
+      }
+    ]
+  },
+  "insights": {
+    "title": "Key Financial Insights",
+    "description": "Critical takeaways from the financial model analysis",
+    "sections": [
+      {
+        "title": "Growth Trajectory",
+        "items": [
+          "87% CAGR revenue growth from 2023-2029",
+          "Break-even achieved Q3 2024",
+          "28% EBITDA margins by 2029",
+          "Strong cash generation from 2027+"
+        ]
+      },
+      {
+        "title": "Investment Highlights",
+        "items": [
+          "Capital efficient: 25M€ for 162.8M€ scale",
+          "Improving unit economics across all segments",
+          "Diversified revenue streams reduce risk",
+          "Clear path to 500M€+ exit valuation"
+        ]
+      }
+    ]
+  }
+}

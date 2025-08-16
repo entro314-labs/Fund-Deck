@@ -1,0 +1,393 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Warm Sunset Design System - Light Theme */
+  --card: #ffffff;
+  --card-foreground: #2a2023;
+  --popover: #ffffff;
+  --popover-foreground: #2a2023;
+  --primary: #2a2023;
+  --primary-foreground: #faf4f2;
+  --secondary: #f5f1eb;
+  --secondary-foreground: #2a2023;
+  --muted: #f5f1eb;
+  --muted-foreground: 12 19% 51%;
+  --accent: #f5f1eb;
+  --accent-foreground: #2a2023;
+  --destructive: #e06053;
+  --destructive-foreground: #ffffff;
+  --border: #e9e0df;
+  --input: #e9e0df;
+  --ring: #b39692;
+  --success: #a6d18c;
+  --warning: #f4bc5f;
+  --info: #6ecad8;
+  --chart-1: 21 88% 70%;
+  --chart-2: 105 49% 70%;
+  --chart-3: 185 57% 63%;
+  --chart-4: 43 87% 66%;
+  --chart-5: 39 67% 75%;
+  --radius: 0.625rem;
+  --sidebar: #faf4f2;
+  --sidebar-foreground: #2a2023;
+  --sidebar-primary: #2a2023;
+  --sidebar-primary-foreground: #faf4f2;
+  --sidebar-accent: #f5f1eb;
+  --sidebar-accent-foreground: #2a2023;
+  --sidebar-border: 26 16% 89%;
+  --sidebar-ring: 12 19% 60%;
+
+  /* Base background and foreground for light theme */
+  --background: #faf4f2;
+  --foreground: #2a2023;
+
+  /* Clerk CSS Variables - Light Theme */
+  --clerk-color-primary: #fa906e;
+  --clerk-color-danger: #e06053;
+  --clerk-color-success: #a6d18c;
+  --clerk-color-warning: #f4bc5f;
+  --clerk-color-neutral: #95726a;
+  --clerk-color-background: #faf4f2;
+  --clerk-color-foreground: #384242;
+  --clerk-color-primary-foreground: #ffffff;
+  --clerk-color-muted-foreground: #95726a;
+  --clerk-color-muted: #f5f1eb;
+  --clerk-color-input-foreground: #384242;
+  --clerk-color-input: #ffffff;
+  --clerk-color-border: #f5f1eb;
+  --clerk-color-ring: #fa906e;
+  --clerk-border-radius: 0.75rem;
+  --clerk-font-family: var(--font-inter), system-ui, sans-serif;
+  --clerk-font-family-buttons: var(--font-inter), system-ui, sans-serif;
+  --clerk-font-size: 16px;
+  --clerk-spacing: 1rem;
+}
+
+.dark {
+  /* Warm Sunset Design System - Dark Theme */
+  --background: #2a2023;
+  --foreground: #faf4f2;
+  --card: #403a40;
+  --card-foreground: #faf4f2;
+  --popover: #403a40;
+  --popover-foreground: #faf4f2;
+  --primary: #fa906e;
+  --primary-foreground: #2a2023;
+  --secondary: #342d34;
+  --secondary-foreground: #faf4f2;
+  --muted: #342d34;
+  --muted-foreground: 326 14% 65%;
+  --accent: #342d34;
+  --accent-foreground: #faf4f2;
+  --destructive: #e78284;
+  --destructive-foreground: #2a2023;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.15);
+  --ring: #95726a;
+  --success: #a6d18c;
+  --warning: #e5c890;
+  --info: #89dceb;
+  --chart-1: 21 88% 70%;
+  --chart-2: 105 49% 70%;
+  --chart-3: 186 80% 74%;
+  --chart-4: 39 67% 75%;
+  --chart-5: 359 68% 71%;
+  --sidebar: #403a40;
+  --sidebar-foreground: #faf4f2;
+  --sidebar-primary: #fa906e;
+  --sidebar-primary-foreground: #2a2023;
+  --sidebar-accent: #342d34;
+  --sidebar-accent-foreground: #faf4f2;
+  --sidebar-border: 0 0% 100% / 0.1;
+  --sidebar-ring: 12 19% 51%;
+
+  /* Clerk CSS Variables - Dark Theme */
+  --clerk-color-primary: #fa906e;
+  --clerk-color-danger: #e78284;
+  --clerk-color-success: #a6d18c;
+  --clerk-color-warning: #e5c890;
+  --clerk-color-neutral: #b5a9af;
+  --clerk-color-background: #2a2023;
+  --clerk-color-foreground: #c6d0f5;
+  --clerk-color-primary-foreground: #2a2023;
+  --clerk-color-muted-foreground: #b5a9af;
+  --clerk-color-muted: #342d34;
+  --clerk-color-input-foreground: #c6d0f5;
+  --clerk-color-input: #403a40;
+  --clerk-color-border: #403a40;
+  --clerk-color-ring: #fa906e;
+}
+
+/* Adding premium font configuration for investor pitch deck */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --font-serif: var(--font-lexend);
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+/* Adding custom animations and premium styling */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.slide-enter {
+  animation: slideIn 0.6s ease-out;
+}
+
+.metric-enter {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.chart-enter {
+  animation: scaleIn 0.7s ease-out;
+}
+
+/* Mobile & Responsive Design Improvements */
+@layer utilities {
+  .bg-gradient-warm {
+    background: linear-gradient(135deg, #faf4f2 0%, #fde6de 50%, #f5f1eb 100%);
+  }
+
+  .dark .bg-gradient-warm {
+    background: linear-gradient(135deg, #2a2023 0%, #403a40 50%, #342d34 100%);
+  }
+
+  .text-gradient-sunset {
+    background: linear-gradient(135deg, #fa906e 0%, #f5bc5e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Mobile touch targets */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Mobile-first responsive typography */
+  @media (max-width: 640px) {
+    .mobile-title {
+      font-size: 2.5rem;
+      line-height: 1.1;
+    }
+
+    .mobile-subtitle {
+      font-size: 1.125rem;
+      line-height: 1.5;
+    }
+
+    .mobile-body {
+      font-size: 0.875rem;
+      line-height: 1.6;
+    }
+  }
+
+  /* Enhanced animations for mobile */
+  @media (prefers-reduced-motion: no-preference) {
+    .slide-transition {
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .slide-enter,
+    .metric-enter,
+    .chart-enter {
+      animation: none;
+    }
+  }
+
+  /* Dark mode improvements */
+  .dark .shadow-warm {
+    box-shadow: 0 4px 12px rgba(42, 32, 35, 0.3);
+  }
+
+  .shadow-warm {
+    box-shadow: 0 4px 12px rgba(149, 114, 106, 0.15);
+  }
+}
+
+/* Custom scrollbar for dark mode */
+.dark ::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--muted);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Clerk Component Styling */
+.cl-card {
+  background: var(--clerk-color-background) !important;
+  border: 1px solid var(--clerk-color-border) !important;
+  border-radius: var(--clerk-border-radius) !important;
+  box-shadow: 0 4px 12px rgba(149, 114, 106, 0.15) !important;
+}
+
+.dark .cl-card {
+  box-shadow: 0 4px 12px rgba(42, 32, 35, 0.3) !important;
+}
+
+.cl-formButtonPrimary {
+  background: var(--clerk-color-primary) !important;
+  border-radius: var(--clerk-border-radius) !important;
+  font-weight: 600 !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.cl-formButtonPrimary:hover {
+  background: var(--accent) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 8px 16px rgba(250, 144, 110, 0.3) !important;
+}
+
+.cl-socialButtonsBlockButton {
+  background: var(--clerk-color-input) !important;
+  border: 1px solid var(--clerk-color-border) !important;
+  border-radius: var(--clerk-border-radius) !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.cl-socialButtonsBlockButton:hover {
+  background: var(--clerk-color-muted) !important;
+  border-color: var(--clerk-color-primary) !important;
+}
+
+.cl-formFieldInput {
+  background: var(--clerk-color-input) !important;
+  border: 1px solid var(--clerk-color-border) !important;
+  border-radius: var(--clerk-border-radius) !important;
+  color: var(--clerk-color-input-foreground) !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.cl-formFieldInput:focus {
+  border-color: var(--clerk-color-primary) !important;
+  box-shadow: 0 0 0 3px rgba(250, 144, 110, 0.2) !important;
+}
+
+.cl-userButtonPopover {
+  background: var(--card) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--clerk-border-radius) !important;
+  box-shadow: 0 4px 12px rgba(149, 114, 106, 0.15) !important;
+}
+
+.dark .cl-userButtonPopover {
+  box-shadow: 0 4px 12px rgba(42, 32, 35, 0.3) !important;
+}
+
+.cl-headerTitle {
+  color: var(--clerk-color-foreground) !important;
+  font-family: var(--font-lexend), serif !important;
+  font-weight: 700 !important;
+}
+
+.cl-headerSubtitle {
+  color: var(--clerk-color-muted-foreground) !important;
+}
+
+.cl-footerActionLink {
+  color: var(--clerk-color-primary) !important;
+  font-weight: 500 !important;
+}
+
+.cl-footerActionLink:hover {
+  color: var(--accent) !important;
+}

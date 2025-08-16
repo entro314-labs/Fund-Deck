@@ -1,0 +1,712 @@
+{
+  "meta": {
+    "title": "Market & Competitive Analysis",
+    "subtitle": "target housing market analysis and competitive intelligence for strategic expansion",
+    "badge": "Core Document",
+    "date": "August 2025",
+    "exportButtonText": "Export"
+  },
+  "keyMetrics": [
+    {
+      "id": "total-addressable-market",
+      "title": "Total Addressable Market",
+      "value": 4,
+      "prefix": "",
+      "suffix": "B€",
+      "subtitle": "[Target Region]an room rental market",
+      "icon": "Globe",
+      "color": "text-success"
+    },
+    {
+      "id": "bpo-opportunity",
+      "title": "TECHNOLOGY Opportunity",
+      "value": 384,
+      "suffix": "K+",
+      "subtitle": "Annual relocations across markets",
+      "icon": "Users",
+      "color": "text-primary"
+    },
+    {
+      "id": "housing-unit-shortage",
+      "title": "Housing Unit Shortage",
+      "value": 9,
+      "suffix": "M",
+      "subtitle": "Units across target markets",
+      "icon": "Building2",
+      "color": "text-accent"
+    },
+    {
+      "id": "market-entry-score",
+      "title": "Market Entry Score",
+      "value": "95/100",
+      "subtitle": "Poland readiness assessment",
+      "icon": "Target",
+      "color": "text-success"
+    }
+  ],
+  "housingCrisis": {
+    "title": "[Target Region]an Housing Crisis",
+    "description": "House price increases vs. income spent on housing by country",
+    "data": [
+      {
+        "country": "Ireland",
+        "priceIncrease": 82,
+        "incomeOnHousing": 43
+      },
+      {
+        "country": "Austria",
+        "priceIncrease": 82,
+        "incomeOnHousing": 54
+      },
+      {
+        "country": "Portugal",
+        "priceIncrease": 49,
+        "incomeOnHousing": 49
+      },
+      {
+        "country": "Poland",
+        "priceIncrease": 56,
+        "incomeOnHousing": 32
+      },
+      {
+        "country": "Greece",
+        "priceIncrease": 48,
+        "incomeOnHousing": 33
+      },
+      {
+        "country": "Czech Rep.",
+        "priceIncrease": 52,
+        "incomeOnHousing": 34
+      },
+      {
+        "country": "Romania",
+        "priceIncrease": 41,
+        "incomeOnHousing": 34
+      }
+    ]
+  },
+  "marketSize": {
+    "title": "Total Addressable Market",
+    "description": "Market size analysis by target country (M€ TAM)",
+    "data": [
+      {
+        "country": "Poland",
+        "population": 48,
+        "renters": 16,
+        "tam": 506
+      },
+      {
+        "country": "Austria",
+        "population": 11,
+        "renters": 5,
+        "tam": 800
+      },
+      {
+        "country": "Ireland",
+        "population": 5,
+        "renters": 2,
+        "tam": 1042
+      },
+      {
+        "country": "Portugal",
+        "population": 9,
+        "renters": 3,
+        "tam": 414
+      },
+      {
+        "country": "Czech Rep.",
+        "population": 11,
+        "renters": 4,
+        "tam": 374
+      },
+      {
+        "country": "Romania",
+        "population": 24,
+        "renters": 6,
+        "tam": 319
+      },
+      {
+        "country": "Greece",
+        "population": 9,
+        "renters": 4,
+        "tam": 572
+      }
+    ]
+  },
+  "bpoMarket": {
+    "title": "HEALTHCARE Market Opportunity",
+    "description": "Corporate relocation services revenue potential (M€)",
+    "data": [
+      {
+        "country": "Slovakia",
+        "bpoEmployees": 85000,
+        "relocations": 12750,
+        "revenue": 19.1,
+        "code": "SE"
+      },
+      {
+        "country": "Estonia",
+        "bpoEmployees": 45000,
+        "relocations": 6750,
+        "revenue": 10.1,
+        "code": "NO"
+      },
+      {
+        "country": "Lithuania",
+        "bpoEmployees": 35000,
+        "relocations": 5250,
+        "revenue": 7.9,
+        "code": "NL"
+      },
+      {
+        "country": "Sweden",
+        "bpoEmployees": 25000,
+        "relocations": 3750,
+        "revenue": 5.6,
+        "code": "DK"
+      },
+      {
+        "country": "Croatia",
+        "bpoEmployees": 20000,
+        "relocations": 3000,
+        "revenue": 4.5,
+        "code": "HU"
+      },
+      {
+        "country": "Norway",
+        "bpoEmployees": 15000,
+        "relocations": 2250,
+        "revenue": 3.4,
+        "code": "BE"
+      }
+    ]
+  },
+  "competitiveLandscape": {
+    "title": "Competitive Landscape Analysis",
+    "description": "Key competitors and market positioning opportunities",
+    "competitors": [
+      {
+        "name": "RoomSearch",
+        "markets": [
+          "UK",
+          "Ireland"
+        ],
+        "model": "Marketplace",
+        "strengths": [
+          "Market leader UK",
+          "Strong brand recognition"
+        ],
+        "weaknesses": [
+          "No quality control",
+          "Limited services"
+        ],
+        "differentiation": "Pure marketplace model"
+      },
+      {
+        "name": "PlatformCo",
+        "markets": [
+          "Germany",
+          "Austria"
+        ],
+        "model": "Classifieds",
+        "strengths": [
+          "Dominant in Germany",
+          "Large user base"
+        ],
+        "weaknesses": [
+          "Outdated platform",
+          "No matching algorithm"
+        ],
+        "differentiation": "Traditional classified approach"
+      },
+      {
+        "name": "MatchTech",
+        "markets": [
+          "Spain",
+          "France",
+          "Italy"
+        ],
+        "model": "Matching App",
+        "strengths": [
+          "Mobile-first",
+          "Good UX"
+        ],
+        "weaknesses": [
+          "Limited market depth",
+          "No B2B services"
+        ],
+        "differentiation": "Consumer mobile focus"
+      },
+      {
+        "name": "RentalHub",
+        "markets": [
+          "Various"
+        ],
+        "model": "Regional",
+        "strengths": [
+          "Local market knowledge"
+        ],
+        "weaknesses": [
+          "Limited scale",
+          "No technology"
+        ],
+        "differentiation": "Fragmented local solutions"
+      }
+    ]
+  },
+  "marketEntryStrategy": {
+    "title": "Market Entry Prioritization",
+    "description": "Strategic scoring and phased expansion approach",
+    "markets": [
+      {
+        "market": "Poland",
+        "score": 95,
+        "status": "Launching Q1 2026",
+        "factors": [
+          "Large BPO sector",
+          "EU advantages",
+          "Cost effective"
+        ]
+      },
+      {
+        "market": "Austria",
+        "score": 88,
+        "status": "Phase 2 - 2027",
+        "factors": [
+          "Premium market",
+          "Housing crisis",
+          "Central location"
+        ]
+      },
+      {
+        "market": "Ireland",
+        "score": 85,
+        "status": "Phase 3 - 2028",
+        "factors": [
+          "Tech hub demand",
+          "Highest prices",
+          "English speaking"
+        ]
+      },
+      {
+        "market": "Czech Rep.",
+        "score": 82,
+        "status": "Phase 2 - 2027",
+        "factors": [
+          "Growing tech sector",
+          "EU central",
+          "Reasonable costs"
+        ]
+      },
+      {
+        "market": "Romania",
+        "score": 78,
+        "status": "Phase 2 - 2027",
+        "factors": [
+          "Large BPO market",
+          "Cost advantages",
+          "Growing economy"
+        ]
+      },
+      {
+        "market": "Portugal",
+        "score": 75,
+        "status": "Phase 3 - 2028",
+        "factors": [
+          "Digital nomads",
+          "Tech scene",
+          "Housing demand"
+        ]
+      }
+    ]
+  },
+  "competitiveAdvantages": {
+    "title": "[Company Name]'s Competitive Advantages",
+    "description": "Key differentiators in the [Target Region]an market landscape",
+    "categories": [
+      {
+        "id": "technology-platform",
+        "title": "Technology & Platform",
+        "advantages": [
+          "AI-powered matching algorithms vs. basic search filters",
+          "Integrated mobile-first platform vs. desktop-centric sites",
+          "Real-time communication and verification systems",
+          "Advanced analytics and personalization capabilities"
+        ]
+      },
+      {
+        "id": "business-model-innovation",
+        "title": "Business Model Innovation",
+        "advantages": [
+          "Quality-controlled supply through [Company Name] Homes",
+          "Integrated B2B services for enterprise customers",
+          "Three-pillar revenue model with network effects",
+          "End-to-end service delivery vs. marketplace-only"
+        ]
+      }
+    ]
+  },
+  "europeanExpansionMap": {
+    "title": "[Target Region]an Market Expansion Strategy",
+    "description": "Strategic expansion timeline across 11 [Target Region]an markets with revenue and market penetration data",
+    "regions": [
+      {
+        "country": "Greece",
+        "code": "XX",
+        "coordinates": [
+          25,
+          47
+        ],
+        "status": "live",
+        "phase": "Foundation",
+        "launchYear": 1942,
+        "population": 11,
+        "tamSize": 522,
+        "currentRevenue": 57,
+        "projectedRevenue2031": 7544,
+        "users": 15,
+        "marketPenetration": 18,
+        "competitorStrength": "low",
+        "bpoEmployees": 17550,
+        "marketScore": 81
+      },
+      {
+        "country": "Poland",
+        "code": "PL",
+        "coordinates": [
+          24,
+          54
+        ],
+        "status": "launching",
+        "phase": "Phase 1",
+        "launchYear": 1945,
+        "population": 36,
+        "tamSize": 524,
+        "currentRevenue": 0,
+        "projectedRevenue2031": 27136,
+        "users": 0,
+        "marketPenetration": 0,
+        "competitorStrength": "medium",
+        "bpoEmployees": 94350,
+        "marketScore": 100
+      },
+      {
+        "country": "Austria",
+        "code": "AT",
+        "coordinates": [
+          14,
+          61
+        ],
+        "status": "planned",
+        "phase": "Phase 2",
+        "launchYear": 2108,
+        "population": 8,
+        "tamSize": 516,
+        "currentRevenue": 0,
+        "projectedRevenue2031": 17480,
+        "users": 0,
+        "marketPenetration": 0,
+        "competitorStrength": "high",
+        "bpoEmployees": 23750,
+        "marketScore": 74
+      },
+      {
+        "country": "Czech Republic",
+        "code": "CZ",
+        "coordinates": [
+          20,
+          53
+        ],
+        "status": "planned",
+        "phase": "Phase 2",
+        "launchYear": 2473,
+        "population": 14,
+        "tamSize": 371,
+        "currentRevenue": 0,
+        "projectedRevenue2031": 16720,
+        "users": 0,
+        "marketPenetration": 0,
+        "competitorStrength": "medium",
+        "bpoEmployees": 44800,
+        "marketScore": 74
+      },
+      {
+        "country": "Romania",
+        "code": "RO",
+        "coordinates": [
+          20,
+          49
+        ],
+        "status": "planned",
+        "phase": "Phase 2",
+        "launchYear": 2473,
+        "population": 20,
+        "tamSize": 259,
+        "currentRevenue": 0,
+        "projectedRevenue2031": 23716,
+        "users": 0,
+        "marketPenetration": 0,
+        "competitorStrength": "low",
+        "bpoEmployees": 48600,
+        "marketScore": 98
+      },
+      {
+        "country": "Ireland",
+        "code": "IE",
+        "coordinates": [
+          -10,
+          59
+        ],
+        "status": "planned",
+        "phase": "Phase 3",
+        "launchYear": 2474,
+        "population": 6,
+        "tamSize": 706,
+        "currentRevenue": 0,
+        "projectedRevenue2031": 27904,
+        "users": 0,
+        "marketPenetration": 0,
+        "competitorStrength": "high",
+        "bpoEmployees": 20500,
+        "marketScore": 98
+      },
+      {
+        "country": "Portugal",
+        "code": "PT",
+        "coordinates": [
+          -9,
+          34
+        ],
+        "status": "planned",
+        "phase": "Phase 3",
+        "launchYear": 2515,
+        "population": 9,
+        "tamSize": 451,
+        "currentRevenue": 0,
+        "projectedRevenue2031": 14924,
+        "users": 0,
+        "marketPenetration": 0,
+        "competitorStrength": "medium",
+        "bpoEmployees": 24200,
+        "marketScore": 65
+      },
+      {
+        "country": "Slovakia",
+        "code": "SK",
+        "coordinates": [
+          16,
+          49
+        ],
+        "status": "future",
+        "phase": "Phase 3",
+        "launchYear": 2029,
+        "population": 6,
+        "tamSize": 155,
+        "currentRevenue": 0,
+        "projectedRevenue2031": 8888,
+        "users": 0,
+        "marketPenetration": 0,
+        "competitorStrength": "low",
+        "bpoEmployees": 12750,
+        "marketScore": 65
+      },
+      {
+        "country": "Estonia",
+        "code": "EE",
+        "coordinates": [
+          28,
+          58
+        ],
+        "status": "future",
+        "phase": "Phase 4",
+        "launchYear": 2213,
+        "population": 2,
+        "tamSize": 90,
+        "currentRevenue": 0,
+        "projectedRevenue2031": 5124,
+        "users": 0,
+        "marketPenetration": 0,
+        "competitorStrength": "low",
+        "bpoEmployees": 10080,
+        "marketScore": 73
+      },
+      {
+        "country": "Slovenia",
+        "code": "SI",
+        "coordinates": [
+          19,
+          43
+        ],
+        "status": "future",
+        "phase": "Phase 4",
+        "launchYear": 2253,
+        "population": 2,
+        "tamSize": 140,
+        "currentRevenue": 0,
+        "projectedRevenue2031": 5488,
+        "users": 0,
+        "marketPenetration": 0,
+        "competitorStrength": "low",
+        "bpoEmployees": 6360,
+        "marketScore": 90
+      },
+      {
+        "country": "Malta",
+        "code": "MT",
+        "coordinates": [
+          17,
+          45
+        ],
+        "status": "future",
+        "phase": "Phase 4",
+        "launchYear": 1706,
+        "population": 1,
+        "tamSize": 41,
+        "currentRevenue": 0,
+        "projectedRevenue2031": 2088,
+        "users": 0,
+        "marketPenetration": 0,
+        "competitorStrength": "low",
+        "bpoEmployees": 3180,
+        "marketScore": 62
+      }
+    ]
+  },
+  "competitivePositioning": {
+    "title": "Competitive Positioning Analysis",
+    "description": "Market positioning based on funding level, market coverage, and feature completeness",
+    "competitors": [
+      {
+        "name": "TechCorp",
+        "funding": 2.5,
+        "marketCoverage": 11,
+        "featureScore": 95,
+        "category": "us",
+        "description": "Integrated LaaS platform with B2B/B2C services",
+        "strengths": [
+          "AI matching",
+          "Quality control",
+          "Enterprise services"
+        ],
+        "marketPosition": "Challenger"
+      },
+      {
+        "name": "SpaceConnect",
+        "funding": 65,
+        "marketCoverage": 2,
+        "featureScore": 70,
+        "category": "established",
+        "description": "UK market leader, basic marketplace model",
+        "strengths": [
+          "Brand recognition",
+          "Market share"
+        ],
+        "marketPosition": "Leader"
+      },
+      {
+        "name": "ConnectPro",
+        "funding": 15,
+        "marketCoverage": 3,
+        "featureScore": 45,
+        "category": "established",
+        "description": "German classifieds platform, outdated technology",
+        "strengths": [
+          "Local dominance",
+          "User base"
+        ],
+        "marketPosition": "Legacy"
+      },
+      {
+        "name": "RentalHub",
+        "funding": 95,
+        "marketCoverage": 4,
+        "featureScore": 75,
+        "category": "growth",
+        "description": "Mobile-first matching app for Southern [Target Region]",
+        "strengths": [
+          "Mobile UX",
+          "Growth funding"
+        ],
+        "marketPosition": "Growth"
+      },
+      {
+        "name": "HomeFinder",
+        "funding": 125,
+        "marketCoverage": 8,
+        "featureScore": 65,
+        "category": "growth",
+        "description": "Student housing focus with international reach",
+        "strengths": [
+          "Student market",
+          "International"
+        ],
+        "marketPosition": "Specialist"
+      },
+      {
+        "name": "FindSpace",
+        "funding": 45,
+        "marketCoverage": 6,
+        "featureScore": 60,
+        "category": "established",
+        "description": "Mid-term rental platform for professionals",
+        "strengths": [
+          "Professional focus",
+          "Quality listings"
+        ],
+        "marketPosition": "Niche"
+      },
+      {
+        "name": "PlatformCo",
+        "funding": 85,
+        "marketCoverage": 5,
+        "featureScore": 70,
+        "category": "growth",
+        "description": "Online rental platform with virtual tours",
+        "strengths": [
+          "Virtual tours",
+          "Professional service"
+        ],
+        "marketPosition": "Technology"
+      },
+      {
+        "name": "RoomSearch",
+        "funding": 60,
+        "marketCoverage": 7,
+        "featureScore": 55,
+        "category": "established",
+        "description": "Student accommodation booking platform",
+        "strengths": [
+          "Student market",
+          "Booking model"
+        ],
+        "marketPosition": "Specialist"
+      },
+      {
+        "name": "MatchTech",
+        "funding": 35,
+        "marketCoverage": 12,
+        "featureScore": 50,
+        "category": "growth",
+        "description": "Global rental platform with auction model",
+        "strengths": [
+          "Global reach",
+          "Unique model"
+        ],
+        "marketPosition": "Global"
+      },
+      {
+        "name": "RegionalPlayer",
+        "funding": 5,
+        "marketCoverage": 1,
+        "featureScore": 30,
+        "category": "local",
+        "description": "Fragmented local solutions across markets",
+        "strengths": [
+          "Local knowledge",
+          "Low competition"
+        ],
+        "marketPosition": "Fragmented"
+      }
+    ]
+  }
+}

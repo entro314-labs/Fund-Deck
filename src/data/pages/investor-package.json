@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "title": "Investor Presentation Package",
+    "subtitle": "Complete investor materials for funding discussions and due diligence",
+    "badge": "Core Document",
+    "date": "August 2025",
+    "exportButtonText": "Download Package"
+  },
+  "investmentOverview": [
+    {
+      "id": "current-round",
+      "title": "Current Round",
+      "value": "2M€ Seed Extension",
+      "subtitle": "Q4 2021",
+      "icon": "Euro",
+      "color": "text-primary"
+    },
+    {
+      "id": "total-funding-strategy",
+      "title": "Total Funding Strategy",
+      "value": 21,
+      "prefix": "",
+      "suffix": "M€",
+      "subtitle": "5 rounds through 2028",
+      "icon": "TrendingUp",
+      "color": "text-success"
+    },
+    {
+      "id": "target-valuation",
+      "title": "Target Valuation",
+      "value": 625,
+      "prefix": "",
+      "suffix": "M+",
+      "subtitle": "Exit by 2030",
+      "icon": "Target",
+      "color": "text-accent"
+    },
+    {
+      "id": "break-even",
+      "title": "Break-Even",
+      "value": "Q3 2024",
+      "subtitle": "18-month runway post-funding",
+      "icon": "Calendar",
+      "color": "text-success"
+    }
+  ],
+  "coreDocuments": {
+    "title": "Core Investment Materials",
+    "badge": "Start Here",
+    "documents": [
+      {
+        "id": "interactive-pitch-presentation",
+        "title": "Interactive Pitch Presentation",
+        "description": "Complete investor deck with live financial models and market analysis",
+        "href": "/investor-package/presentation",
+        "icon": "Presentation",
+        "badge": "Interactive",
+        "slides": 19,
+        "duration": "45 min presentation"
+      },
+      {
+        "id": "executive-summary",
+        "title": "Executive Summary",
+        "description": "2-page strategic overview for initial investor screening",
+        "href": "/executive-summary",
+        "icon": "FileText",
+        "badge": "Quick Read",
+        "slides": null,
+        "duration": "5 min read"
+      },
+      {
+        "id": "financial-model-deep-dive",
+        "title": "Financial Model Deep Dive",
+        "description": "Comprehensive unit economics, projections, and sensitivity analysis",
+        "href": "/financial-model",
+        "icon": "Euro",
+        "badge": "Detailed",
+        "slides": null,
+        "duration": "20 min analysis"
+      }
+    ]
+  },
+  "fundingRoadmap": {
+    "title": "Funding Roadmap",
+    "description": "Strategic funding timeline and capital allocation",
+    "rounds": [
+      {
+        "id": "seed-extension",
+        "round": "Seed Extension",
+        "amount": "2M€",
+        "timing": "Q4 2021",
+        "valuation": "10M€",
+        "purpose": "Poland market preparation and Greece scaling",
+        "status": "Active"
+      },
+      {
+        "id": "series-a",
+        "round": "Series A",
+        "amount": "6M€",
+        "timing": "Q1 2022",
+        "valuation": "25M€",
+        "purpose": "Poland launch and operational scaling",
+        "status": "Planned"
+      },
+      {
+        "id": "series-b",
+        "round": "Series B",
+        "amount": "8M€",
+        "timing": "Q1 2023",
+        "valuation": "50M€",
+        "purpose": "Phase 2 expansion (Austria, Czech, Romania)",
+        "status": "Planned"
+      },
+      {
+        "id": "series-c",
+        "round": "Series C",
+        "amount": "7M€",
+        "timing": "Q1 2024",
+        "valuation": "100M€",
+        "purpose": "Phase 3 expansion and profitability path",
+        "status": "Future"
+      }
+    ]
+  },
+  "dueDiligenceMaterials": {
+    "title": "Due Diligence Materials",
+    "materials": [
+      {
+        "id": "market-competitive-analysis",
+        "title": "Market & Competitive Analysis",
+        "description": "target housing market analysis and competitive positioning",
+        "href": "/market-analysis",
+        "icon": "TrendingUp",
+        "type": "Market Intelligence"
+      },
+      {
+        "id": "risk-assessment-mitigation",
+        "title": "Risk Assessment & Mitigation",
+        "description": "Comprehensive risk analysis and management strategies",
+        "href": "/risk-assessment",
+        "icon": "Shield",
+        "type": "Risk Management"
+      },
+      {
+        "id": "product-technology-overview",
+        "title": "Product & Technology Overview",
+        "description": "Technical architecture and product development roadmap",
+        "href": "/product-overview",
+        "icon": "Building2",
+        "type": "Technology"
+      },
+      {
+        "id": "growth-strategy-execution",
+        "title": "Growth Strategy & Execution",
+        "description": "Market expansion playbook and growth tactics",
+        "href": "/growth-strategy",
+        "icon": "Target",
+        "type": "Strategy"
+      }
+    ]
+  },
+  "investmentHighlights": {
+    "title": "Investment Highlights",
+    "description": "Key reasons to invest in [Company Name]'s [Target Region]an expansion",
+    "sections": [
+      {
+        "title": "Market Opportunity",
+        "points": [
+          "50B€+ target housing market with digital transformation",
+          "9.6M housing unit shortage creating unprecedented demand",
+          "300K+ TECHNOLOGY employees requiring relocation services annually",
+          "First-mover advantage in integrated Network-as-a-Service"
+        ]
+      },
+      {
+        "title": "Competitive Advantages",
+        "points": [
+          "AI-powered matching with 95% satisfaction rates",
+          "Quality-controlled supply through [Company Name] Homes",
+          "Integrated B2B/B2C platform with network effects",
+          "Exceptional unit economics improving with scale"
+        ]
+      }
+    ]
+  }
+}

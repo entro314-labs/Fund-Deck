@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "Live Metrics Dashboard",
+    "subtitle": "Real-time performance metrics and country-specific insights",
+    "badge": "Live Data",
+    "lastUpdated": "2025-08-14T08:00:00Z"
+  },
+  "overview": {
+    "title": "Global Overview",
+    "description": "Aggregated metrics across all markets",
+    "keyMetrics": [
+      {
+        "id": "total-revenue",
+        "title": "Total Revenue",
+        "value": 0,
+        "prefix": "",
+        "suffix": "K",
+        "subtitle": "This month",
+        "icon": "Euro",
+        "color": "text-success",
+        "target": 47,
+        "targetSuffix": "K"
+      },
+      {
+        "id": "active-users",
+        "title": "Active Users",
+        "value": 0,
+        "suffix": "",
+        "subtitle": "Monthly active",
+        "icon": "Users",
+        "color": "text-primary",
+        "target": 12250,
+        "targetSuffix": ""
+      },
+      {
+        "id": "markets-live",
+        "title": "Markets Live",
+        "value": 0,
+        "suffix": "/11",
+        "subtitle": "Countries launched",
+        "icon": "MapPin",
+        "color": "text-accent",
+        "target": 3,
+        "targetSuffix": "/11"
+      },
+      {
+        "id": "monthly-burn",
+        "title": "Monthly Burn",
+        "value": 0,
+        "prefix": "",
+        "suffix": "K€",
+        "subtitle": "Operating costs",
+        "icon": "TrendingDown",
+        "color": "text-warning",
+        "target": 155,
+        "targetSuffix": "K€"
+      }
+    ],
+    "chartConfig": {
+      "revenueChart": {
+        "id": "revenue-trend",
+        "title": "Revenue Trend",
+        "description": "Monthly revenue progression",
+        "type": "line",
+        "dataPoints": 6
+      },
+      "userGrowthChart": {
+        "id": "user-growth",
+        "title": "User Growth",
+        "description": "Monthly active users",
+        "type": "area",
+        "dataPoints": 6
+      }
+    }
+  },
+  "countries": [
+    {
+      "id": "germany",
+      "name": "Germany",
+      "code": "DE",
+      "flag": "🇩🇪",
+      "status": "live",
+      "launchDate": "2023-01-15",
+      "metrics": [
+        {
+          "id": "de-revenue",
+          "title": "Monthly Revenue",
+          "value": 0,
+          "prefix": "",
+          "suffix": "K€",
+          "subtitle": "vs 18K€ target",
+          "icon": "Euro",
+          "color": "text-success",
+          "target": 19
+        },
+        {
+          "id": "de-users",
+          "title": "Active Users",
+          "value": 0,
+          "suffix": "",
+          "subtitle": "vs 5.000 target",
+          "icon": "Users",
+          "color": "text-primary",
+          "target": 6100
+        },
+        {
+          "id": "de-conversion",
+          "title": "Conversion Rate",
+          "value": 0,
+          "suffix": "%",
+          "subtitle": "Free to paid",
+          "icon": "TrendingUp",
+          "color": "text-accent",
+          "target": 3
+        },
+        {
+          "id": "de-partnerships",
+          "title": "Partnerships",
+          "value": 0,
+          "suffix": "/15",
+          "subtitle": "Universities",
+          "icon": "Handshake",
+          "color": "text-info",
+          "target": 17
+        }
+      ]
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "code": "NL",
+      "flag": "🇳🇱",
+      "status": "launching",
+      "launchDate": "2023-03-01",
+      "metrics": [
+        {
+          "id": "nl-revenue",
+          "title": "Monthly Revenue",
+          "value": 0,
+          "prefix": "",
+          "suffix": "K€",
+          "subtitle": "Pre-launch",
+          "icon": "Euro",
+          "color": "text-muted",
+          "target": 0
+        },
+        {
+          "id": "nl-waitlist",
+          "title": "Waitlist",
+          "value": 0,
+          "suffix": "",
+          "subtitle": "Pre-registrations",
+          "icon": "Clock",
+          "color": "text-warning",
+          "target": 2800
+        },
+        {
+          "id": "nl-partnerships",
+          "title": "Partnerships",
+          "value": 0,
+          "suffix": "/10",
+          "subtitle": "Universities",
+          "icon": "Handshake",
+          "color": "text-info",
+          "target": 9
+        },
+        {
+          "id": "nl-progress",
+          "title": "Launch Progress",
+          "value": 0,
+          "suffix": "%",
+          "subtitle": "Completion",
+          "icon": "Target",
+          "color": "text-primary",
+          "target": 90
+        }
+      ]
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "code": "FR",
+      "flag": "🇫🇷",
+      "status": "planned",
+      "launchDate": "2023-06-01",
+      "metrics": [
+        {
+          "id": "fr-market-research",
+          "title": "Market Research",
+          "value": 0,
+          "suffix": "%",
+          "subtitle": "Completion",
+          "icon": "Search",
+          "color": "text-muted",
+          "target": 121
+        },
+        {
+          "id": "fr-legal",
+          "title": "Legal Setup",
+          "value": 0,
+          "suffix": "%",
+          "subtitle": "Completion",
+          "icon": "Scale",
+          "color": "text-muted",
+          "target": 105
+        },
+        {
+          "id": "fr-team",
+          "title": "Local Team",
+          "value": 0,
+          "suffix": "/5",
+          "subtitle": "Hiring progress",
+          "icon": "Users",
+          "color": "text-muted",
+          "target": 6
+        },
+        {
+          "id": "fr-timeline",
+          "title": "On Schedule",
+          "value": 0,
+          "suffix": "%",
+          "subtitle": "Timeline adherence",
+          "icon": "Calendar",
+          "color": "text-muted",
+          "target": 109
+        }
+      ]
+    }
+  ],
+  "dataSource": {
+    "type": "google-sheets",
+    "refreshInterval": 351000,
+    "lastSync": null,
+    "sheets": {
+      "overview": {
+        "id": "1BvPQJ_example_sheet_id_here",
+        "range": "Overview!A1:D10",
+        "description": "Global metrics aggregation"
+      },
+      "countries": {
+        "id": "1BvPQJ_example_sheet_id_here",
+        "ranges": {
+          "germany": "Germany!A1:D10",
+          "netherlands": "Netherlands!A1:D10",
+          "france": "France!A1:D10"
+        }
+      }
+    }
+  },
+  "accessControl": {
+    "requiredRole": "investor",
+    "allowedEmails": [
+      "[Founder Name]@[Company Name]app.com",
+      "admin@company.com"
+    ]
+  }
+}

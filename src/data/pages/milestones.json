@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "title": "Milestones & Timeline",
+    "subtitle": "Comprehensive execution timeline and accountability framework for [Company Name]'s growth",
+    "badge": "Execution Tracking",
+    "date": "2025-2031",
+    "exportButtonText": "Timeline"
+  },
+  "kpiTimeline": {
+    "title": "Key Performance Timeline",
+    "description": "Critical metrics progression through expansion phases",
+    "data": [
+      {
+        "year": "2023",
+        "users": "15.8K",
+        "revenue": "50K€",
+        "markets": 1,
+        "status": "Foundation"
+      },
+      {
+        "year": "2024",
+        "users": "33K",
+        "revenue": "2.1M€",
+        "markets": 2,
+        "status": "Validation"
+      },
+      {
+        "year": "2025",
+        "users": "95K",
+        "revenue": "11.6M€",
+        "markets": 6,
+        "status": "Expansion"
+      },
+      {
+        "year": "2026",
+        "users": "235K",
+        "revenue": "35.8M€",
+        "markets": 7,
+        "status": "Profitability"
+      },
+      {
+        "year": "2027",
+        "users": "420K",
+        "revenue": "78.4M€",
+        "markets": 9,
+        "status": "Scale"
+      },
+      {
+        "year": "2028",
+        "users": "580K",
+        "revenue": "120.4M€",
+        "markets": 12,
+        "status": "Leadership"
+      },
+      {
+        "year": "2029",
+        "users": "720K",
+        "revenue": "162.8M€",
+        "markets": 11,
+        "status": "Maturity"
+      }
+    ]
+  },
+  "milestoneCategories": [
+    {
+      "id": "foundation-2025",
+      "category": "2023 - Foundation & Pivot",
+      "icon": "Target",
+      "color": "text-primary",
+      "status": "In Progress",
+      "milestones": [
+        {
+          "id": "strategic-pivot",
+          "milestone": "Strategic Pivot Execution",
+          "date": "Q1 2021",
+          "status": "Completed",
+          "description": "Transition to integrated platform model"
+        },
+        {
+          "id": "poland-research",
+          "milestone": "Poland Market Research",
+          "date": "Q2 2021",
+          "status": "Completed",
+          "description": "Market entry analysis and partnership identification"
+        },
+        {
+          "id": "seed-extension",
+          "milestone": "2M€ Seed Extension Close",
+          "date": "Q4 2021",
+          "status": "In Progress",
+          "description": "Funding secured for Poland preparation"
+        },
+        {
+          "id": "poland-prep",
+          "milestone": "Poland Launch Preparation",
+          "date": "Q4 2021",
+          "status": "In Progress",
+          "description": "Platform localization and legal setup"
+        }
+      ]
+    },
+    {
+      "id": "validation-2026",
+      "category": "2024 - Market Entry & Validation",
+      "icon": "Globe",
+      "color": "text-success",
+      "status": "Planned",
+      "milestones": [
+        {
+          "id": "poland-launch",
+          "milestone": "Poland Market Launch",
+          "date": "Q1 2022",
+          "status": "Planned",
+          "description": "Full market entry with RETAIL partnerships"
+        },
+        {
+          "id": "user-milestone-33k",
+          "milestone": "33K Active Users",
+          "date": "Q2 2022",
+          "status": "Planned",
+          "description": "User base milestone across 2 markets"
+        },
+        {
+          "id": "revenue-2-1m",
+          "milestone": "2.1M€ ARR Achievement",
+          "date": "Q3 2022",
+          "status": "Planned",
+          "description": "Revenue milestone validation"
+        },
+        {
+          "id": "series-a",
+          "milestone": "Series A Funding (6M€)",
+          "date": "Q4 2022",
+          "status": "Planned",
+          "description": "Growth capital for Phase 2 expansion"
+        }
+      ]
+    },
+    {
+      "id": "expansion-2027",
+      "category": "2025 - Phase 2 Expansion",
+      "icon": "TrendingUp",
+      "color": "text-accent",
+      "status": "Future",
+      "milestones": [
+        {
+          "id": "3-market-expansion",
+          "milestone": "3-Market Expansion Launch",
+          "date": "Q1 2023",
+          "status": "Future",
+          "description": "Austria, Czech Republic, Romania entry"
+        },
+        {
+          "id": "user-milestone-95k",
+          "milestone": "95K Active Users",
+          "date": "Q2 2023",
+          "status": "Future",
+          "description": "5-market user base achievement"
+        },
+        {
+          "id": "[Company Name]-homes-rollout",
+          "milestone": "[Company Name] Homes Rollout",
+          "date": "Q3 2023",
+          "status": "Future",
+          "description": "Quality property network launch"
+        },
+        {
+          "id": "revenue-11-6m",
+          "milestone": "11.6M€ ARR Target",
+          "date": "Q4 2023",
+          "status": "Future",
+          "description": "Multi-market revenue milestone"
+        }
+      ]
+    },
+    {
+      "id": "profitability-2028",
+      "category": "2026 - Profitability & Scale",
+      "icon": "Euro",
+      "color": "text-green-600",
+      "status": "Future",
+      "milestones": [
+        {
+          "id": "break-even",
+          "milestone": "Break-Even Achievement",
+          "date": "Q3 2024",
+          "status": "Future",
+          "description": "EBITDA positive across operations"
+        },
+        {
+          "id": "user-milestone-235k",
+          "milestone": "235K Active Users",
+          "date": "Q3 2024",
+          "status": "Future",
+          "description": "8-market user base milestone"
+        },
+        {
+          "id": "ebitda-margin",
+          "milestone": "18% EBITDA Margin",
+          "date": "Q4 2024",
+          "status": "Future",
+          "description": "Profitability margin target"
+        },
+        {
+          "id": "revenue-35-8m",
+          "milestone": "35.8M€ ARR Target",
+          "date": "Q4 2024",
+          "status": "Future",
+          "description": "Scale revenue achievement"
+        }
+      ]
+    },
+    {
+      "id": "leadership-2029-2031",
+      "category": "2027-2029 - Market Leadership",
+      "icon": "Building2",
+      "color": "text-purple-600",
+      "status": "Future",
+      "milestones": [
+        {
+          "id": "11-market-ops",
+          "milestone": "11-Market Operations",
+          "date": "Q2 2025",
+          "status": "Future",
+          "description": "Complete [Target Region]an expansion"
+        },
+        {
+          "id": "revenue-78-4m",
+          "milestone": "78.4M€ ARR (2027)",
+          "date": "Q4 2025",
+          "status": "Future",
+          "description": "Strong growth trajectory"
+        },
+        {
+          "id": "user-milestone-720k",
+          "milestone": "720K Active Users",
+          "date": "Q2 2027",
+          "status": "Future",
+          "description": "Market leadership position"
+        },
+        {
+          "id": "revenue-162-8m",
+          "milestone": "162.8M€ ARR Target",
+          "date": "Q4 2027",
+          "status": "Future",
+          "description": "Final revenue milestone"
+        },
+        {
+          "id": "exit-readiness",
+          "milestone": "Exit Readiness",
+          "date": "2030",
+          "status": "Future",
+          "description": "500M€+ valuation preparation"
+        }
+      ]
+    }
+  ],
+  "successFactors": {
+    "title": "Critical Success Factors",
+    "description": "Key dependencies for milestone achievement and timeline success",
+    "factors": [
+      {
+        "id": "poland-launch-success",
+        "factor": "Poland Launch Success",
+        "importance": "Critical",
+        "timeline": "Q1 2022",
+        "description": "Successful market entry validates expansion model and attracts Series A funding",
+        "dependencies": [
+          "RETAIL partnerships",
+          "Platform localization",
+          "Local team hiring"
+        ],
+        "riskLevel": "Medium"
+      },
+      {
+        "id": "unit-economics-maintenance",
+        "factor": "Unit Economics Maintenance",
+        "importance": "Critical",
+        "timeline": "Ongoing",
+        "description": "Maintaining strong LTV:CAC ratios during rapid scaling across markets",
+        "dependencies": [
+          "Pricing optimization",
+          "Acquisition efficiency",
+          "Retention programs"
+        ],
+        "riskLevel": "High"
+      },
+      {
+        "id": "technology-scaling",
+        "factor": "Technology Scaling",
+        "importance": "High",
+        "timeline": "Q2 2023",
+        "description": "Platform handling 11-market operations with consistent performance",
+        "dependencies": [
+          "Infrastructure scaling",
+          "AI optimization",
+          "Mobile performance"
+        ],
+        "riskLevel": "Medium"
+      },
+      {
+        "id": "funding-execution",
+        "factor": "Funding Execution",
+        "importance": "Critical",
+        "timeline": "Per schedule",
+        "description": "Securing funding rounds on schedule to support expansion timeline",
+        "dependencies": [
+          "Performance metrics",
+          "Market traction",
+          "Investor relations"
+        ],
+        "riskLevel": "Medium"
+      }
+    ]
+  },
+  "accountabilityFramework": {
+    "title": "Accountability & Tracking Framework",
+    "description": "Systematic monitoring and reporting structure for milestone execution",
+    "categories": [
+      {
+        "id": "weekly-tracking",
+        "title": "Weekly Tracking",
+        "activities": [
+          "Progress updates on active milestones",
+          "Key metric performance vs. targets",
+          "Risk factor assessment and mitigation",
+          "Resource allocation and bottleneck identification"
+        ]
+      },
+      {
+        "id": "monthly-reviews",
+        "title": "Monthly Reviews",
+        "activities": [
+          "Comprehensive milestone status assessment",
+          "Timeline adherence and adjustment planning",
+          "Success factor dependency tracking",
+          "Cross-functional alignment and coordination"
+        ]
+      },
+      {
+        "id": "quarterly-planning",
+        "title": "Quarterly Planning",
+        "activities": [
+          "Major milestone completion and celebration",
+          "Next quarter priorities and resource planning",
+          "Timeline refinement and adjustment",
+          "Stakeholder communication and alignment"
+        ]
+      }
+    ]
+  }
+}

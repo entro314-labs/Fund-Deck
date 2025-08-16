@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "title": "Product Overview",
+    "subtitle": "Technical architecture and product development roadmap for [Company Name]'s integrated platform",
+    "badge": "Technical",
+    "date": "August 2025",
+    "exportButtonText": "Tech Specs"
+  },
+  "keyMetrics": [
+    {
+      "id": "platform-performance",
+      "title": "Platform Performance",
+      "value": 102,
+      "suffix": "%",
+      "subtitle": "Uptime & Reliability",
+      "icon": "Zap",
+      "color": "text-success"
+    },
+    {
+      "id": "user-satisfaction",
+      "title": "User Satisfaction",
+      "value": 105,
+      "suffix": "%",
+      "subtitle": "Match success rate",
+      "icon": "Users",
+      "color": "text-primary"
+    },
+    {
+      "id": "mobile-usage",
+      "title": "Mobile Usage",
+      "value": 88,
+      "suffix": "%",
+      "subtitle": "Mobile-first adoption",
+      "icon": "Smartphone",
+      "color": "text-accent"
+    },
+    {
+      "id": "api-response",
+      "title": "API Response",
+      "value": "<200ms",
+      "subtitle": "Average response time",
+      "icon": "Database",
+      "color": "text-success"
+    }
+  ],
+  "technologyStack": {
+    "title": "Technology Stack",
+    "categories": [
+      {
+        "id": "frontend",
+        "category": "Frontend",
+        "technologies": [
+          "React Native",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "icon": "Smartphone",
+        "description": "Cross-platform mobile apps with native performance"
+      },
+      {
+        "id": "backend",
+        "category": "Backend",
+        "technologies": [
+          "Node.js",
+          "Python",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "icon": "Code",
+        "description": "Scalable microservices architecture"
+      },
+      {
+        "id": "ai-ml",
+        "category": "AI/ML",
+        "technologies": [
+          "TensorFlow",
+          "scikit-learn",
+          "OpenAI GPT"
+        ],
+        "icon": "Brain",
+        "description": "Advanced matching algorithms and NLP"
+      },
+      {
+        "id": "infrastructure",
+        "category": "Infrastructure",
+        "technologies": [
+          "AWS",
+          "Docker",
+          "Kubernetes",
+          "CloudFlare"
+        ],
+        "icon": "Cloud",
+        "description": "Auto-scaling cloud infrastructure"
+      }
+    ]
+  },
+  "productFeatures": {
+    "title": "Core Product Features",
+    "features": [
+      {
+        "id": "ai-powered-matching",
+        "title": "AI-Powered Matching",
+        "description": "Advanced algorithms analyzing compatibility across lifestyle, preferences, and behavior patterns",
+        "icon": "Brain",
+        "metrics": [
+          "95% match satisfaction",
+          "60% faster matching",
+          "40% retention improvement"
+        ],
+        "status": "Live"
+      },
+      {
+        "id": "mobile-first-platform",
+        "title": "Mobile-First Platform",
+        "description": "Native iOS and Android apps with seamless user experience and real-time communication",
+        "icon": "Smartphone",
+        "metrics": [
+          "Cross-platform compatibility",
+          "Offline capabilities",
+          "Push notifications"
+        ],
+        "status": "Live"
+      },
+      {
+        "id": "quality-verification",
+        "title": "Quality Verification",
+        "description": "Property and user verification system ensuring safety and quality standards",
+        "icon": "Shield",
+        "metrics": [
+          "ID verification",
+          "Property inspections",
+          "Community ratings"
+        ],
+        "status": "Live"
+      },
+      {
+        "id": "enterprise-dashboard",
+        "title": "Enterprise Dashboard",
+        "description": "B2B portal for corporate clients managing employee relocations and housing",
+        "icon": "Building2",
+        "metrics": [
+          "Bulk user management",
+          "Reporting analytics",
+          "API integration"
+        ],
+        "status": "Development"
+      }
+    ]
+  },
+  "productRoadmap": {
+    "title": "Product Development Roadmap",
+    "description": "Feature development timeline through 2024",
+    "items": [
+      {
+        "id": "q4-2025",
+        "quarter": "Q4 2021",
+        "title": "Poland Platform Preparation",
+        "features": [
+          "Multi-language support",
+          "Local payment integration",
+          "HEALTHCARE partnership tools"
+        ],
+        "status": "In Progress"
+      },
+      {
+        "id": "q1-2026",
+        "quarter": "Q1 2022",
+        "title": "Advanced AI Matching 2.0",
+        "features": [
+          "Behavioral prediction models",
+          "Lifestyle compatibility scoring",
+          "Smart recommendations"
+        ],
+        "status": "Planned"
+      },
+      {
+        "id": "q2-2026",
+        "quarter": "Q2 2022",
+        "title": "[Company Name] Spaces Integration",
+        "features": [
+          "Property management dashboard",
+          "IoT device integration",
+          "Automated check-in/out"
+        ],
+        "status": "Planned"
+      },
+      {
+        "id": "q3-2026",
+        "quarter": "Q3 2022",
+        "title": "Enterprise Platform Enhancement",
+        "features": [
+          "Advanced analytics",
+          "Custom integrations",
+          "White-label solutions"
+        ],
+        "status": "Future"
+      }
+    ]
+  },
+  "technicalAdvantages": {
+    "title": "Technical Competitive Advantages",
+    "description": "Key technology differentiators in the market",
+    "categories": [
+      {
+        "id": "platform-architecture",
+        "title": "Platform Architecture",
+        "advantages": [
+          "Microservices architecture for independent scaling",
+          "Real-time messaging and notification systems",
+          "Advanced caching and performance optimization",
+          "Multi-tenant SaaS architecture for enterprise"
+        ]
+      },
+      {
+        "id": "ai-data-science",
+        "title": "AI & Data Science",
+        "advantages": [
+          "Machine learning models for compatibility scoring",
+          "Natural language processing for user preferences",
+          "Predictive analytics for churn prevention",
+          "Automated quality assurance and fraud detection"
+        ]
+      }
+    ]
+  }
+}
