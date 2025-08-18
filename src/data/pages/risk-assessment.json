@@ -117,7 +117,7 @@
           "risk": "Funding Shortfall",
           "probability": "Low",
           "impact": "High",
-          "mitigation": "Conservative cash management, multiple funding sources, revenue growth",
+          "mitigation": "Conservative cash management, multiple funding sources, revenue growth, 30M€ funding buffer",
           "status": "Monitored"
         },
         {
@@ -173,13 +173,13 @@
   ],
   "scenarioAnalysis": {
     "title": "Scenario Analysis",
-    "description": "Financial impact assessment under different risk scenarios",
+    "description": "Financial impact assessment under different risk scenarios. Revenue calculations based on base case 110M€ with percentage adjustments for risk factors.",
     "scenarios": [
       {
         "id": "base-case",
         "scenario": "Base Case",
         "probability": "50%",
-        "revenue2031": "162.8M€",
+        "revenue2031": "110.0M€",
         "impact": "Plan execution as projected",
         "description": "Successful market expansion with expected growth rates"
       },
@@ -187,16 +187,16 @@
         "id": "bear-case",
         "scenario": "Bear Case",
         "probability": "25%",
-        "revenue2031": "97.7M€",
-        "impact": "40% revenue reduction",
-        "description": "Economic downturn, increased competition, slower user growth"
+        "revenue2031": "66.0M€",
+        "impact": "40% revenue reduction (Formula: 110M€ × 0.6)",
+        "description": "Economic downturn, increased competition, higher CAC, slower user growth, extended timeline to profitability"
       },
       {
         "id": "bull-case",
         "scenario": "Bull Case",
         "probability": "25%",
-        "revenue2031": "244.2M€",
-        "impact": "50% revenue increase",
+        "revenue2031": "165.0M€",
+        "impact": "50% revenue increase (Formula: 110M€ × 1.5)",
         "description": "Faster market penetration, premium positioning success"
       }
     ]

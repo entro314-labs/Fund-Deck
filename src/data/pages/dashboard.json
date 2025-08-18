@@ -8,7 +8,7 @@
     {
       "id": "total-revenue-target",
       "title": "Total Revenue Target",
-      "value": 162.8,
+      "value": 110.0,
       "prefix": "",
       "suffix": "M€",
       "subtitle": "by 2031",
@@ -19,7 +19,7 @@
       "id": "funding-rounds",
       "title": "Funding Rounds",
       "value": "5 Rounds",
-      "subtitle": "25M€ total",
+      "subtitle": "30M€ total",
       "icon": "TrendingUp",
       "color": "text-primary"
     },
@@ -35,7 +35,7 @@
     {
       "id": "break-even",
       "title": "Break-even",
-      "value": "Q3 2028",
+      "value": "Q4 2028",
       "subtitle": "Path to profitability",
       "icon": "Target",
       "color": "text-success"

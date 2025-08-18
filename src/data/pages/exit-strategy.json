@@ -10,9 +10,9 @@
     {
       "id": "target-valuation",
       "title": "Target Valuation",
-      "value": 500,
+      "value": 390,
       "prefix": "",
-      "suffix": "M€+",
+      "suffix": "M€",
       "subtitle": "2032 exit target",
       "icon": "TrendingUp",
       "color": "text-success"
@@ -20,16 +20,16 @@
     {
       "id": "revenue-multiple",
       "title": "Revenue Multiple",
-      "value": "3.1x - 7.4x",
-      "subtitle": "Based on 162.8M€ ARR",
+      "value": "3.0x - 4.0x",
+      "subtitle": "Based on 110.0M€ ARR (Formula: Valuation ÷ ARR)",
       "icon": "Euro",
       "color": "text-primary"
     },
     {
       "id": "investor-returns",
       "title": "Investor Returns",
-      "value": "50x+",
-      "subtitle": "From 10M€ seed valuation",
+      "value": "39x",
+      "subtitle": "From 10M€ seed valuation (Formula: Exit valuation ÷ seed valuation)",
       "icon": "Target",
       "color": "text-accent"
     },
@@ -48,7 +48,7 @@
       "scenario": "Strategic Acquisition",
       "probability": "60%",
       "timeline": "2032-2033",
-      "valuation": "500M€ - 750M€",
+      "valuation": "330M€ - 440M€",
       "acquirer": "PropTech Leader",
       "rationale": "Platform integration and European market expansion",
       "examples": [
@@ -56,7 +56,7 @@
         "SpareRoom strategic value",
         "Spotahome exit pattern"
       ],
-      "revenue_multiple": "3.1x - 4.6x",
+      "revenue_multiple": "3.0x - 4.0x",
       "pros": ["Immediate liquidity", "Strategic synergies", "Market validation"],
       "cons": ["Lower valuation potential", "Integration challenges"]
     },
@@ -65,11 +65,11 @@
       "scenario": "Private Equity Buyout",
       "probability": "25%",
       "timeline": "2033-2034",
-      "valuation": "600M€ - 900M€",
+      "valuation": "385M€ - 550M€",
       "acquirer": "Growth PE Fund",
       "rationale": "Cash flow generation and expansion potential",
       "examples": ["Real estate PE consolidation", "European PropTech investments"],
-      "revenue_multiple": "3.7x - 5.5x",
+      "revenue_multiple": "3.5x - 5.0x",
       "pros": ["Higher valuations", "Growth capital", "Operational expertise"],
       "cons": ["Longer hold period", "Performance pressure"]
     },
@@ -78,24 +78,24 @@
       "scenario": "IPO (Public Listing)",
       "probability": "15%",
       "timeline": "2034-2035",
-      "valuation": "800M€ - 1.2B€",
+      "valuation": "440M€ - 660M€",
       "acquirer": "Public Markets",
       "rationale": "Market leadership and growth trajectory",
       "examples": ["Rightmove IPO success", "European tech IPOs", "PropTech public companies"],
-      "revenue_multiple": "4.9x - 7.4x",
+      "revenue_multiple": "4.0x - 6.0x",
       "pros": ["Maximum valuation", "Liquidity options", "Growth capital access"],
       "cons": ["Market volatility", "Regulatory complexity", "Performance scrutiny"]
     }
   ],
   "valuationDrivers": {
     "title": "Key Valuation Drivers",
-    "description": "Critical factors influencing exit valuation and investor returns",
+    "description": "Critical factors influencing exit valuation and investor returns. Revenue multiples calculated as enterprise value divided by annual recurring revenue.",
     "drivers": [
       {
         "id": "revenue-growth",
         "driver": "Revenue Growth",
-        "current": "87% CAGR",
-        "target2031": "162.8M€ ARR",
+        "current": "151% CAGR (Formula: (110M€/50K€)^(1/6)-1)",
+        "target2031": "110.0M€ ARR",
         "impact": "High",
         "description": "Consistent high-growth revenue trajectory across three business segments"
       },
@@ -111,7 +111,7 @@
         "id": "profitability",
         "driver": "Profitability",
         "current": "Path to break-even",
-        "target2031": "28% EBITDA margins",
+        "target2031": "25% EBITDA margins (Formula: EBITDA ÷ Total Revenue)",
         "impact": "Medium",
         "description": "Strong unit economics and operational efficiency at scale"
       },
@@ -127,7 +127,7 @@
         "id": "asset-base",
         "driver": "Asset Base",
         "current": "Platform model",
-        "target2031": "11K+ properties",
+        "target2031": "7.5K+ properties (Formula: Total spaces revenue ÷ avg property yield)",
         "impact": "Medium",
         "description": "Quality property portfolio providing additional valuation support"
       }
@@ -259,7 +259,7 @@
     ],
     "summary": {
       "title": "Investment Returns Summary",
-      "content": "Based on 500M€+ exit valuation target, early investors from the 10M€ seed extension could see 50x+ returns, while later-stage investors maintain strong return profiles. The diversified exit strategy approach maximizes optionality while ensuring optimal timing and valuation achievement."
+      "content": "Based on 330-440M€ exit valuation range, early investors from the 10M€ seed extension could see 33-44x returns, while later-stage investors maintain strong return profiles. The diversified exit strategy approach maximizes optionality while ensuring optimal timing and valuation achievement. Valuation calculations based on 3.0-4.0x revenue multiples applied to projected 2031 ARR of 110M€."
     }
   }
 }

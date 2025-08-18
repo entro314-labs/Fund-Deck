@@ -8,27 +8,27 @@
   },
   "kpiTimeline": {
     "title": "Key Performance Timeline",
-    "description": "Critical metrics progression through expansion phases",
+    "description": "Critical metrics progression through expansion phases. User growth calculated as cumulative registered active users. Revenue figures represent Annual Recurring Revenue (ARR).",
     "data": [
       { "year": "2025", "users": "15.8K", "revenue": "50K€", "markets": 1, "status": "Foundation" },
-      { "year": "2026", "users": "33K", "revenue": "2.1M€", "markets": 2, "status": "Validation" },
-      { "year": "2027", "users": "95K", "revenue": "11.6M€", "markets": 5, "status": "Expansion" },
+      { "year": "2026", "users": "33K", "revenue": "1.8M€", "markets": 2, "status": "Validation" },
+      { "year": "2027", "users": "80K", "revenue": "9.9M€", "markets": 5, "status": "Expansion" },
       {
         "year": "2028",
-        "users": "235K",
-        "revenue": "35.8M€",
+        "users": "180K",
+        "revenue": "27.3M€",
         "markets": 8,
         "status": "Profitability"
       },
-      { "year": "2029", "users": "420K", "revenue": "78.4M€", "markets": 10, "status": "Scale" },
+      { "year": "2029", "users": "320K", "revenue": "59.7M€", "markets": 10, "status": "Scale" },
       {
         "year": "2030",
-        "users": "580K",
-        "revenue": "120.4M€",
+        "users": "460K",
+        "revenue": "88.1M€",
         "markets": 11,
         "status": "Leadership"
       },
-      { "year": "2031", "users": "720K", "revenue": "162.8M€", "markets": 11, "status": "Maturity" }
+      { "year": "2031", "users": "580K", "revenue": "110.0M€", "markets": 11, "status": "Maturity" }
     ]
   },
   "milestoneCategories": [
@@ -92,7 +92,7 @@
         },
         {
           "id": "revenue-2-1m",
-          "milestone": "2.1M€ ARR Achievement",
+          "milestone": "1.8M€ ARR Achievement",
           "date": "Q3 2026",
           "status": "Planned",
           "description": "Revenue milestone validation"
@@ -122,7 +122,7 @@
         },
         {
           "id": "user-milestone-95k",
-          "milestone": "95K Active Users",
+          "milestone": "80K Active Users",
           "date": "Q2 2027",
           "status": "Future",
           "description": "5-market user base achievement"
@@ -136,7 +136,7 @@
         },
         {
           "id": "revenue-11-6m",
-          "milestone": "11.6M€ ARR Target",
+          "milestone": "9.9M€ ARR Target",
           "date": "Q4 2027",
           "status": "Future",
           "description": "Multi-market revenue milestone"
@@ -153,27 +153,27 @@
         {
           "id": "break-even",
           "milestone": "Break-Even Achievement",
-          "date": "Q3 2028",
+          "date": "Q4 2028",
           "status": "Future",
           "description": "EBITDA positive across operations"
         },
         {
           "id": "user-milestone-235k",
-          "milestone": "235K Active Users",
+          "milestone": "180K Active Users",
           "date": "Q3 2028",
           "status": "Future",
           "description": "8-market user base milestone"
         },
         {
           "id": "ebitda-margin",
-          "milestone": "18% EBITDA Margin",
+          "milestone": "15% EBITDA Margin",
           "date": "Q4 2028",
           "status": "Future",
           "description": "Profitability margin target"
         },
         {
           "id": "revenue-35-8m",
-          "milestone": "35.8M€ ARR Target",
+          "milestone": "27.3M€ ARR Target",
           "date": "Q4 2028",
           "status": "Future",
           "description": "Scale revenue achievement"
@@ -196,21 +196,21 @@
         },
         {
           "id": "revenue-78-4m",
-          "milestone": "78.4M€ ARR (2029)",
+          "milestone": "59.7M€ ARR (2029)",
           "date": "Q4 2029",
           "status": "Future",
           "description": "Strong growth trajectory"
         },
         {
           "id": "user-milestone-720k",
-          "milestone": "720K Active Users",
+          "milestone": "580K Active Users",
           "date": "Q2 2031",
           "status": "Future",
           "description": "Market leadership position"
         },
         {
           "id": "revenue-162-8m",
-          "milestone": "162.8M€ ARR Target",
+          "milestone": "110.0M€ ARR Target",
           "date": "Q4 2031",
           "status": "Future",
           "description": "Final revenue milestone"
@@ -220,7 +220,7 @@
           "milestone": "Exit Readiness",
           "date": "2032",
           "status": "Future",
-          "description": "500M€+ valuation preparation"
+          "description": "350-440M€ valuation preparation (Formula: 2031 ARR × 3.0-4.0x revenue multiple)"
         }
       ]
     }

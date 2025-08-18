@@ -18,7 +18,7 @@
     {
       "id": "revenue-target",
       "title": "Revenue Target",
-      "value": 162.8,
+      "value": 110.0,
       "prefix": "",
       "suffix": "M€",
       "subtitle": "ARR by 2031",
@@ -28,7 +28,7 @@
     {
       "id": "user-base",
       "title": "User Base",
-      "value": 720,
+      "value": 580,
       "suffix": "K+",
       "subtitle": "Active users by 2031",
       "icon": "Users",
@@ -37,7 +37,7 @@
     {
       "id": "break-even",
       "title": "Break-Even",
-      "value": "Q3 2028",
+      "value": "Q4 2028",
       "subtitle": "Path to profitability",
       "icon": "Target",
       "color": "text-success"
@@ -45,18 +45,18 @@
   ],
   "marketExpansion": {
     "title": "European Market Expansion Timeline",
-    "description": "Revenue and user growth across 11 European markets",
+    "description": "Revenue and user growth across 11 European markets. Users shown in thousands, revenue in thousands of euros. Growth calculated as compound annual growth rate (CAGR).",
     "chart": {
       "id": "market-expansion-chart",
       "type": "composed",
       "data": [
         { "year": "2025", "markets": 1, "users": 15.8, "revenue": 50 },
-        { "year": "2026", "markets": 2, "users": 33, "revenue": 2124 },
-        { "year": "2027", "markets": 5, "users": 95, "revenue": 11600 },
-        { "year": "2028", "markets": 8, "users": 235, "revenue": 35800 },
-        { "year": "2029", "markets": 10, "users": 420, "revenue": 78400 },
-        { "year": "2030", "markets": 11, "users": 580, "revenue": 120400 },
-        { "year": "2031", "markets": 11, "users": 720, "revenue": 162800 }
+        { "year": "2026", "markets": 2, "users": 33, "revenue": 1800 },
+        { "year": "2027", "markets": 5, "users": 80, "revenue": 9900 },
+        { "year": "2028", "markets": 8, "users": 180, "revenue": 27300 },
+        { "year": "2029", "markets": 10, "users": 320, "revenue": 59700 },
+        { "year": "2030", "markets": 11, "users": 460, "revenue": 88100 },
+        { "year": "2031", "markets": 11, "users": 580, "revenue": 110000 }
       ],
       "series": [
         {
@@ -99,7 +99,7 @@
         "title": "Quality-Controlled Supply",
         "description": "MyRoomie Homes branded property standards",
         "icon": "Building2",
-        "metrics": ["11.200 properties by 2031", "95% occupancy target", "35.6M€ revenue stream"],
+        "metrics": ["7.500 properties by 2031 (Formula: Total spaces revenue ÷ avg property revenue)", "95% occupancy target", "24.2M€ revenue stream"],
         "status": "Scaling"
       },
       {
@@ -107,7 +107,7 @@
         "title": "Enterprise Integration",
         "description": "B2B services for corporate relocations",
         "icon": "Users",
-        "metrics": ["65 enterprise clients", "86.500 annual placements", "64.4M€ revenue by 2031"],
+        "metrics": ["40 enterprise clients (Formula: Enterprise revenue ÷ avg contract value)", "52.000 annual placements", "42.9M€ revenue by 2031"],
         "status": "Active"
       }
     ]
@@ -123,7 +123,7 @@
         "markets": ["Greece", "Poland"],
         "investment": "9M€",
         "focus": "Foundation & Validation",
-        "milestones": ["Poland market entry", "20K+ active users", "2M€ ARR"]
+        "milestones": ["Poland market entry", "20K+ active users", "1.8M€ ARR"]
       },
       {
         "id": "phase-2",
@@ -132,7 +132,7 @@
         "markets": ["Austria", "Czech Republic", "Romania"],
         "investment": "8M€",
         "focus": "Western Europe Entry",
-        "milestones": ["5 market operations", "95K+ users", "11.6M€ ARR"]
+        "milestones": ["5 market operations", "80K+ users", "9.9M€ ARR"]
       },
       {
         "id": "phase-3",
@@ -141,7 +141,7 @@
         "markets": ["Ireland", "Portugal", "Slovakia"],
         "investment": "6M€",
         "focus": "Market Consolidation",
-        "milestones": ["8 market operations", "235K+ users", "35.8M€ ARR"]
+        "milestones": ["8 market operations", "180K+ users", "27.3M€ ARR"]
       },
       {
         "id": "phase-4",
@@ -150,7 +150,7 @@
         "markets": ["Estonia", "Slovenia", "Malta"],
         "investment": "2M€",
         "focus": "Optimization & Profitability",
-        "milestones": ["11 market completion", "720K+ users", "162.8M€ ARR"]
+        "milestones": ["11 market completion", "580K+ users", "110.0M€ ARR"]
       }
     ]
   },
@@ -174,13 +174,13 @@
         {
           "id": "property-scale",
           "title": "Property Operations Scale",
-          "description": "3.200 properties under management by 2027",
+          "description": "4.000 properties under management by 2027 (Formula: 2027 spaces revenue ÷ avg property yield)",
           "icon": "CheckCircle"
         },
         {
           "id": "enterprise-partnerships",
           "title": "Enterprise Partnerships",
-          "description": "18 corporate clients, 15.600 annual relocations",
+          "description": "20 corporate clients, 19.800 annual relocations (Formula: 2027 enterprise revenue ÷ avg placement fee)",
           "icon": "CheckCircle"
         }
       ]
@@ -192,7 +192,7 @@
         {
           "id": "profitability",
           "title": "Profitability Achievement",
-          "description": "EBITDA positive Q3 2028, 28% margins by 2031",
+          "description": "EBITDA positive Q4 2028, 25% margins by 2031 (Formula: EBITDA ÷ Total Revenue)",
           "icon": "Target"
         },
         {
@@ -204,13 +204,13 @@
         {
           "id": "revenue-diversification",
           "title": "Revenue Diversification",
-          "description": "Balanced 39%-22%-39% across three revenue streams",
+          "description": "Balanced 39%-22%-39% across three revenue streams (Formula: Individual stream revenue ÷ total revenue)",
           "icon": "Target"
         },
         {
           "id": "exit-readiness",
           "title": "Exit Readiness",
-          "description": "500M€+ valuation, strategic or IPO options",
+          "description": "350-440M€ valuation, strategic or IPO options (Formula: 2031 ARR × 3.0-4.0x revenue multiple)",
           "icon": "Target"
         }
       ]

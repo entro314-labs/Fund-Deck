@@ -10,37 +10,37 @@
     {
       "id": "total-revenue-2031",
       "title": "Total Revenue (2031)",
-      "value": 162.8,
+      "value": 110.0,
       "prefix": "",
       "suffix": "M€",
-      "subtitle": "87% CAGR post-pivot",
+      "subtitle": "151% CAGR post-pivot (Formula: (110M€/50K€)^(1/6)-1)",
       "icon": "TrendingUp",
       "color": "text-success"
     },
     {
       "id": "ebitda-margin-2031",
       "title": "EBITDA Margin (2031)",
-      "value": 28,
+      "value": 25,
       "suffix": "%",
-      "subtitle": "Path to profitability Q3 2028",
+      "subtitle": "Path to profitability Q4 2028",
       "icon": "Target",
       "color": "text-primary"
     },
     {
       "id": "total-funding-required",
       "title": "Total Funding Required",
-      "value": 25,
+      "value": 30,
       "prefix": "",
       "suffix": "M€",
-      "subtitle": "5 rounds through 2030",
+      "subtitle": "5 rounds through 2031",
       "icon": "Euro",
       "color": "text-accent"
     },
     {
       "id": "blended-ltv-cac",
       "title": "Blended LTV:CAC (2031)",
-      "value": "32.3:1",
-      "subtitle": "Exceptional unit economics",
+      "value": "12.8:1",
+      "subtitle": "Strong unit economics (Weighted avg: (B2C×volume + Spaces×volume + Enterprise×volume)/total)",
       "icon": "Users",
       "color": "text-success"
     }
@@ -53,12 +53,12 @@
       "type": "area",
       "data": [
         { "year": "2025", "Connect": 30, "Spaces": 15, "Enterprise": 5, "Total": 50 },
-        { "year": "2026", "Connect": 936, "Spaces": 468, "Enterprise": 720, "Total": 2124 },
-        { "year": "2027", "Connect": 4100, "Spaces": 2300, "Enterprise": 5200, "Total": 11600 },
-        { "year": "2028", "Connect": 12800, "Spaces": 7400, "Enterprise": 15600, "Total": 35800 },
-        { "year": "2029", "Connect": 28400, "Spaces": 16800, "Enterprise": 33200, "Total": 78400 },
-        { "year": "2030", "Connect": 45200, "Spaces": 26400, "Enterprise": 48800, "Total": 120400 },
-        { "year": "2031", "Connect": 62800, "Spaces": 35600, "Enterprise": 64400, "Total": 162800 }
+        { "year": "2026", "Connect": 830, "Spaces": 370, "Enterprise": 640, "Total": 1840 },
+        { "year": "2027", "Connect": 3510, "Spaces": 1970, "Enterprise": 4450, "Total": 9930 },
+        { "year": "2028", "Connect": 9750, "Spaces": 5650, "Enterprise": 11900, "Total": 27300 },
+        { "year": "2029", "Connect": 21600, "Spaces": 12800, "Enterprise": 25300, "Total": 59700 },
+        { "year": "2030", "Connect": 32400, "Spaces": 19200, "Enterprise": 36500, "Total": 88100 },
+        { "year": "2031", "Connect": 42900, "Spaces": 24200, "Enterprise": 42900, "Total": 110000 }
       ],
       "dataKeys": ["year", "Connect", "Spaces", "Enterprise", "Total"],
       "series": [
@@ -70,12 +70,12 @@
     "revenueDistribution": {
       "id": "revenue-distribution-chart",
       "title": "Revenue Distribution 2031",
-      "description": "162.8M€ total revenue breakdown",
+      "description": "110M€ total revenue breakdown",
       "type": "pie",
       "data": [
-        { "name": "MyRoomie Connect", "value": 62800, "color": "#FA906E" },
-        { "name": "MyRoomie Spaces", "value": 35600, "color": "#F5BC5E" },
-        { "name": "MyRoomie Enterprise", "value": 64400, "color": "#a6d18c" }
+        { "name": "MyRoomie Connect", "value": 42900, "color": "#FA906E" },
+        { "name": "MyRoomie Spaces", "value": 24200, "color": "#F5BC5E" },
+        { "name": "MyRoomie Enterprise", "value": 42900, "color": "#a6d18c" }
       ]
     },
     "profitability": {
@@ -87,10 +87,10 @@
         { "year": "2025", "EBITDA": -1250, "margin": -2500, "status": "Investment" },
         { "year": "2026", "EBITDA": -1466, "margin": -69, "status": "Growth" },
         { "year": "2027", "EBITDA": -180, "margin": -2, "status": "Near Break-even" },
-        { "year": "2028", "EBITDA": 6450, "margin": 18, "status": "Profitable" },
-        { "year": "2029", "EBITDA": 20440, "margin": 26, "status": "Scaling" },
-        { "year": "2030", "EBITDA": 33130, "margin": 28, "status": "Mature" },
-        { "year": "2031", "EBITDA": 45490, "margin": 28, "status": "Optimized" }
+        { "year": "2028", "EBITDA": 4100, "margin": 15, "status": "Profitable" },
+        { "year": "2029", "EBITDA": 13140, "margin": 22, "status": "Scaling" },
+        { "year": "2030", "EBITDA": 20430, "margin": 23, "status": "Mature" },
+        { "year": "2031", "EBITDA": 27500, "margin": 25, "status": "Optimized" }
       ],
       "series": [
         {
@@ -112,35 +112,35 @@
   },
   "unitEconomics": {
     "title": "Unit Economics by Business Segment",
-    "description": "Customer acquisition costs, lifetime value, and margin analysis",
+    "description": "Customer acquisition costs, lifetime value, and margin analysis. CAC = Total acquisition spend/new customers. LTV = Average revenue per customer × retention rate × margin.",
     "headers": ["Business Segment", "CAC (€)", "LTV (€)", "LTV:CAC", "Gross Margin"],
     "data": [
       {
         "segment": "Connect B2C",
-        "CAC": 30,
-        "LTV": 210,
-        "ratio": "7.0:1",
+        "CAC": 52,
+        "LTV": 624,
+        "ratio": "12.0:1",
         "margin": 97
       },
       {
         "segment": "Spaces Properties",
-        "CAC": 1000,
-        "LTV": 8060,
-        "ratio": "8.1:1",
+        "CAC": 1350,
+        "LTV": 9450,
+        "ratio": "7.0:1",
         "margin": 72
       },
       {
         "segment": "Enterprise B2B",
-        "CAC": 5000,
-        "LTV": 858000,
-        "ratio": "172:1",
+        "CAC": 6500,
+        "LTV": 97500,
+        "ratio": "15.0:1",
         "margin": 85
       }
     ]
   },
   "fundingTimeline": {
     "title": "Funding Timeline & Strategy",
-    "description": "25M€ total funding across 5 rounds through 2030",
+    "description": "30M€ total funding across 5 rounds through 2031",
     "rounds": [
       {
         "round": "Seed Extension",
@@ -173,7 +173,7 @@
       {
         "round": "Series D",
         "period": "2030",
-        "amount": "2M€",
+        "amount": "7M€",
         "valuation": "150M€",
         "use": "Working capital optimization"
       }
@@ -395,7 +395,7 @@
   },
   "unitEconomicsEvolution": {
     "title": "Unit Economics Evolution by Segment",
-    "description": "CAC, LTV, and LTV:CAC ratio progression over time across business segments",
+    "description": "CAC, LTV, and LTV:CAC ratio progression over time across business segments. Calculations: LTV = (Monthly ARPU × Gross Margin × Average Customer Lifetime), CAC = Total Sales & Marketing Spend / New Customers Acquired, Payback = CAC / (Monthly ARPU × Gross Margin)",
     "data": [
       {
         "year": "2025",
@@ -413,87 +413,87 @@
       },
       {
         "year": "2026",
-        "cac_b2c": 135,
-        "ltv_b2c": 210,
-        "ratio_b2c": 1.6,
-        "cac_spaces": 1100,
-        "ltv_spaces": 4800,
-        "ratio_spaces": 4.4,
+        "cac_b2c": 58,
+        "ltv_b2c": 348,
+        "ratio_b2c": 6.0,
+        "cac_spaces": 1200,
+        "ltv_spaces": 6000,
+        "ratio_spaces": 5.0,
         "cac_enterprise": 7200,
-        "ltv_enterprise": 68000,
-        "ratio_enterprise": 9.4,
-        "blended_ratio": 4.8,
-        "payback_months": 22
-      },
-      {
-        "year": "2027",
-        "cac_b2c": 120,
-        "ltv_b2c": 285,
-        "ratio_b2c": 2.4,
-        "cac_spaces": 980,
-        "ltv_spaces": 6200,
-        "ratio_spaces": 6.3,
-        "cac_enterprise": 6500,
-        "ltv_enterprise": 125000,
-        "ratio_enterprise": 19.2,
-        "blended_ratio": 8.6,
+        "ltv_enterprise": 72000,
+        "ratio_enterprise": 10.0,
+        "blended_ratio": 7.1,
         "payback_months": 18
       },
       {
+        "year": "2027",
+        "cac_b2c": 52,
+        "ltv_b2c": 416,
+        "ratio_b2c": 8.0,
+        "cac_spaces": 1100,
+        "ltv_spaces": 7700,
+        "ratio_spaces": 7.0,
+        "cac_enterprise": 6800,
+        "ltv_enterprise": 102000,
+        "ratio_enterprise": 15.0,
+        "blended_ratio": 9.8,
+        "payback_months": 15
+      },
+      {
         "year": "2028",
-        "cac_b2c": 95,
-        "ltv_b2c": 420,
-        "ratio_b2c": 4.4,
-        "cac_spaces": 850,
-        "ltv_spaces": 7800,
-        "ratio_spaces": 9.2,
-        "cac_enterprise": 5500,
-        "ltv_enterprise": 285000,
-        "ratio_enterprise": 51.8,
-        "blended_ratio": 18.4,
-        "payback_months": 14
+        "cac_b2c": 48,
+        "ltv_b2c": 480,
+        "ratio_b2c": 10.0,
+        "cac_spaces": 1000,
+        "ltv_spaces": 9000,
+        "ratio_spaces": 9.0,
+        "cac_enterprise": 6200,
+        "ltv_enterprise": 124000,
+        "ratio_enterprise": 20.0,
+        "blended_ratio": 12.5,
+        "payback_months": 13
       },
       {
         "year": "2029",
-        "cac_b2c": 75,
-        "ltv_b2c": 520,
-        "ratio_b2c": 6.9,
-        "cac_spaces": 750,
-        "ltv_spaces": 9200,
-        "ratio_spaces": 12.3,
-        "cac_enterprise": 4800,
-        "ltv_enterprise": 485000,
-        "ratio_enterprise": 101.0,
-        "blended_ratio": 28.7,
+        "cac_b2c": 45,
+        "ltv_b2c": 540,
+        "ratio_b2c": 12.0,
+        "cac_spaces": 920,
+        "ltv_spaces": 10120,
+        "ratio_spaces": 11.0,
+        "cac_enterprise": 5800,
+        "ltv_enterprise": 145000,
+        "ratio_enterprise": 25.0,
+        "blended_ratio": 15.2,
         "payback_months": 11
       },
       {
         "year": "2030",
-        "cac_b2c": 65,
-        "ltv_b2c": 620,
-        "ratio_b2c": 9.5,
-        "cac_spaces": 680,
-        "ltv_spaces": 10800,
-        "ratio_spaces": 15.9,
-        "cac_enterprise": 4200,
-        "ltv_enterprise": 685000,
-        "ratio_enterprise": 163.1,
-        "blended_ratio": 42.8,
+        "cac_b2c": 42,
+        "ltv_b2c": 588,
+        "ratio_b2c": 14.0,
+        "cac_spaces": 850,
+        "ltv_spaces": 11050,
+        "ratio_spaces": 13.0,
+        "cac_enterprise": 5500,
+        "ltv_enterprise": 165000,
+        "ratio_enterprise": 30.0,
+        "blended_ratio": 17.8,
         "payback_months": 9
       },
       {
         "year": "2031",
-        "cac_b2c": 58,
-        "ltv_b2c": 750,
-        "ratio_b2c": 12.9,
-        "cac_spaces": 625,
-        "ltv_spaces": 12200,
-        "ratio_spaces": 19.5,
-        "cac_enterprise": 3800,
-        "ltv_enterprise": 858000,
-        "ratio_enterprise": 225.8,
-        "blended_ratio": 62.4,
-        "payback_months": 7
+        "cac_b2c": 40,
+        "ltv_b2c": 600,
+        "ratio_b2c": 15.0,
+        "cac_spaces": 800,
+        "ltv_spaces": 12000,
+        "ratio_spaces": 15.0,
+        "cac_enterprise": 5200,
+        "ltv_enterprise": 182000,
+        "ratio_enterprise": 35.0,
+        "blended_ratio": 19.5,
+        "payback_months": 8
       }
     ]
   },
@@ -504,19 +504,19 @@
       {
         "title": "Growth Trajectory",
         "items": [
-          "87% CAGR revenue growth from 2025-2031",
-          "Break-even achieved Q3 2028",
-          "28% EBITDA margins by 2031",
+          "151% CAGR revenue growth from 2025-2031 (Formula: (110M€/50K€)^(1/6)-1)",
+          "Break-even achieved Q4 2028",
+          "25% EBITDA margins by 2031",
           "Strong cash generation from 2029+"
         ]
       },
       {
         "title": "Investment Highlights",
         "items": [
-          "Capital efficient: 25M€ for 162.8M€ scale",
+          "Capital efficient: 30M€ for 110M€ scale",
           "Improving unit economics across all segments",
           "Diversified revenue streams reduce risk",
-          "Clear path to 500M€+ exit valuation"
+          "Exit valuation range: 330-440M€ (Formula: 2031 revenue × 3.0-4.0x multiple based on comparable SaaS companies)"
         ]
       }
     ]

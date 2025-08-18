@@ -9,7 +9,7 @@
   "executiveOverview": {
     "title": "The Opportunity",
     "mainStatement": "MyRoomie is positioned to become Europe's leading Living-as-a-Service platform, addressing the 500B€+ European housing market through an integrated AI-powered ecosystem combining consumer matching, quality property operations, and enterprise services.",
-    "supportingText": "With 9.6M housing units shortage across Europe and 300K+ annual BPO relocations, MyRoomie's three-pillar platform creates network effects and sustainable competitive advantages. The company targets 162.8M€ revenue by 2031 across 11 European markets, achieving profitability by Q3 2028 with exceptional unit economics."
+    "supportingText": "With 9.6M housing units shortage across Europe and 300K+ annual BPO relocations, MyRoomie's three-pillar platform creates network effects and sustainable competitive advantages. The company targets 110M€ revenue by 2031 across 11 European markets (151% CAGR), achieving profitability by Q4 2028 with strong unit economics and proven market penetration strategies."
   },
   "keyHighlights": [
     {
@@ -25,27 +25,27 @@
     {
       "id": "revenue-target",
       "title": "Revenue Target",
-      "value": 162.8,
+      "value": 110.0,
       "prefix": "",
       "suffix": "M€",
-      "subtitle": "By 2031 (87% CAGR)",
+      "subtitle": "By 2031 (151% CAGR formula: (110M€/50K€)^(1/6)-1)",
       "icon": "TrendingUp",
       "color": "text-primary"
     },
     {
       "id": "funding-required",
       "title": "Funding Required",
-      "value": 25,
+      "value": 30,
       "prefix": "",
       "suffix": "M€",
-      "subtitle": "5 rounds through 2030",
+      "subtitle": "5 rounds through 2031",
       "icon": "Euro",
       "color": "text-accent"
     },
     {
       "id": "break-even",
       "title": "Break-Even",
-      "value": "Q3 2028",
+      "value": "Q4 2028",
       "subtitle": "Path to profitability",
       "icon": "Target",
       "color": "text-success"
@@ -58,7 +58,7 @@
         "id": "myroomie-connect",
         "title": "MyRoomie Connect",
         "subtitle": "AI-Powered B2C Platform",
-        "revenue": "62.8M€ by 2031",
+        "revenue": "42.9M€ by 2031",
         "share": "39%",
         "icon": "Users",
         "description": "Advanced flatmate matching with premium subscriptions and value-added services"
@@ -67,7 +67,7 @@
         "id": "myroomie-spaces",
         "title": "MyRoomie Spaces",
         "subtitle": "Quality Property Operations",
-        "revenue": "35.6M€ by 2031",
+        "revenue": "24.2M€ by 2031",
         "share": "22%",
         "icon": "Building2",
         "description": "MyRoomie Homes branded properties with hybrid ownership/management model"
@@ -76,7 +76,7 @@
         "id": "myroomie-enterprise",
         "title": "MyRoomie Enterprise",
         "subtitle": "B2B Corporate Services",
-        "revenue": "64.4M€ by 2031",
+        "revenue": "42.9M€ by 2031",
         "share": "39%",
         "icon": "Target",
         "description": "Corporate relocations and university partnerships serving 300K+ BPO employees"
@@ -107,15 +107,15 @@
       },
       {
         "id": "profitability",
-        "period": "Q3 2028",
+        "period": "Q4 2028",
         "milestone": "Profitability",
-        "description": "EBITDA positive with 18% margins across 8 markets"
+        "description": "EBITDA positive with 15% margins across 8 markets"
       },
       {
         "id": "market-leadership",
         "period": "2031",
         "milestone": "Market Leadership",
-        "description": "162.8M€ revenue, 28% EBITDA margins, 11-market operations"
+        "description": "110M€ revenue, 25% EBITDA margins, 11-market operations"
       }
     ]
   },
@@ -151,30 +151,30 @@
   },
   "financialHighlights": {
     "title": "Financial Highlights",
-    "description": "Key financial metrics and projections",
+    "description": "Key financial metrics and projections. All growth rates calculated as CAGR. LTV = customer lifetime value, CAC = customer acquisition cost.",
     "highlights": [
       {
         "id": "revenue-growth",
         "title": "Revenue Growth",
-        "description": "87% CAGR from 50K€ to 162.8M€ (2025-2031)",
+        "description": "151% CAGR from 50K€ to 110M€ (2025-2031) Formula: (110M€/50K€)^(1/6)-1",
         "icon": "CheckCircle"
       },
       {
         "id": "unit-economics",
         "title": "Unit Economics",
-        "description": "Blended LTV:CAC improving from 4:1 to 32.3:1",
+        "description": "Blended LTV:CAC improving from 3.1:1 to 19.5:1 (Formula: Weighted average of segment LTV:CAC ratios)",
         "icon": "CheckCircle"
       },
       {
         "id": "profitability-path",
         "title": "Profitability Path",
-        "description": "EBITDA positive Q3 2028, 28% margins by 2031",
+        "description": "EBITDA positive Q4 2028, 25% margins by 2031",
         "icon": "CheckCircle"
       },
       {
         "id": "capital-efficiency",
         "title": "Capital Efficiency",
-        "description": "25M€ total funding for 162.8M€ revenue scale",
+        "description": "30M€ total funding for 110M€ revenue scale",
         "icon": "CheckCircle"
       }
     ]

@@ -18,19 +18,19 @@
     {
       "id": "total-funding-strategy",
       "title": "Total Funding Strategy",
-      "value": 25,
+      "value": 30,
       "prefix": "",
       "suffix": "M€",
-      "subtitle": "5 rounds through 2030",
+      "subtitle": "5 rounds through 2031 (Formula: Sum of all funding rounds)",
       "icon": "TrendingUp",
       "color": "text-success"
     },
     {
       "id": "target-valuation",
       "title": "Target Valuation",
-      "value": 500,
+      "value": 390,
       "prefix": "",
-      "suffix": "M+",
+      "suffix": "M€",
       "subtitle": "Exit by 2032",
       "icon": "Target",
       "color": "text-accent"
@@ -38,7 +38,7 @@
     {
       "id": "break-even",
       "title": "Break-Even",
-      "value": "Q3 2028",
+      "value": "Q4 2028",
       "subtitle": "18-month runway post-funding",
       "icon": "Calendar",
       "color": "text-success"
@@ -118,6 +118,15 @@
         "timing": "Q1 2028",
         "valuation": "100M€",
         "purpose": "Phase 3 expansion and profitability path",
+        "status": "Future"
+      },
+      {
+        "id": "series-d",
+        "round": "Series D",
+        "amount": "7M€",
+        "timing": "2030",
+        "valuation": "150M€",
+        "purpose": "Working capital optimization and market leadership",
         "status": "Future"
       }
     ]

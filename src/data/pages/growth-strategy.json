@@ -19,7 +19,7 @@
     {
       "id": "market-penetration",
       "title": "Market Penetration",
-      "value": 12,
+      "value": 8,
       "suffix": "%",
       "subtitle": "Average across 11 markets",
       "icon": "Target",
@@ -28,32 +28,32 @@
     {
       "id": "revenue-growth",
       "title": "Revenue Growth",
-      "value": 87,
+      "value": 151,
       "suffix": "%",
-      "subtitle": "CAGR 2025-2031",
+      "subtitle": "CAGR 2025-2031 (Formula: (110M€/50K€)^(1/6)-1)",
       "icon": "Euro",
       "color": "text-accent"
     },
     {
       "id": "customer-ltv-cac",
       "title": "Customer LTV:CAC",
-      "value": "32.3:1",
-      "subtitle": "By 2031 across segments",
+      "value": "19.5:1",
+      "subtitle": "By 2031 across segments (Formula: Weighted avg of LTV:CAC ratios)",
       "icon": "Users",
       "color": "text-success"
     }
   ],
   "growthFunnel": {
     "title": "Growth Funnel Progression",
-    "description": "User acquisition funnel evolution (thousands)",
+    "description": "User acquisition funnel evolution (thousands). Calculations: Awareness = Total addressable audience, Consideration = Marketing qualified leads, Trial = Platform registrations, Adoption = Active paying users.",
     "data": [
-      { "year": "2025", "awareness": 100, "consideration": 30, "trial": 15, "adoption": 8 },
+      { "year": "2025", "awareness": 100, "consideration": 35, "trial": 20, "adoption": 16 },
       { "year": "2026", "awareness": 250, "consideration": 90, "trial": 50, "adoption": 33 },
-      { "year": "2027", "awareness": 600, "consideration": 240, "trial": 140, "adoption": 95 },
-      { "year": "2028", "awareness": 1200, "consideration": 520, "trial": 320, "adoption": 235 },
-      { "year": "2029", "awareness": 2000, "consideration": 900, "trial": 580, "adoption": 420 },
-      { "year": "2030", "awareness": 2800, "consideration": 1200, "trial": 750, "adoption": 580 },
-      { "year": "2031", "awareness": 3500, "consideration": 1500, "trial": 950, "adoption": 720 }
+      { "year": "2027", "awareness": 600, "consideration": 210, "trial": 115, "adoption": 80 },
+      { "year": "2028", "awareness": 1200, "consideration": 450, "trial": 265, "adoption": 180 },
+      { "year": "2029", "awareness": 2000, "consideration": 780, "trial": 480, "adoption": 320 },
+      { "year": "2030", "awareness": 2800, "consideration": 1050, "trial": 650, "adoption": 460 },
+      { "year": "2031", "awareness": 2850, "consideration": 1200, "trial": 780, "adoption": 580 }
     ]
   },
   "marketPenetration": {
@@ -142,7 +142,7 @@
           "id": "myroomie-homes-network",
           "name": "MyRoomie Homes Network",
           "description": "Quality property network across all markets",
-          "metrics": ["11.200 properties", "95% occupancy", "35.6M€ revenue"],
+          "metrics": ["7.500 properties (Formula: Total spaces revenue ÷ avg property yield)", "95% occupancy", "24.2M€ revenue"],
           "investment": "8.5M€"
         },
         {
@@ -205,7 +205,7 @@
   },
   "investmentAllocation": {
     "title": "Growth Investment Allocation",
-    "description": "26.9M€ total growth investment across strategy areas",
+    "description": "30.0M€ total growth investment across strategy areas (Formula: Total funding requirement for growth initiatives)",
     "categories": [
       {
         "id": "user-acquisition",

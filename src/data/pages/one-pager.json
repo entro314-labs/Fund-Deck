@@ -14,7 +14,7 @@
   "keyMetrics": [
     {
       "id": "revenue-target",
-      "value": "162.8M€",
+      "value": "110M€",
       "label": "Revenue Target 2031",
       "color": "text-success"
     },
@@ -26,13 +26,13 @@
     },
     {
       "id": "total-funding",
-      "value": "25M€",
+      "value": "30M€",
       "label": "Total Funding",
       "color": "text-accent"
     },
     {
       "id": "break-even",
-      "value": "Q3 2028",
+      "value": "Q4 2028",
       "label": "Break-Even",
       "color": "text-success"
     }
@@ -86,7 +86,7 @@
         "description": "B2B corporate services"
       }
     ],
-    "unitEconomics": "LTV:CAC 32.3:1 by 2031, 81% gross margins"
+    "unitEconomics": "LTV:CAC 19.5:1 by 2031, 81% gross margins (Formula: Weighted avg of segment ratios)"
   },
   "traction": {
     "title": "Traction",
@@ -131,25 +131,25 @@
   "quickStats": [
     {
       "id": "revenue-growth",
-      "value": "87% CAGR",
+      "value": "151% CAGR",
       "label": "Revenue Growth",
       "color": "text-success"
     },
     {
       "id": "users-2031",
-      "value": "720K+",
+      "value": "580K+",
       "label": "Users by 2031",
       "color": "text-primary"
     },
     {
       "id": "ebitda-margins",
-      "value": "28%",
+      "value": "25%",
       "label": "EBITDA Margins",
       "color": "text-accent"
     },
     {
       "id": "exit-target",
-      "value": "500M€+",
+      "value": "390M€",
       "label": "Exit Target",
       "color": "text-success"
     }

@@ -18,7 +18,7 @@
         "subtitle": "This month",
         "icon": "Euro",
         "color": "text-success",
-        "target": 45.2,
+        "target": 18.3,
         "targetSuffix": "K"
       },
       {
@@ -29,7 +29,7 @@
         "subtitle": "Monthly active",
         "icon": "Users",
         "color": "text-primary",
-        "target": 12500,
+        "target": 9600,
         "targetSuffix": ""
       },
       {
@@ -88,20 +88,20 @@
           "value": 0,
           "prefix": "",
           "suffix": "K€",
-          "subtitle": "vs 18K€ target",
+          "subtitle": "vs 7.3K€ target",
           "icon": "Euro",
           "color": "text-success",
-          "target": 18
+          "target": 7.3
         },
         {
           "id": "de-users",
           "title": "Active Users",
           "value": 0,
           "suffix": "",
-          "subtitle": "vs 5.000 target",
+          "subtitle": "vs 2.100 target",
           "icon": "Users",
           "color": "text-primary",
-          "target": 5000
+          "target": 2100
         },
         {
           "id": "de-conversion",

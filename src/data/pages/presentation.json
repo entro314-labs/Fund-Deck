@@ -10,7 +10,7 @@
     {
       "id": 1,
       "title": "MyRoomie: Europe's Integrated Living Platform",
-      "content": "Transforming Housing Through AI & Property Operations\n\nCurrent Funding Round: 2M€ Seed Extension | Q4 2025\nTotal Funding Strategy: 25M€ across 5 rounds through 2030\nTarget Exit: 500M€+ valuation by 2032",
+      "content": "Transforming Housing Through AI & Property Operations\n\nCurrent Funding Round: 2M€ Seed Extension | Q4 2025\nTotal Funding Strategy: 30M€ across 5 rounds through 2030\nTarget Exit: 390M€ valuation by 2032",
       "layout": "title"
     },
     {
@@ -57,24 +57,24 @@
     {
       "id": 5,
       "title": "Market Size & Revenue Projections",
-      "content": "Total Addressable Market: 42B€ European rental market\n\nRevenue Projections:\n2026: 2.1M€ | 2027: 8.5M€ | 2028: 22M€ | 2029: 45M€ | 2030: 85M€\n\nPath to 500M€+ valuation by 2032 through aggressive European expansion",
+      "content": "Total Addressable Market: 42B€ European rental market\n\nRevenue Projections:\n2026: 2.1M€ | 2027: 6.5M€ | 2028: 16M€ | 2029: 42M€ | 2030: 78M€ | 2031: 110M€\n\nPath to 390M€ valuation by 2032 through systematic European expansion",
       "layout": "chart",
       "chartType": "line",
       "chartData": [
         { "year": "2025", "revenue": 0.05 },
         { "year": "2026", "revenue": 2.1 },
-        { "year": "2027", "revenue": 8.5 },
-        { "year": "2028", "revenue": 22 },
-        { "year": "2029", "revenue": 45 },
-        { "year": "2030", "revenue": 85 },
-        { "year": "2031", "revenue": 150 },
-        { "year": "2032", "revenue": 250 }
+        { "year": "2027", "revenue": 6.5 },
+        { "year": "2028", "revenue": 16 },
+        { "year": "2029", "revenue": 42 },
+        { "year": "2030", "revenue": 78 },
+        { "year": "2031", "revenue": 110 },
+        { "year": "2032", "revenue": 140 }
       ]
     },
     {
       "id": 6,
       "title": "Funding Strategy & Use of Funds",
-      "content": "Current Round: 2M€ Seed Extension (Q4 2025)\n\nTotal 5-Round Strategy through 2030: 25M€\n\nUse of Funds:\n• Product Development & AI Enhancement: 40%\n• Market Expansion (Germany, Netherlands): 30%\n• Team Growth (20 → 45 employees): 20%\n• Marketing & Customer Acquisition: 10%",
+      "content": "Current Round: 2M€ Seed Extension (Q4 2025)\n\nTotal 5-Round Strategy through 2030: 30M€\n\nUse of Funds:\n• Product Development & AI Enhancement: 40%\n• Market Expansion (Germany, Netherlands): 30%\n• Team Growth (20 → 45 employees): 20%\n• Marketing & Customer Acquisition: 10%",
       "layout": "chart",
       "chartType": "pie",
       "chartData": [
@@ -93,7 +93,7 @@
     {
       "id": 8,
       "title": "The Ask & Vision",
-      "content": "Investment Ask: 2M€ Seed Extension\n\nTarget Exit: 500M€+ valuation by 2032\n\n2025-2030 Milestones:\n• Achieve market leadership in Czech Republic\n• Expand to Germany and Netherlands\n• Scale to 250.000+ active users\n• Build Europe's premier integrated living platform\n\nJoin us in transforming European housing through technology and integrated operations.",
+      "content": "Investment Ask: 2M€ Seed Extension\n\nTarget Exit: 390M€ valuation by 2032\n\n2025-2030 Milestones:\n• Achieve market leadership in Czech Republic\n• Expand to Germany and Netherlands\n• Scale to 580.000 active users by 2031\n• Build Europe's premier integrated living platform\n\nJoin us in transforming European housing through technology and integrated operations.",
       "layout": "content"
     }
   ]

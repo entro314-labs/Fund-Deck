@@ -112,3 +112,16 @@ myroomie-data/pages/strategic-plan.json
 analyze-sheets.js
 CLERK_SETUP.md
 DEBUG_CLERK.md
+src/data/pages/dashboard.json
+src/data/pages/executive-summary.json
+src/data/pages/exit-strategy.json
+src/data/pages/financial-model.json
+src/data/pages/growth-strategy.json
+src/data/pages/investor-package.json
+src/data/pages/live-dashboard.json
+src/data/pages/market-analysis.json
+src/data/pages/milestones.json
+src/data/pages/one-pager.json
+src/data/pages/presentation.json
+src/data/pages/risk-assessment.json
+src/data/pages/strategic-plan.json
