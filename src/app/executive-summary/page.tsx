@@ -43,6 +43,7 @@ import {
 } from 'lucide-react'
 import { useDataQuery } from '../../hooks/use-data-query'
 import { ErrorBoundary, QueryErrorBoundary } from '../../components/error-boundary'
+import { DownloadButton } from '../../components/download-button'
 import type { ExecutiveSummaryData, IconType } from '../../types/data'
 
 // Icon mapping for dynamic icon loading
@@ -138,10 +139,13 @@ function ExecutiveSummaryContent() {
             </div>
             <p className="text-lg text-muted-foreground">{data.meta.subtitle}</p>
           </div>
-          <Button variant="outline">
-            <Download className="w-4 h-4 mr-2" />
+          <DownloadButton 
+            pageSlug="executive-summary"
+            fileType="pdf"
+            variant="outline"
+          >
             {data.meta.exportButtonText || 'Export'}
-          </Button>
+          </DownloadButton>
         </div>
       </div>
 

@@ -1,5 +1,5 @@
 {
-  "name": "fund-deck",
+  "name": "funddeck",
   "version": "1.0.0",
   "private": false,
   "description": "FundDeck - Professional investor presentation platform for startups and entrepreneurs",
@@ -68,10 +68,10 @@
     "auth:check": "pnpm auth:audit"
   },
   "dependencies": {
-    "@clerk/clerk-react": "^5.42.1",
-    "@clerk/elements": "^0.23.54",
-    "@clerk/nextjs": "^6.31.1",
-    "@clerk/shared": "^3.21.0",
+    "@clerk/clerk-react": "^5.43.0",
+    "@clerk/elements": "^0.23.56",
+    "@clerk/nextjs": "^6.31.3",
+    "@clerk/shared": "^3.21.2",
     "@conform-to/react": "^1.8.2",
     "@conform-to/zod": "^1.8.2",
     "@google-cloud/local-auth": "3.0.1",
@@ -109,8 +109,8 @@
     "@react-jvectormap/core": "^1.0.4",
     "@react-jvectormap/world": "^1.1.2",
     "@tailwindcss/typography": "^0.5.16",
-    "@tanstack/react-query": "^5.85.3",
-    "@tanstack/react-query-devtools": "^5.85.3",
+    "@tanstack/react-query": "^5.85.5",
+    "@tanstack/react-query-devtools": "^5.85.5",
     "@vercel/analytics": "^1.5.0",
     "@vercel/og": "^0.8.5",
     "@vercel/speed-insights": "^1.2.0",
@@ -125,14 +125,14 @@
     "jspdf": "^3.0.1",
     "jspdf-autotable": "^5.0.2",
     "leaflet": "^1.9.4",
-    "lucide-react": "^0.539.0",
+    "lucide-react": "^0.540.0",
     "next": "canary",
     "next-safe-action": "^8.0.10",
     "next-themes": "1.0.0-beta.0",
     "papaparse": "^5.5.3",
     "prop-types": "^15.8.1",
     "react": "19.1.1",
-    "react-day-picker": "^9.8.1",
+    "react-day-picker": "^9.9.0",
     "react-dom": "19.1.1",
     "react-dropzone": "^14.3.8",
     "react-hook-form": "^7.62.0",
@@ -150,7 +150,7 @@
     "web-push": "^3.6.7",
     "xlsx": "^0.18.5",
     "zod": "^4.0.17",
-    "zustand": "^5.0.7"
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.0",
