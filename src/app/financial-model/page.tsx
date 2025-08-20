@@ -66,6 +66,7 @@ import {
 } from '@/components/ui/chart'
 import { useDataQuery } from '../../hooks/use-data-query'
 import { ErrorBoundary, QueryErrorBoundary } from '../../components/error-boundary'
+import { DownloadButton } from '../../components/download-button'
 import type { FinancialModelData, IconType } from '../../types/data'
 
 // Icon mapping for dynamic icon loading
@@ -160,10 +161,13 @@ function FinancialModelContent() {
             <p className="text-lg text-muted-foreground">{data.meta.subtitle}</p>
           </div>
           {data.meta.exportButtonText && (
-            <Button variant="outline">
-              <Download className="w-4 h-4 mr-2" />
+            <DownloadButton 
+              pageSlug="financial-model"
+              fileType="xlsx"
+              variant="outline"
+            >
               {data.meta.exportButtonText}
-            </Button>
+            </DownloadButton>
           )}
         </div>
       </div>

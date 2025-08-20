@@ -43,6 +43,7 @@ import {
 } from 'lucide-react'
 import { useDataQuery } from '../../hooks/use-data-query'
 import { ErrorBoundary, QueryErrorBoundary } from '../../components/error-boundary'
+import { DownloadButton } from '../../components/download-button'
 import type { OnePagerData, IconType } from '../../types/data'
 
 // Icon mapping for dynamic icon loading
@@ -135,10 +136,13 @@ export default function OnePagerPage() {
             </div>
             <p className="text-lg text-muted-foreground">{data.meta.subtitle}</p>
           </div>
-          <Button variant="outline">
-            <Download className="w-4 h-4 mr-2" />
+          <DownloadButton 
+            pageSlug="one-pager"
+            fileType="pdf"
+            variant="outline"
+          >
             {data.meta.exportButtonText || 'Export'}
-          </Button>
+          </DownloadButton>
         </div>
       </div>
 

@@ -44,6 +44,7 @@ import {
 } from 'lucide-react'
 import { useDataQuery } from '../../hooks/use-data-query'
 import { ErrorBoundary, QueryErrorBoundary } from '../../components/error-boundary'
+import { DownloadButton } from '../../components/download-button'
 import type { InvestorPackageData, IconType } from '../../types/data'
 
 // Icon mapping for dynamic icon loading
@@ -138,10 +139,13 @@ export default function InvestorPackagePage() {
             <p className="text-lg text-muted-foreground">{data.meta.subtitle}</p>
           </div>
           {data.meta.exportButtonText && (
-            <Button variant="outline">
-              <Download className="w-4 h-4 mr-2" />
+            <DownloadButton 
+              pageSlug="investor-package"
+              fileType="pdf"
+              variant="outline"
+            >
               {data.meta.exportButtonText}
-            </Button>
+            </DownloadButton>
           )}
         </div>
       </div>
