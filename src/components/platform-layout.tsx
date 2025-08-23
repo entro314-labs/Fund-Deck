@@ -178,7 +178,9 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
           {/* Header */}
           <div className="flex h-16 items-center justify-between px-6 border-b border-border">
             <div className="flex items-center space-x-3">
-              <h1 className="font-serif text-2xl font-bold text-gradient-sunset">{COMPANY_CONFIG.name}</h1>
+              <h1 className="font-serif text-2xl font-bold text-gradient-sunset">
+                {COMPANY_CONFIG.name}
+              </h1>
               <Badge variant="secondary" className="bg-primary/10 text-primary text-xs">
                 Investor Platform
               </Badge>
@@ -286,7 +288,9 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
                         <UserButton.Action
                           label="Help & Support"
                           labelIcon={<HelpCircle className="w-4 h-4" />}
-                          onClick={() => window.open(`mailto:${COMPANY_CONFIG.supportEmail}`, '_blank')}
+                          onClick={() =>
+                            window.open(`mailto:${COMPANY_CONFIG.supportEmail}`, '_blank')
+                          }
                         />
                       </UserButton.MenuItems>
                     </UserButton>
@@ -315,7 +319,9 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
           <Button variant="ghost" size="sm" onClick={() => toggleSidebar()}>
             <Menu className="w-5 h-5" />
           </Button>
-          <h1 className="font-serif text-xl font-bold text-gradient-sunset">{COMPANY_CONFIG.name}</h1>
+          <h1 className="font-serif text-xl font-bold text-gradient-sunset">
+            {COMPANY_CONFIG.name}
+          </h1>
           <div className="flex items-center space-x-2">
             <Button variant="ghost" size="sm" onClick={toggleTheme}>
               {!mounted ? (

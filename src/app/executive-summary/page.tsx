@@ -139,11 +139,7 @@ function ExecutiveSummaryContent() {
             </div>
             <p className="text-lg text-muted-foreground">{data.meta.subtitle}</p>
           </div>
-          <DownloadButton 
-            pageSlug="executive-summary"
-            fileType="pdf"
-            variant="outline"
-          >
+          <DownloadButton pageSlug="executive-summary" fileType="pdf" variant="outline">
             {data.meta.exportButtonText || 'Export'}
           </DownloadButton>
         </div>

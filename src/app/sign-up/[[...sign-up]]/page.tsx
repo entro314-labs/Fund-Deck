@@ -6,7 +6,9 @@ export default function Page() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-warm p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <h1 className="font-serif text-3xl font-bold text-gradient-sunset mb-2">{getCompanyName()}</h1>
+          <h1 className="font-serif text-3xl font-bold text-gradient-sunset mb-2">
+            {getCompanyName()}
+          </h1>
           <p className="text-muted-foreground">
             Create your account to access the investor platform
           </p>
