@@ -187,69 +187,34 @@
     "competitors": [
       {
         "name": "RoomSearch",
-        "markets": [
-          "UK",
-          "Ireland"
-        ],
+        "markets": ["UK", "Ireland"],
         "model": "Marketplace",
-        "strengths": [
-          "Market leader UK",
-          "Strong brand recognition"
-        ],
-        "weaknesses": [
-          "No quality control",
-          "Limited services"
-        ],
+        "strengths": ["Market leader UK", "Strong brand recognition"],
+        "weaknesses": ["No quality control", "Limited services"],
         "differentiation": "Pure marketplace model"
       },
       {
         "name": "PlatformCo",
-        "markets": [
-          "Germany",
-          "Austria"
-        ],
+        "markets": ["Germany", "Austria"],
         "model": "Classifieds",
-        "strengths": [
-          "Dominant in Germany",
-          "Large user base"
-        ],
-        "weaknesses": [
-          "Outdated platform",
-          "No matching algorithm"
-        ],
+        "strengths": ["Dominant in Germany", "Large user base"],
+        "weaknesses": ["Outdated platform", "No matching algorithm"],
         "differentiation": "Traditional classified approach"
       },
       {
         "name": "MatchTech",
-        "markets": [
-          "Spain",
-          "France",
-          "Italy"
-        ],
+        "markets": ["Spain", "France", "Italy"],
         "model": "Matching App",
-        "strengths": [
-          "Mobile-first",
-          "Good UX"
-        ],
-        "weaknesses": [
-          "Limited market depth",
-          "No B2B services"
-        ],
+        "strengths": ["Mobile-first", "Good UX"],
+        "weaknesses": ["Limited market depth", "No B2B services"],
         "differentiation": "Consumer mobile focus"
       },
       {
         "name": "RentalHub",
-        "markets": [
-          "Various"
-        ],
+        "markets": ["Various"],
         "model": "Regional",
-        "strengths": [
-          "Local market knowledge"
-        ],
-        "weaknesses": [
-          "Limited scale",
-          "No technology"
-        ],
+        "strengths": ["Local market knowledge"],
+        "weaknesses": ["Limited scale", "No technology"],
         "differentiation": "Fragmented local solutions"
       }
     ]
@@ -262,61 +227,37 @@
         "market": "Poland",
         "score": 95,
         "status": "Launching Q1 2026",
-        "factors": [
-          "Large BPO sector",
-          "EU advantages",
-          "Cost effective"
-        ]
+        "factors": ["Large BPO sector", "EU advantages", "Cost effective"]
       },
       {
         "market": "Austria",
         "score": 88,
         "status": "Phase 2 - 2027",
-        "factors": [
-          "Premium market",
-          "Housing crisis",
-          "Central location"
-        ]
+        "factors": ["Premium market", "Housing crisis", "Central location"]
       },
       {
         "market": "Ireland",
         "score": 85,
         "status": "Phase 3 - 2028",
-        "factors": [
-          "Tech hub demand",
-          "Highest prices",
-          "English speaking"
-        ]
+        "factors": ["Tech hub demand", "Highest prices", "English speaking"]
       },
       {
         "market": "Czech Rep.",
         "score": 82,
         "status": "Phase 2 - 2027",
-        "factors": [
-          "Growing tech sector",
-          "EU central",
-          "Reasonable costs"
-        ]
+        "factors": ["Growing tech sector", "EU central", "Reasonable costs"]
       },
       {
         "market": "Romania",
         "score": 78,
         "status": "Phase 2 - 2027",
-        "factors": [
-          "Large BPO market",
-          "Cost advantages",
-          "Growing economy"
-        ]
+        "factors": ["Large BPO market", "Cost advantages", "Growing economy"]
       },
       {
         "market": "Portugal",
         "score": 75,
         "status": "Phase 3 - 2028",
-        "factors": [
-          "Digital nomads",
-          "Tech scene",
-          "Housing demand"
-        ]
+        "factors": ["Digital nomads", "Tech scene", "Housing demand"]
       }
     ]
   },
@@ -353,10 +294,7 @@
       {
         "country": "Greece",
         "code": "XX",
-        "coordinates": [
-          25,
-          47
-        ],
+        "coordinates": [25, 47],
         "status": "live",
         "phase": "Foundation",
         "launchYear": 1942,
@@ -373,10 +311,7 @@
       {
         "country": "Poland",
         "code": "PL",
-        "coordinates": [
-          24,
-          54
-        ],
+        "coordinates": [24, 54],
         "status": "launching",
         "phase": "Phase 1",
         "launchYear": 1945,
@@ -393,10 +328,7 @@
       {
         "country": "Austria",
         "code": "AT",
-        "coordinates": [
-          14,
-          61
-        ],
+        "coordinates": [14, 61],
         "status": "planned",
         "phase": "Phase 2",
         "launchYear": 2108,
@@ -413,10 +345,7 @@
       {
         "country": "Czech Republic",
         "code": "CZ",
-        "coordinates": [
-          20,
-          53
-        ],
+        "coordinates": [20, 53],
         "status": "planned",
         "phase": "Phase 2",
         "launchYear": 2473,
@@ -433,10 +362,7 @@
       {
         "country": "Romania",
         "code": "RO",
-        "coordinates": [
-          20,
-          49
-        ],
+        "coordinates": [20, 49],
         "status": "planned",
         "phase": "Phase 2",
         "launchYear": 2473,
@@ -453,10 +379,7 @@
       {
         "country": "Ireland",
         "code": "IE",
-        "coordinates": [
-          -10,
-          59
-        ],
+        "coordinates": [-10, 59],
         "status": "planned",
         "phase": "Phase 3",
         "launchYear": 2474,
@@ -473,10 +396,7 @@
       {
         "country": "Portugal",
         "code": "PT",
-        "coordinates": [
-          -9,
-          34
-        ],
+        "coordinates": [-9, 34],
         "status": "planned",
         "phase": "Phase 3",
         "launchYear": 2515,
@@ -493,10 +413,7 @@
       {
         "country": "Slovakia",
         "code": "SK",
-        "coordinates": [
-          16,
-          49
-        ],
+        "coordinates": [16, 49],
         "status": "future",
         "phase": "Phase 3",
         "launchYear": 2029,
@@ -513,10 +430,7 @@
       {
         "country": "Estonia",
         "code": "EE",
-        "coordinates": [
-          28,
-          58
-        ],
+        "coordinates": [28, 58],
         "status": "future",
         "phase": "Phase 4",
         "launchYear": 2213,
@@ -533,10 +447,7 @@
       {
         "country": "Slovenia",
         "code": "SI",
-        "coordinates": [
-          19,
-          43
-        ],
+        "coordinates": [19, 43],
         "status": "future",
         "phase": "Phase 4",
         "launchYear": 2253,
@@ -553,10 +464,7 @@
       {
         "country": "Malta",
         "code": "MT",
-        "coordinates": [
-          17,
-          45
-        ],
+        "coordinates": [17, 45],
         "status": "future",
         "phase": "Phase 4",
         "launchYear": 1706,
@@ -583,11 +491,7 @@
         "featureScore": 95,
         "category": "us",
         "description": "Integrated LaaS platform with B2B/B2C services",
-        "strengths": [
-          "AI matching",
-          "Quality control",
-          "Enterprise services"
-        ],
+        "strengths": ["AI matching", "Quality control", "Enterprise services"],
         "marketPosition": "Challenger"
       },
       {
@@ -597,10 +501,7 @@
         "featureScore": 70,
         "category": "established",
         "description": "UK market leader, basic marketplace model",
-        "strengths": [
-          "Brand recognition",
-          "Market share"
-        ],
+        "strengths": ["Brand recognition", "Market share"],
         "marketPosition": "Leader"
       },
       {
@@ -610,10 +511,7 @@
         "featureScore": 45,
         "category": "established",
         "description": "German classifieds platform, outdated technology",
-        "strengths": [
-          "Local dominance",
-          "User base"
-        ],
+        "strengths": ["Local dominance", "User base"],
         "marketPosition": "Legacy"
       },
       {
@@ -623,10 +521,7 @@
         "featureScore": 75,
         "category": "growth",
         "description": "Mobile-first matching app for Southern [Target Region]",
-        "strengths": [
-          "Mobile UX",
-          "Growth funding"
-        ],
+        "strengths": ["Mobile UX", "Growth funding"],
         "marketPosition": "Growth"
       },
       {
@@ -636,10 +531,7 @@
         "featureScore": 65,
         "category": "growth",
         "description": "Student housing focus with international reach",
-        "strengths": [
-          "Student market",
-          "International"
-        ],
+        "strengths": ["Student market", "International"],
         "marketPosition": "Specialist"
       },
       {
@@ -649,10 +541,7 @@
         "featureScore": 60,
         "category": "established",
         "description": "Mid-term rental platform for professionals",
-        "strengths": [
-          "Professional focus",
-          "Quality listings"
-        ],
+        "strengths": ["Professional focus", "Quality listings"],
         "marketPosition": "Niche"
       },
       {
@@ -662,10 +551,7 @@
         "featureScore": 70,
         "category": "growth",
         "description": "Online rental platform with virtual tours",
-        "strengths": [
-          "Virtual tours",
-          "Professional service"
-        ],
+        "strengths": ["Virtual tours", "Professional service"],
         "marketPosition": "Technology"
       },
       {
@@ -675,10 +561,7 @@
         "featureScore": 55,
         "category": "established",
         "description": "Student accommodation booking platform",
-        "strengths": [
-          "Student market",
-          "Booking model"
-        ],
+        "strengths": ["Student market", "Booking model"],
         "marketPosition": "Specialist"
       },
       {
@@ -688,10 +571,7 @@
         "featureScore": 50,
         "category": "growth",
         "description": "Global rental platform with auction model",
-        "strengths": [
-          "Global reach",
-          "Unique model"
-        ],
+        "strengths": ["Global reach", "Unique model"],
         "marketPosition": "Global"
       },
       {
@@ -701,10 +581,7 @@
         "featureScore": 30,
         "category": "local",
         "description": "Fragmented local solutions across markets",
-        "strengths": [
-          "Local knowledge",
-          "Low competition"
-        ],
+        "strengths": ["Local knowledge", "Low competition"],
         "marketPosition": "Fragmented"
       }
     ]

@@ -265,11 +265,7 @@
         "importance": "Critical",
         "timeline": "Q1 2022",
         "description": "Successful market entry validates expansion model and attracts Series A funding",
-        "dependencies": [
-          "RETAIL partnerships",
-          "Platform localization",
-          "Local team hiring"
-        ],
+        "dependencies": ["RETAIL partnerships", "Platform localization", "Local team hiring"],
         "riskLevel": "Medium"
       },
       {
@@ -278,11 +274,7 @@
         "importance": "Critical",
         "timeline": "Ongoing",
         "description": "Maintaining strong LTV:CAC ratios during rapid scaling across markets",
-        "dependencies": [
-          "Pricing optimization",
-          "Acquisition efficiency",
-          "Retention programs"
-        ],
+        "dependencies": ["Pricing optimization", "Acquisition efficiency", "Retention programs"],
         "riskLevel": "High"
       },
       {
@@ -291,11 +283,7 @@
         "importance": "High",
         "timeline": "Q2 2023",
         "description": "Platform handling 11-market operations with consistent performance",
-        "dependencies": [
-          "Infrastructure scaling",
-          "AI optimization",
-          "Mobile performance"
-        ],
+        "dependencies": ["Infrastructure scaling", "AI optimization", "Mobile performance"],
         "riskLevel": "Medium"
       },
       {
@@ -304,11 +292,7 @@
         "importance": "Critical",
         "timeline": "Per schedule",
         "description": "Securing funding rounds on schedule to support expansion timeline",
-        "dependencies": [
-          "Performance metrics",
-          "Market traction",
-          "Investor relations"
-        ],
+        "dependencies": ["Performance metrics", "Market traction", "Investor relations"],
         "riskLevel": "Medium"
       }
     ]

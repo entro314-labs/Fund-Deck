@@ -1,32 +1,37 @@
-'use client';
+'use client'
 
-import { useState } from 'react';
-import { Button } from './ui/button';
-import { Download, FileText, FileSpreadsheet, Presentation } from 'lucide-react';
-import { downloadDocument, getDefaultFileType, getDownloadDisplayName, type FileType } from '../lib/download-utils';
+import { useState } from 'react'
+import { Button } from './ui/button'
+import { Download, FileText, FileSpreadsheet, Presentation } from 'lucide-react'
+import {
+  downloadDocument,
+  getDefaultFileType,
+  getDownloadDisplayName,
+  type FileType,
+} from '../lib/download-utils'
 
 interface DownloadButtonProps {
-  pageSlug: string;
-  fileType?: FileType;
-  filename?: string;
-  variant?: 'default' | 'outline' | 'secondary' | 'ghost' | 'link' | 'destructive';
-  size?: 'default' | 'sm' | 'lg' | 'icon';
-  className?: string;
-  children?: React.ReactNode;
+  pageSlug: string
+  fileType?: FileType
+  filename?: string
+  variant?: 'default' | 'outline' | 'secondary' | 'ghost' | 'link' | 'destructive'
+  size?: 'default' | 'sm' | 'lg' | 'icon'
+  className?: string
+  children?: React.ReactNode
 }
 
 const FileIcon = ({ fileType }: { fileType: FileType }) => {
   switch (fileType) {
     case 'xlsx':
-      return <FileSpreadsheet className="w-4 h-4" />;
+      return <FileSpreadsheet className="w-4 h-4" />
     case 'pptx':
-      return <Presentation className="w-4 h-4" />;
+      return <Presentation className="w-4 h-4" />
     case 'docx':
-      return <FileText className="w-4 h-4" />;
+      return <FileText className="w-4 h-4" />
     default:
-      return <Download className="w-4 h-4" />;
+      return <Download className="w-4 h-4" />
   }
-};
+}
 
 export function DownloadButton({
   pageSlug,
@@ -35,23 +40,23 @@ export function DownloadButton({
   variant = 'outline',
   size = 'default',
   className = '',
-  children
+  children,
 }: DownloadButtonProps) {
-  const [isDownloading, setIsDownloading] = useState(false);
-  
-  const finalFileType = fileType || getDefaultFileType(pageSlug);
-  const displayName = getDownloadDisplayName(pageSlug, finalFileType);
-  
+  const [isDownloading, setIsDownloading] = useState(false)
+
+  const finalFileType = fileType || getDefaultFileType(pageSlug)
+  const displayName = getDownloadDisplayName(pageSlug, finalFileType)
+
   const handleDownload = async () => {
     try {
-      setIsDownloading(true);
-      await downloadDocument(pageSlug, { filename, fileType: finalFileType });
+      setIsDownloading(true)
+      await downloadDocument(pageSlug, { filename, fileType: finalFileType })
     } catch (error) {
-      console.error('Download error:', error);
+      console.error('Download error:', error)
     } finally {
-      setIsDownloading(false);
+      setIsDownloading(false)
     }
-  };
+  }
 
   return (
     <Button
@@ -69,11 +74,9 @@ export function DownloadButton({
       ) : (
         <>
           <FileIcon fileType={finalFileType} />
-          <span className="ml-2">
-            {children || `Download ${displayName}`}
-          </span>
+          <span className="ml-2">{children || `Download ${displayName}`}</span>
         </>
       )}
     </Button>
-  );
+  )
 }

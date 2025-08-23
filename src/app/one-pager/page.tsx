@@ -136,11 +136,7 @@ export default function OnePagerPage() {
             </div>
             <p className="text-lg text-muted-foreground">{data.meta.subtitle}</p>
           </div>
-          <DownloadButton 
-            pageSlug="one-pager"
-            fileType="pdf"
-            variant="outline"
-          >
+          <DownloadButton pageSlug="one-pager" fileType="pdf" variant="outline">
             {data.meta.exportButtonText || 'Export'}
           </DownloadButton>
         </div>

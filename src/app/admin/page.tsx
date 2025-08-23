@@ -684,9 +684,7 @@ function AdminPageContent() {
           <Card>
             <CardHeader>
               <CardTitle>Platform Overview</CardTitle>
-              <CardDescription>
-                {COMPANY_CONFIG.adminDescription}
-              </CardDescription>
+              <CardDescription>{COMPANY_CONFIG.adminDescription}</CardDescription>
             </CardHeader>
             <CardContent>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

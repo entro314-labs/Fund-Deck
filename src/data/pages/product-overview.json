@@ -49,46 +49,28 @@
       {
         "id": "frontend",
         "category": "Frontend",
-        "technologies": [
-          "React Native",
-          "TypeScript",
-          "Tailwind CSS"
-        ],
+        "technologies": ["React Native", "TypeScript", "Tailwind CSS"],
         "icon": "Smartphone",
         "description": "Cross-platform mobile apps with native performance"
       },
       {
         "id": "backend",
         "category": "Backend",
-        "technologies": [
-          "Node.js",
-          "Python",
-          "PostgreSQL",
-          "Redis"
-        ],
+        "technologies": ["Node.js", "Python", "PostgreSQL", "Redis"],
         "icon": "Code",
         "description": "Scalable microservices architecture"
       },
       {
         "id": "ai-ml",
         "category": "AI/ML",
-        "technologies": [
-          "TensorFlow",
-          "scikit-learn",
-          "OpenAI GPT"
-        ],
+        "technologies": ["TensorFlow", "scikit-learn", "OpenAI GPT"],
         "icon": "Brain",
         "description": "Advanced matching algorithms and NLP"
       },
       {
         "id": "infrastructure",
         "category": "Infrastructure",
-        "technologies": [
-          "AWS",
-          "Docker",
-          "Kubernetes",
-          "CloudFlare"
-        ],
+        "technologies": ["AWS", "Docker", "Kubernetes", "CloudFlare"],
         "icon": "Cloud",
         "description": "Auto-scaling cloud infrastructure"
       }
@@ -102,11 +84,7 @@
         "title": "AI-Powered Matching",
         "description": "Advanced algorithms analyzing compatibility across lifestyle, preferences, and behavior patterns",
         "icon": "Brain",
-        "metrics": [
-          "95% match satisfaction",
-          "60% faster matching",
-          "40% retention improvement"
-        ],
+        "metrics": ["95% match satisfaction", "60% faster matching", "40% retention improvement"],
         "status": "Live"
       },
       {
@@ -114,11 +92,7 @@
         "title": "Mobile-First Platform",
         "description": "Native iOS and Android apps with seamless user experience and real-time communication",
         "icon": "Smartphone",
-        "metrics": [
-          "Cross-platform compatibility",
-          "Offline capabilities",
-          "Push notifications"
-        ],
+        "metrics": ["Cross-platform compatibility", "Offline capabilities", "Push notifications"],
         "status": "Live"
       },
       {
@@ -126,11 +100,7 @@
         "title": "Quality Verification",
         "description": "Property and user verification system ensuring safety and quality standards",
         "icon": "Shield",
-        "metrics": [
-          "ID verification",
-          "Property inspections",
-          "Community ratings"
-        ],
+        "metrics": ["ID verification", "Property inspections", "Community ratings"],
         "status": "Live"
       },
       {
@@ -138,11 +108,7 @@
         "title": "Enterprise Dashboard",
         "description": "B2B portal for corporate clients managing employee relocations and housing",
         "icon": "Building2",
-        "metrics": [
-          "Bulk user management",
-          "Reporting analytics",
-          "API integration"
-        ],
+        "metrics": ["Bulk user management", "Reporting analytics", "API integration"],
         "status": "Development"
       }
     ]
@@ -188,11 +154,7 @@
         "id": "q3-2026",
         "quarter": "Q3 2022",
         "title": "Enterprise Platform Enhancement",
-        "features": [
-          "Advanced analytics",
-          "Custom integrations",
-          "White-label solutions"
-        ],
+        "features": ["Advanced analytics", "Custom integrations", "White-label solutions"],
         "status": "Future"
       }
     ]

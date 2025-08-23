@@ -10,7 +10,8 @@ import QueryClientProviderWrapper from '../components/query-client-provider'
 import { COMPANY_CONFIG } from '../lib/company-config'
 
 const DEMO_MODE = process.env.NEXT_PUBLIC_DEMO_MODE === 'true'
-const CLERK_KEY = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || 
+const CLERK_KEY =
+  process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY ||
   (DEMO_MODE ? 'pk_test_Y2xlcmsuZGVtby5tb2RlLmJ1aWxkLnBsYWNlaG9sZGVyJA' : '')
 
 const inter = Inter({

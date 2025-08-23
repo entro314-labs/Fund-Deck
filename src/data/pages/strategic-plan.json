@@ -126,11 +126,7 @@
         "title": "AI-Powered Matching Platform",
         "description": "Advanced algorithms for optimal flatmate compatibility",
         "icon": "Zap",
-        "metrics": [
-          "95% match satisfaction",
-          "60% faster matching",
-          "40% retention improvement"
-        ],
+        "metrics": ["95% match satisfaction", "60% faster matching", "40% retention improvement"],
         "status": "In Development"
       },
       {
@@ -138,11 +134,7 @@
         "title": "Quality-Controlled Supply",
         "description": "[Company Name] Homes branded property standards",
         "icon": "Building2",
-        "metrics": [
-          "11.200 properties by 2029",
-          "95% occupancy target",
-          "35.6M€ revenue stream"
-        ],
+        "metrics": ["11.200 properties by 2029", "95% occupancy target", "35.6M€ revenue stream"],
         "status": "Scaling"
       },
       {
@@ -150,11 +142,7 @@
         "title": "Enterprise Integration",
         "description": "B2B services for corporate relocations",
         "icon": "Users",
-        "metrics": [
-          "65 enterprise clients",
-          "86.500 annual placements",
-          "64.4M€ revenue by 2029"
-        ],
+        "metrics": ["65 enterprise clients", "86.500 annual placements", "64.4M€ revenue by 2029"],
         "status": "Active"
       }
     ]
@@ -167,68 +155,37 @@
         "id": "phase-1",
         "phase": "Phase 1",
         "period": "2023-2024",
-        "markets": [
-          "Greece",
-          "Poland"
-        ],
+        "markets": ["Greece", "Poland"],
         "investment": "9M€",
         "focus": "Foundation & Validation",
-        "milestones": [
-          "Poland market entry",
-          "20K+ active users",
-          "2M€ ARR"
-        ]
+        "milestones": ["Poland market entry", "20K+ active users", "2M€ ARR"]
       },
       {
         "id": "phase-2",
         "phase": "Phase 2",
         "period": "2025",
-        "markets": [
-          "Austria",
-          "Czech Republic",
-          "Romania"
-        ],
+        "markets": ["Austria", "Czech Republic", "Romania"],
         "investment": "8M€",
         "focus": "Western [Target Region] Entry",
-        "milestones": [
-          "5 market operations",
-          "95K+ users",
-          "11.6M€ ARR"
-        ]
+        "milestones": ["5 market operations", "95K+ users", "11.6M€ ARR"]
       },
       {
         "id": "phase-3",
         "phase": "Phase 3",
         "period": "2026",
-        "markets": [
-          "Ireland",
-          "Portugal",
-          "Slovakia"
-        ],
+        "markets": ["Ireland", "Portugal", "Slovakia"],
         "investment": "6M€",
         "focus": "Market Consolidation",
-        "milestones": [
-          "8 market operations",
-          "235K+ users",
-          "35.8M€ ARR"
-        ]
+        "milestones": ["8 market operations", "235K+ users", "35.8M€ ARR"]
       },
       {
         "id": "phase-4",
         "phase": "Phase 4",
         "period": "2027-2029",
-        "markets": [
-          "Estonia",
-          "Slovenia",
-          "Malta"
-        ],
+        "markets": ["Estonia", "Slovenia", "Malta"],
         "investment": "2M€",
         "focus": "Optimization & Profitability",
-        "milestones": [
-          "11 market completion",
-          "720K+ users",
-          "162.8M€ ARR"
-        ]
+        "milestones": ["11 market completion", "720K+ users", "162.8M€ ARR"]
       }
     ]
   },

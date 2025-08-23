@@ -156,33 +156,21 @@
           "id": "university-partnerships",
           "name": "University Partnerships",
           "description": "Student housing partnerships across 50+ universities",
-          "metrics": [
-            "25% of new users",
-            "35€ CAC",
-            "85% retention"
-          ],
+          "metrics": ["25% of new users", "35€ CAC", "85% retention"],
           "investment": "2.5M€"
         },
         {
           "id": "bpo-corporate-partnerships",
           "name": "HEALTHCARE Corporate Partnerships",
           "description": "Direct integration with major HEALTHCARE companies",
-          "metrics": [
-            "40% of enterprise revenue",
-            "5K€ ACV",
-            "95% retention"
-          ],
+          "metrics": ["40% of enterprise revenue", "5K€ ACV", "95% retention"],
           "investment": "1.8M€"
         },
         {
           "id": "digital-marketing",
           "name": "Digital Marketing",
           "description": "SEO, content marketing, and social media campaigns",
-          "metrics": [
-            "35% of new users",
-            "45€ CAC",
-            "75% retention"
-          ],
+          "metrics": ["35% of new users", "45€ CAC", "75% retention"],
           "investment": "3.2M€"
         }
       ]
@@ -196,33 +184,21 @@
           "id": "ai-recommendations",
           "name": "AI-Powered Recommendations",
           "description": "Advanced matching algorithms and personalization",
-          "metrics": [
-            "95% satisfaction",
-            "40% engagement increase",
-            "60% faster matching"
-          ],
+          "metrics": ["95% satisfaction", "40% engagement increase", "60% faster matching"],
           "investment": "2.8M€"
         },
         {
           "id": "mobile-first-experience",
           "name": "Mobile-First Experience",
           "description": "Native apps with superior UX and performance",
-          "metrics": [
-            "85% mobile usage",
-            "4.8 app rating",
-            "30% time savings"
-          ],
+          "metrics": ["85% mobile usage", "4.8 app rating", "30% time savings"],
           "investment": "1.5M€"
         },
         {
           "id": "community-features",
           "name": "Community Features",
           "description": "Social features and community building tools",
-          "metrics": [
-            "70% monthly engagement",
-            "25% referral rate",
-            "50% retention boost"
-          ],
+          "metrics": ["70% monthly engagement", "25% referral rate", "50% retention boost"],
           "investment": "900K€"
         }
       ]
@@ -236,33 +212,21 @@
           "id": "localization-strategy",
           "name": "Localization Strategy",
           "description": "Local language, payment, and cultural adaptation",
-          "metrics": [
-            "18-month break-even",
-            "Local partnerships",
-            "95% localization"
-          ],
+          "metrics": ["18-month break-even", "Local partnerships", "95% localization"],
           "investment": "4.2M€"
         },
         {
           "id": "[Company Name]-homes-network",
           "name": "[Company Name] Homes Network",
           "description": "Quality property network across all markets",
-          "metrics": [
-            "11.200 properties",
-            "95% occupancy",
-            "35.6M€ revenue"
-          ],
+          "metrics": ["11.200 properties", "95% occupancy", "35.6M€ revenue"],
           "investment": "8.5M€"
         },
         {
           "id": "strategic-partnerships",
           "name": "Strategic Partnerships",
           "description": "Local real estate and service provider partnerships",
-          "metrics": [
-            "50+ partners",
-            "20% cost reduction",
-            "Market credibility"
-          ],
+          "metrics": ["50+ partners", "20% cost reduction", "Market credibility"],
           "investment": "1.2M€"
         }
       ]

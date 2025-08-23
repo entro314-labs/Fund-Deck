@@ -249,9 +249,6 @@
   },
   "accessControl": {
     "requiredRole": "investor",
-    "allowedEmails": [
-      "[Founder Name]@[Company Name]app.com",
-      "admin@company.com"
-    ]
+    "allowedEmails": ["[Founder Name]@[Company Name]app.com", "admin@company.com"]
   }
 }

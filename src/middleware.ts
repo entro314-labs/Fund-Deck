@@ -34,7 +34,7 @@ function demoMiddleware(req: NextRequest) {
     url.pathname = '/admin'
     return NextResponse.rewrite(url)
   }
-  
+
   // All other routes are accessible
   return NextResponse.next()
 }

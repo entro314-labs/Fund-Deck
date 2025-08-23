@@ -189,7 +189,9 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
           {/* Header */}
           <div className="flex h-16 items-center justify-between px-6 border-b border-border">
             <div className="flex items-center space-x-3">
-              <h1 className="font-serif text-2xl font-bold text-gradient-sunset">{COMPANY_CONFIG.name}</h1>
+              <h1 className="font-serif text-2xl font-bold text-gradient-sunset">
+                {COMPANY_CONFIG.name}
+              </h1>
               <Badge variant="secondary" className="bg-primary/10 text-primary text-xs">
                 Investor Platform
               </Badge>
@@ -298,7 +300,9 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
                           <UserButton.Action
                             label="Help & Support"
                             labelIcon={<HelpCircle className="w-4 h-4" />}
-                            onClick={() => window.open(`mailto:${COMPANY_CONFIG.supportEmail}`, '_blank')}
+                            onClick={() =>
+                              window.open(`mailto:${COMPANY_CONFIG.supportEmail}`, '_blank')
+                            }
                           />
                         </UserButton.MenuItems>
                       </UserButton>
@@ -321,9 +325,9 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
                   <div className="text-xs text-center">
                     <div className="font-medium text-primary mb-1">🚀 Demo Mode</div>
                     <div className="text-muted-foreground text-[10px] leading-3">
-                      <a 
-                        href="https://github.com/entro314-labs/Fund-Deck" 
-                        target="_blank" 
+                      <a
+                        href="https://github.com/entro314-labs/Fund-Deck"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-foreground underline"
                       >
@@ -345,7 +349,9 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
           <Button variant="ghost" size="sm" onClick={() => toggleSidebar()}>
             <Menu className="w-5 h-5" />
           </Button>
-          <h1 className="font-serif text-xl font-bold text-gradient-sunset">{COMPANY_CONFIG.name}</h1>
+          <h1 className="font-serif text-xl font-bold text-gradient-sunset">
+            {COMPANY_CONFIG.name}
+          </h1>
           <div className="flex items-center space-x-2">
             <Dialog>
               <DialogTrigger asChild>
@@ -362,21 +368,23 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
                 </DialogHeader>
                 <div className="space-y-4 text-sm text-muted-foreground">
                   <p>
-                    Hey there! 👋 This is FundDeck – a professional investor presentation platform I built 
-                    to help startups create compelling pitch decks and business documentation.
+                    Hey there! 👋 This is FundDeck – a professional investor presentation platform I
+                    built to help startups create compelling pitch decks and business documentation.
                   </p>
                   <p>
-                    What you're seeing is a fully functional template that you can customize for your own startup. 
-                    All the content is editable through the admin panel, the design is modern and professional, 
-                    and it's built with the latest tech stack.
+                    What you're seeing is a fully functional template that you can customize for
+                    your own startup. All the content is editable through the admin panel, the
+                    design is modern and professional, and it's built with the latest tech stack.
                   </p>
                   <p>
-                    The platform includes everything you need: financial models, market analysis, pitch presentations, 
-                    risk assessments, and more. It's designed to impress investors while being practical for founders.
+                    The platform includes everything you need: financial models, market analysis,
+                    pitch presentations, risk assessments, and more. It's designed to impress
+                    investors while being practical for founders.
                   </p>
                   <div className="pt-2 border-t">
                     <p className="text-xs">
-                      Built with Next.js, TypeScript, Tailwind CSS, Clerk Auth, and lots of coffee ☕
+                      Built with Next.js, TypeScript, Tailwind CSS, Clerk Auth, and lots of coffee
+                      ☕
                     </p>
                   </div>
                 </div>
@@ -419,8 +427,8 @@ export default function PlatformLayout({ children }: PlatformLayoutProps) {
               </SignedIn>
             )}
             {DEMO_MODE && (
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="sm"
                 onClick={() => window.open('https://github.com/entro314-labs/Fund-Deck', '_blank')}
                 className="text-xs"

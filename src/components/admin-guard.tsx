@@ -20,7 +20,7 @@ export default function AdminGuard({ children }: AdminGuardProps) {
   // In demo mode, hooks will work but return no auth data
   const { isLoaded, userId } = useAuth()
   const { user } = useUser()
-  
+
   // Override auth data in demo mode
   const effectiveIsLoaded = DEMO_MODE ? true : isLoaded
   const effectiveUserId = DEMO_MODE ? null : userId
@@ -35,7 +35,8 @@ export default function AdminGuard({ children }: AdminGuardProps) {
           <div className="mb-8">
             <h1 className="text-2xl font-bold text-foreground mb-4">🚀 Demo Mode</h1>
             <p className="text-muted-foreground mb-6">
-              Admin features are disabled in demo mode. Fork the repository to set up your own investor deck with full admin access.
+              Admin features are disabled in demo mode. Fork the repository to set up your own
+              investor deck with full admin access.
             </p>
             <div className="space-y-2">
               <button

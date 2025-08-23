@@ -139,11 +139,7 @@ export default function InvestorPackagePage() {
             <p className="text-lg text-muted-foreground">{data.meta.subtitle}</p>
           </div>
           {data.meta.exportButtonText && (
-            <DownloadButton 
-              pageSlug="investor-package"
-              fileType="pdf"
-              variant="outline"
-            >
+            <DownloadButton pageSlug="investor-package" fileType="pdf" variant="outline">
               {data.meta.exportButtonText}
             </DownloadButton>
           )}

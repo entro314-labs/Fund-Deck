@@ -57,15 +57,8 @@
         "Spotahome exit pattern"
       ],
       "revenue_multiple": "3.1x - 4.6x",
-      "pros": [
-        "Immediate liquidity",
-        "Strategic synergies",
-        "Market validation"
-      ],
-      "cons": [
-        "Lower valuation potential",
-        "Integration challenges"
-      ]
+      "pros": ["Immediate liquidity", "Strategic synergies", "Market validation"],
+      "cons": ["Lower valuation potential", "Integration challenges"]
     },
     {
       "id": "private-equity-buyout",
@@ -75,20 +68,10 @@
       "valuation": "600M€ - 900M€",
       "acquirer": "Growth PE Fund",
       "rationale": "Cash flow generation and expansion potential",
-      "examples": [
-        "Real estate PE consolidation",
-        "[Target Region]an PropTech investments"
-      ],
+      "examples": ["Real estate PE consolidation", "[Target Region]an PropTech investments"],
       "revenue_multiple": "3.7x - 5.5x",
-      "pros": [
-        "Higher valuations",
-        "Growth capital",
-        "Operational expertise"
-      ],
-      "cons": [
-        "Longer hold period",
-        "Performance pressure"
-      ]
+      "pros": ["Higher valuations", "Growth capital", "Operational expertise"],
+      "cons": ["Longer hold period", "Performance pressure"]
     },
     {
       "id": "ipo-public-listing",
@@ -104,16 +87,8 @@
         "PropTech public companies"
       ],
       "revenue_multiple": "4.9x - 7.4x",
-      "pros": [
-        "Maximum valuation",
-        "Liquidity options",
-        "Growth capital access"
-      ],
-      "cons": [
-        "Market volatility",
-        "Regulatory complexity",
-        "Performance scrutiny"
-      ]
+      "pros": ["Maximum valuation", "Liquidity options", "Growth capital access"],
+      "cons": ["Market volatility", "Regulatory complexity", "Performance scrutiny"]
     }
   ],
   "valuationDrivers": {

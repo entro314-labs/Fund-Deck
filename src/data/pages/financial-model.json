@@ -102,13 +102,7 @@
           "Total": 162800
         }
       ],
-      "dataKeys": [
-        "year",
-        "Connect",
-        "Spaces",
-        "Enterprise",
-        "Total"
-      ],
+      "dataKeys": ["year", "Connect", "Spaces", "Enterprise", "Total"],
       "series": [
         {
           "key": "Connect",
@@ -220,13 +214,7 @@
   "unitEconomics": {
     "title": "Unit Economics by Business Segment",
     "description": "Customer acquisition costs, lifetime value, and margin analysis",
-    "headers": [
-      "Business Segment",
-      "CAC (€)",
-      "LTV (€)",
-      "LTV:CAC",
-      "Gross Margin"
-    ],
+    "headers": ["Business Segment", "CAC (€)", "LTV (€)", "LTV:CAC", "Gross Margin"],
     "data": [
       {
         "segment": "Connect B2C",

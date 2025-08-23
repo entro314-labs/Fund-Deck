@@ -161,11 +161,7 @@ function FinancialModelContent() {
             <p className="text-lg text-muted-foreground">{data.meta.subtitle}</p>
           </div>
           {data.meta.exportButtonText && (
-            <DownloadButton 
-              pageSlug="financial-model"
-              fileType="xlsx"
-              variant="outline"
-            >
+            <DownloadButton pageSlug="financial-model" fileType="xlsx" variant="outline">
               {data.meta.exportButtonText}
             </DownloadButton>
           )}
